@@ -1,4 +1,4 @@
 library(testthat)
-library(retirement)
+library(retirementLoc)
 
-test_check("retirement")
+test_check("retirementLoc")

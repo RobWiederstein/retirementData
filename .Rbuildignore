@@ -13,4 +13,4 @@ $run_dev.*
 ^\.github$
 ^\.travis\.yml$
 ^codecov\.yml$
-docs
+^inst/extdata$

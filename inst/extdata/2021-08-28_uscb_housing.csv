@@ -1,0 +1,3143 @@
+"fips","state","name","broadband_2017","median_val_owner_occupied_2010","median_household_income_2019"
+1001,"Alabama","Autauga County",76.6,133900,58731
+1003,"Alabama","Baldwin County",74.5,177200,58320
+1005,"Alabama","Barbour County",57.2,88200,32525
+1007,"Alabama","Bibb County",62,81200,47542
+1009,"Alabama","Blount County",65.8,113700,49358
+1011,"Alabama","Bullock County",49.4,66300,37785
+1013,"Alabama","Butler County",58.2,70200,40688
+1015,"Alabama","Calhoun County",71,98200,47255
+1017,"Alabama","Chambers County",62.8,82200,42289
+1019,"Alabama","Cherokee County",67.5,97100,41919
+1021,"Alabama","Chilton County",56.6,103700,47468
+1023,"Alabama","Choctaw County",52.3,63400,35892
+1025,"Alabama","Clarke County",47.3,73300,37404
+1027,"Alabama","Clay County",66,82900,40845
+1029,"Alabama","Cleburne County",57.8,87900,44741
+1031,"Alabama","Coffee County",75.3,116700,55637
+1033,"Alabama","Colbert County",65.9,94700,48065
+1035,"Alabama","Conecuh County",40.7,72500,37837
+1037,"Alabama","Coosa County",58.2,73100,38990
+1039,"Alabama","Covington County",64.7,85700,42189
+1041,"Alabama","Crenshaw County",57.1,71900,43163
+1043,"Alabama","Cullman County",65.2,102200,44918
+1045,"Alabama","Dale County",69.8,93900,47214
+1047,"Alabama","Dallas County",57.7,70300,33845
+1049,"Alabama","DeKalb County",61,84400,40440
+1051,"Alabama","Elmore County",78.2,136500,60891
+1053,"Alabama","Escambia County",54.9,83800,36275
+1055,"Alabama","Etowah County",68.4,98200,44637
+1057,"Alabama","Fayette County",64.1,71500,39856
+1059,"Alabama","Franklin County",60.3,78200,43514
+1061,"Alabama","Geneva County",64.3,77200,41732
+1063,"Alabama","Greene County",42,71500,24145
+1065,"Alabama","Hale County",50.7,70600,34046
+1067,"Alabama","Henry County",68.3,89700,50017
+1069,"Alabama","Houston County",67.6,116300,47580
+1071,"Alabama","Jackson County",62.7,86300,41769
+1073,"Alabama","Jefferson County",73,138300,53901
+1075,"Alabama","Lamar County",58.3,68200,38364
+1077,"Alabama","Lauderdale County",65.4,107400,48094
+1079,"Alabama","Lawrence County",55.7,97600,44886
+1081,"Alabama","Lee County",78.2,139500,51463
+1083,"Alabama","Limestone County",72.5,122300,59686
+1085,"Alabama","Lowndes County",47.1,64000,30036
+1087,"Alabama","Macon County",52.2,79200,33370
+1089,"Alabama","Madison County",81.3,155600,65449
+1091,"Alabama","Marengo County",51.2,79000,33241
+1093,"Alabama","Marion County",65.8,74700,35930
+1095,"Alabama","Marshall County",70.2,101300,45983
+1097,"Alabama","Mobile County",69.4,120700,47583
+1099,"Alabama","Monroe County",38.9,80400,30441
+1101,"Alabama","Montgomery County",75.6,121000,50124
+1103,"Alabama","Morgan County",70.1,115300,52156
+1105,"Alabama","Perry County",39.8,61000,23447
+1107,"Alabama","Pickens County",60.9,81100,39848
+1109,"Alabama","Pike County",60.2,93900,37446
+1111,"Alabama","Randolph County",64.8,88100,43395
+1113,"Alabama","Russell County",63,93300,42443
+1115,"Alabama","St. Clair County",72.3,126500,58308
+1117,"Alabama","Shelby County",84.5,193900,77799
+1119,"Alabama","Sumter County",50.4,66300,24320
+1121,"Alabama","Talladega County",65.5,87000,41325
+1123,"Alabama","Tallapoosa County",67.9,91300,45828
+1125,"Alabama","Tuscaloosa County",75.7,148400,53326
+1127,"Alabama","Walker County",62.5,83600,43629
+1129,"Alabama","Washington County",53.5,85200,41370
+1131,"Alabama","Wilcox County",41.6,54200,31014
+1133,"Alabama","Winston County",56.2,83700,35788
+2013,"Alaska","Aleutians East Borough",68.2,121600,69250
+2016,"Alaska","Aleutians West Census Area",74.1,163400,87466
+2020,"Alaska","Anchorage Municipality",87.4,269500,84928
+2050,"Alaska","Bethel Census Area",70.6,153400,53553
+2060,"Alaska","Bristol Bay Borough",81.3,171100,79808
+2068,"Alaska","Denali Borough",89.7,174000,81719
+2070,"Alaska","Dillingham Census Area",72.2,199100,56898
+2090,"Alaska","Fairbanks North Star Borough",82,206800,76992
+2100,"Alaska","Haines Borough",77.2,205400,58059
+2105,"Alaska","Hoonah Angoon Census Area",72.1,184200,59803
+2110,"Alaska","Juneau City and Borough",87.8,291600,88390
+2122,"Alaska","Kenai Peninsula Borough",75.8,193000,66064
+2130,"Alaska","Ketchikan Gateway Borough",81.8,242500,72728
+2150,"Alaska","Kodiak Island Borough",82.4,182100,85839
+2158,"Alaska","Kusilvak Census Area",NA,80300,36754
+2164,"Alaska","Lake and Peninsula Borough",60.3,156400,44135
+2170,"Alaska","Matanuska-Susitna Borough",85.2,212000,75493
+2180,"Alaska","Nome Census Area",67.6,144600,61048
+2185,"Alaska","North Slope Borough",67.9,135800,79306
+2188,"Alaska","Northwest Arctic Borough",66.8,129000,60906
+2195,"Alaska","Petersburg Borough",75.9,195300,69948
+2198,"Alaska","Prince of Wales-Hyder Census Area",67.9,152100,52379
+2220,"Alaska","Sitka City and Borough",80.4,309800,73682
+2230,"Alaska","Skagway",84.2,253700,73906
+2240,"Alaska","Southeast Fairbanks Census Area",74.9,168700,70056
+2261,"Alaska","Valdez-Cordova Census Area",80.5,165800,79867
+2275,"Alaska","Wrangell",74.4,163700,53894
+2282,"Alaska","Yakutat City and Borough",69.8,151900,71607
+2290,"Alaska","Yukon-Koyukuk Census Area",43.7,99500,41413
+4001,"Arizona","Apache County",38.6,80900,32508
+4003,"Arizona","Cochise County",76.2,154900,49260
+4005,"Arizona","Coconino County",75.3,257700,59460
+4007,"Arizona","Gila County",61.6,156100,43524
+4009,"Arizona","Graham County",69.8,119500,51353
+4011,"Arizona","Greenlee County",75.7,65800,63473
+4012,"Arizona","La Paz County",57.7,100000,34643
+4013,"Arizona","Maricopa County",81.7,238600,64468
+4015,"Arizona","Mohave County",75.9,170600,45587
+4017,"Arizona","Navajo County",59.5,134300,40067
+4019,"Arizona","Pima County",80.6,198300,53379
+4021,"Arizona","Pinal County",77.3,164000,58174
+4023,"Arizona","Santa Cruz County",68.2,148200,41259
+4025,"Arizona","Yavapai County",78.2,231000,52451
+4027,"Arizona","Yuma County",73.1,142400,45243
+5001,"Arkansas","Arkansas County",60.1,78900,46696
+5003,"Arkansas","Ashley County",59.4,62100,44744
+5005,"Arkansas","Baxter County",68.7,118400,42260
+5007,"Arkansas","Benton County",59.6,155000,66362
+5009,"Arkansas","Boone County",74.1,105700,45374
+5011,"Arkansas","Bradley County",55.5,64800,43184
+5013,"Arkansas","Calhoun County",53.3,51700,46417
+5015,"Arkansas","Carroll County",62.7,119500,46110
+5017,"Arkansas","Chicot County",56.3,50700,34147
+5019,"Arkansas","Clark County",61.5,78900,41620
+5021,"Arkansas","Clay County",59.6,59800,37233
+5023,"Arkansas","Cleburne County",67.7,110000,44483
+5025,"Arkansas","Cleveland County",52.9,66900,46684
+5027,"Arkansas","Columbia County",58.5,76700,36193
+5029,"Arkansas","Conway County",54.1,82100,42802
+5031,"Arkansas","Craighead County",77.7,107300,47286
+5033,"Arkansas","Crawford County",68,98800,46828
+5035,"Arkansas","Crittenden County",66.9,101100,40161
+5037,"Arkansas","Cross County",62.2,75800,46787
+5039,"Arkansas","Dallas County",53.1,59200,38072
+5041,"Arkansas","Desha County",46.1,55500,31893
+5043,"Arkansas","Drew County",63.3,73100,46997
+5045,"Arkansas","Faulkner County",74.5,127500,52827
+5047,"Arkansas","Franklin County",53.1,81400,38923
+5049,"Arkansas","Fulton County",60.4,78200,35405
+5051,"Arkansas","Garland County",72.6,126900,44777
+5053,"Arkansas","Grant County",68.7,96600,55388
+5055,"Arkansas","Greene County",72,88900,47056
+5057,"Arkansas","Hempstead County",61,68100,42860
+5059,"Arkansas","Hot Spring County",62.3,77400,43889
+5061,"Arkansas","Howard County",60.8,71800,36059
+5063,"Arkansas","Independence County",63.2,82400,44319
+5065,"Arkansas","Izard County",57.6,76900,42876
+5067,"Arkansas","Jackson County",57.2,60100,34109
+5069,"Arkansas","Jefferson County",53.8,76200,40726
+5071,"Arkansas","Johnson County",59.5,83400,38511
+5073,"Arkansas","Lafayette County",50.3,49600,32397
+5075,"Arkansas","Lawrence County",59.7,57600,39993
+5077,"Arkansas","Lee County",45.3,54200,29681
+5079,"Arkansas","Lincoln County",56.1,71900,46596
+5081,"Arkansas","Little River County",61.4,73100,45113
+5083,"Arkansas","Logan County",66.1,78200,41466
+5085,"Arkansas","Lonoke County",74.5,117900,59094
+5087,"Arkansas","Madison County",58.7,97700,41682
+5089,"Arkansas","Marion County",70.1,91600,36719
+5091,"Arkansas","Miller County",70.5,86400,43371
+5093,"Arkansas","Mississippi County",60.8,68700,39962
+5095,"Arkansas","Monroe County",47.3,55600,38468
+5097,"Arkansas","Montgomery County",56.6,75300,35741
+5099,"Arkansas","Nevada County",46.7,62300,38042
+5101,"Arkansas","Newton County",54.7,77700,38082
+5103,"Arkansas","Ouachita County",53.3,61900,35425
+5105,"Arkansas","Perry County",62,80200,48667
+5107,"Arkansas","Phillips County",55.9,60200,29320
+5109,"Arkansas","Pike County",57.9,79400,40401
+5111,"Arkansas","Poinsett County",64.7,64900,40921
+5113,"Arkansas","Polk County",59.6,79300,37974
+5115,"Arkansas","Pope County",67.8,99500,43462
+5117,"Arkansas","Prairie County",48.8,74200,42660
+5119,"Arkansas","Pulaski County",73,134300,51749
+5121,"Arkansas","Randolph County",62.2,68500,37218
+5123,"Arkansas","St. Francis County",48.3,66100,35348
+5125,"Arkansas","Saline County",77.4,130100,64412
+5127,"Arkansas","Scott County",53.2,69500,36092
+5129,"Arkansas","Searcy County",52.5,69500,36438
+5131,"Arkansas","Sebastian County",68.7,108000,46228
+5133,"Arkansas","Sevier County",65.7,73100,47704
+5135,"Arkansas","Sharp County",58.4,78000,34671
+5137,"Arkansas","Stone County",50.3,89000,38188
+5139,"Arkansas","Union County",60,71200,44663
+5141,"Arkansas","Van Buren County",58.2,79200,38499
+5143,"Arkansas","Washington County",75.3,154900,50451
+5145,"Arkansas","White County",69.3,92700,44029
+5147,"Arkansas","Woodruff County",50.8,55100,32845
+5149,"Arkansas","Yell County",60.9,75300,43923
+6001,"California","Alameda County",85.7,590900,99406
+6003,"California","Alpine County",87.5,453600,63750
+6005,"California","Amador County",79.1,341400,62772
+6007,"California","Butte County",80.9,265400,52537
+6009,"California","Calaveras County",74.9,350800,63158
+6011,"California","Colusa County",74.5,275400,59401
+6013,"California","Contra Costa County",88.2,548200,99716
+6015,"California","Del Norte County",73.3,240900,45283
+6017,"California","El Dorado County",83.5,445700,83377
+6019,"California","Fresno County",74.8,257000,53969
+6021,"California","Glenn County",64,244200,49633
+6023,"California","Humboldt County",79.4,324700,48041
+6025,"California","Imperial County",69.8,192600,47622
+6027,"California","Inyo County",75.7,290000,57316
+6029,"California","Kern County",73.9,217100,53350
+6031,"California","Kings County",73.8,220400,57848
+6033,"California","Lake County",70.6,265400,47040
+6035,"California","Lassen County",72.9,217300,56352
+6037,"California","Los Angeles County",79.9,508800,68044
+6039,"California","Madera County",72.2,276000,57585
+6041,"California","Marin County",88.9,868000,115246
+6043,"California","Mariposa County",71.1,278500,48820
+6045,"California","Mendocino County",73.8,410600,51416
+6047,"California","Merced County",75.2,241000,53672
+6049,"California","Modoc County",68.2,158600,45507
+6051,"California","Mono County",72,481300,62260
+6053,"California","Monterey County",78.3,566300,71015
+6055,"California","Napa County",85.9,571500,88596
+6057,"California","Nevada County",82.5,444100,66096
+6059,"California","Orange County",87.7,607900,90234
+6061,"California","Placer County",87,427600,89691
+6063,"California","Plumas County",70.4,289100,55359
+6065,"California","Riverside County",82.6,325300,67005
+6067,"California","Sacramento County",82.8,324200,67151
+6069,"California","San Benito County",87.1,542300,86958
+6071,"California","San Bernardino County",79.3,319000,63362
+6073,"California","San Diego County",86.9,486000,78980
+6075,"California","San Francisco County",84.5,785200,112449
+6077,"California","San Joaquin County",77.5,318600,64432
+6079,"California","San Luis Obispo County",85,513900,73518
+6081,"California","San Mateo County",88.3,784800,122641
+6083,"California","Santa Barbara County",82.3,576500,74624
+6085,"California","Santa Clara County",89.4,701000,124055
+6087,"California","Santa Cruz County",85,648700,82234
+6089,"California","Shasta County",75.3,267600,54667
+6091,"California","Sierra County",69,323300,52148
+6093,"California","Siskiyou County",74.6,237400,45241
+6095,"California","Solano County",86.1,389800,81472
+6097,"California","Sonoma County",85.1,524400,81018
+6099,"California","Stanislaus County",79.3,285200,60704
+6101,"California","Sutter County",78.8,262200,59050
+6103,"California","Tehama County",70.3,221400,44514
+6105,"California","Trinity County",64,268200,40846
+6107,"California","Tulare County",69.6,211200,49687
+6109,"California","Tuolumne County",75.9,332500,60108
+6111,"California","Ventura County",85.1,568700,88131
+6113,"California","Yolo County",83.5,391300,70228
+6115,"California","Yuba County",80,224200,58054
+8001,"Colorado","Adams County",79.8,196100,71202
+8003,"Colorado","Alamosa County",66.8,131100,37515
+8005,"Colorado","Arapahoe County",86.4,232300,77469
+8007,"Colorado","Archuleta County",79,304400,52221
+8009,"Colorado","Baca County",69,72700,35878
+8011,"Colorado","Bent County",70.6,69400,30900
+8013,"Colorado","Boulder County",88.5,353300,83019
+8014,"Colorado","Broomfield County",91.1,270500,96416
+8015,"Colorado","Chaffee County",80.3,248100,55771
+8017,"Colorado","Cheyenne County",75.6,80700,53977
+8019,"Colorado","Clear Creek County",81,280000,67060
+8021,"Colorado","Conejos County",61.6,112200,36084
+8023,"Colorado","Costilla County",52.4,105200,30965
+8025,"Colorado","Crowley County",75.9,81400,42135
+8027,"Colorado","Custer County",76.3,218400,53119
+8029,"Colorado","Delta County",70,193900,45269
+8031,"Colorado","Denver County",81.1,240900,68592
+8033,"Colorado","Dolores County",63.8,136200,45972
+8035,"Colorado","Douglas County",94.6,338700,119730
+8037,"Colorado","Eagle County",87,530900,84790
+8039,"Colorado","Elbert County",87.9,346400,99199
+8041,"Colorado","El Paso County",87.8,216800,68779
+8043,"Colorado","Fremont County",76.6,152800,49409
+8045,"Colorado","Garfield County",82.5,341600,75937
+8047,"Colorado","Gilpin County",80.8,316400,76429
+8049,"Colorado","Grand County",86.1,269100,71198
+8051,"Colorado","Gunnison County",79.9,335100,56577
+8053,"Colorado","Hinsdale County",67.9,275000,56339
+8055,"Colorado","Huerfano County",60.6,154900,38137
+8057,"Colorado","Jackson County",70.9,144300,53300
+8059,"Colorado","Jefferson County",86.9,259300,82986
+8061,"Colorado","Kiowa County",77.1,62200,41731
+8063,"Colorado","Kit Carson County",73.2,102300,49349
+8065,"Colorado","Lake County",76.5,168200,50565
+8067,"Colorado","La Plata County",77.1,343400,68685
+8069,"Colorado","Larimer County",86.6,246000,71881
+8071,"Colorado","Las Animas County",65.3,142300,41817
+8073,"Colorado","Lincoln County",74.7,103700,47258
+8075,"Colorado","Logan County",77.2,119900,53318
+8077,"Colorado","Mesa County",82.7,221000,55379
+8079,"Colorado","Mineral County",78.7,258300,62188
+8081,"Colorado","Moffat County",76,166300,57229
+8083,"Colorado","Montezuma County",67.9,191500,49470
+8085,"Colorado","Montrose County",72.1,201700,50489
+8087,"Colorado","Morgan County",74.5,136200,53682
+8089,"Colorado","Otero County",71.9,93800,38169
+8091,"Colorado","Ouray County",81.7,405800,66417
+8093,"Colorado","Park County",82.1,245800,73622
+8095,"Colorado","Phillips County",77.6,111600,51155
+8097,"Colorado","Pitkin County",88.1,670200,78935
+8099,"Colorado","Prowers County",75.5,83000,41929
+8101,"Colorado","Pueblo County",70.4,140700,46783
+8103,"Colorado","Rio Blanco County",72.4,193300,54357
+8105,"Colorado","Rio Grande County",63,129300,39123
+8107,"Colorado","Routt County",88.4,422300,77443
+8109,"Colorado","Saguache County",67.2,120500,38571
+8111,"Colorado","San Juan County",78.8,252000,54625
+8113,"Colorado","San Miguel County",79.5,493000,67038
+8115,"Colorado","Sedgwick County",64.3,83100,43150
+8117,"Colorado","Summit County",82,465700,79277
+8119,"Colorado","Teller County",86.5,226000,66592
+8121,"Colorado","Washington County",73.1,114300,50094
+8123,"Colorado","Weld County",81,195700,74150
+8125,"Colorado","Yuma County",67.8,116200,52022
+9001,"Connecticut","Fairfield County",85.6,477700,95645
+9003,"Connecticut","Hartford County",80.5,247400,75148
+9005,"Connecticut","Litchfield County",83.5,285800,79906
+9007,"Connecticut","Middlesex County",83.6,307400,85898
+9009,"Connecticut","New Haven County",78.9,273300,69905
+9011,"Connecticut","New London County",83,268900,73490
+9013,"Connecticut","Tolland County",85.8,266100,87069
+9015,"Connecticut","Windham County",78.7,230100,66550
+10001,"Delaware","Kent County",80.8,207500,60910
+10003,"Delaware","New Castle County",80.8,252800,73892
+10005,"Delaware","Sussex County",75.8,243700,63162
+11001,"District of Columbia","District of Columbia",77.6,443300,86420
+12001,"Florida","Alachua County",81.4,189600,49689
+12003,"Florida","Baker County",70.5,137900,63275
+12005,"Florida","Bay County",80.4,175500,54316
+12007,"Florida","Bradford County",65.4,120500,45921
+12009,"Florida","Brevard County",83,186900,56775
+12011,"Florida","Broward County",80.9,247500,59547
+12013,"Florida","Calhoun County",60.1,89000,38568
+12015,"Florida","Charlotte County",79.9,184900,51499
+12017,"Florida","Citrus County",78.5,141800,44237
+12019,"Florida","Clay County",86,189700,65740
+12021,"Florida","Collier County",81.4,357400,69653
+12023,"Florida","Columbia County",73.1,134300,46494
+12027,"Florida","DeSoto County",50,114100,35438
+12029,"Florida","Dixie County",44.4,98200,39828
+12031,"Florida","Duval County",78.4,175900,55807
+12033,"Florida","Escambia County",80.5,148600,50915
+12035,"Florida","Flagler County",78.7,219100,54514
+12037,"Florida","Franklin County",68.9,177000,46643
+12039,"Florida","Gadsden County",57.9,104500,41401
+12041,"Florida","Gilchrist County",62.5,112700,43640
+12043,"Florida","Glades County",48.6,106900,40977
+12045,"Florida","Gulf County",76.4,131900,47712
+12047,"Florida","Hamilton County",61.6,75700,38569
+12049,"Florida","Hardee County",54.9,111000,38682
+12051,"Florida","Hendry County",61.6,117300,40820
+12053,"Florida","Hernando County",78.8,156400,48812
+12055,"Florida","Highlands County",67.6,122000,40942
+12057,"Florida","Hillsborough County",82.5,198900,58884
+12059,"Florida","Holmes County",65.3,87100,39102
+12061,"Florida","Indian River County",78.5,198200,54740
+12063,"Florida","Jackson County",64.5,97700,39872
+12065,"Florida","Jefferson County",66.8,127600,47240
+12067,"Florida","Lafayette County",67,162200,50165
+12069,"Florida","Lake County",80.4,178400,54513
+12071,"Florida","Lee County",79.8,210600,57832
+12073,"Florida","Leon County",84.2,196700,53106
+12075,"Florida","Levy County",59.3,112100,37326
+12077,"Florida","Liberty County",59.3,90700,38015
+12079,"Florida","Madison County",56.8,96400,37037
+12081,"Florida","Manatee County",77.6,214000,59009
+12083,"Florida","Marion County",74.8,150700,45371
+12085,"Florida","Martin County",81.6,254900,61133
+12086,"Florida","Miami-Dade County",73.2,269600,51347
+12087,"Florida","Monroe County",77.6,503900,70033
+12089,"Florida","Nassau County",80.8,213600,69943
+12091,"Florida","Okaloosa County",80.3,204400,63412
+12093,"Florida","Okeechobee County",58.1,136700,41760
+12095,"Florida","Orange County",83.3,228600,58254
+12097,"Florida","Osceola County",72.1,199200,52279
+12099,"Florida","Palm Beach County",80.8,261900,63299
+12101,"Florida","Pasco County",78.6,157400,52828
+12103,"Florida","Pinellas County",78.7,185700,54090
+12105,"Florida","Polk County",64.8,141900,50584
+12107,"Florida","Putnam County",62.7,109300,37670
+12109,"Florida","St. Johns County",85.2,294100,82252
+12111,"Florida","St. Lucie County",79.2,177200,52322
+12113,"Florida","Santa Rosa County",84.5,182300,67949
+12115,"Florida","Sarasota County",81.5,235100,62236
+12117,"Florida","Seminole County",88.7,241000,66768
+12119,"Florida","Sumter County",81.6,184000,57226
+12121,"Florida","Suwannee County",73.4,111600,47839
+12123,"Florida","Taylor County",64.7,87800,40306
+12125,"Florida","Union County",57.6,115100,44270
+12127,"Florida","Volusia County",75.7,186300,49494
+12129,"Florida","Wakulla County",75.2,143500,61410
+12131,"Florida","Walton County",77,199800,58093
+12133,"Florida","Washington County",66.2,103800,37022
+13001,"Georgia","Appling County",49.6,83600,40304
+13003,"Georgia","Atkinson County",50.9,54900,37197
+13005,"Georgia","Bacon County",61.1,71300,37519
+13007,"Georgia","Baker County",44.7,66400,32917
+13009,"Georgia","Baldwin County",67.8,112500,43672
+13011,"Georgia","Banks County",60.7,146800,47811
+13013,"Georgia","Barrow County",78.7,138900,62345
+13015,"Georgia","Bartow County",78.3,146800,57423
+13017,"Georgia","Ben Hill County",59.5,73100,32229
+13019,"Georgia","Berrien County",59.9,76200,40415
+13021,"Georgia","Bibb County",67.7,118100,41334
+13023,"Georgia","Bleckley County",63.3,71000,48174
+13025,"Georgia","Brantley County",59.3,68500,38857
+13027,"Georgia","Brooks County",70.2,93000,38285
+13029,"Georgia","Bryan County",82.7,187400,72624
+13031,"Georgia","Bulloch County",68.7,135500,45550
+13033,"Georgia","Burke County",62.1,77000,44151
+13035,"Georgia","Butts County",64.4,142900,43471
+13037,"Georgia","Calhoun County",60.7,61700,34167
+13039,"Georgia","Camden County",82.3,161900,56951
+13043,"Georgia","Candler County",52.5,76700,33736
+13045,"Georgia","Carroll County",75.3,139900,53737
+13047,"Georgia","Catoosa County",77.9,132600,56235
+13049,"Georgia","Charlton County",60.4,73400,41961
+13051,"Georgia","Chatham County",80.6,177100,56842
+13053,"Georgia","Chattahoochee County",75.2,91900,47096
+13055,"Georgia","Chattooga County",67.9,80400,36807
+13057,"Georgia","Cherokee County",90.4,201900,82740
+13059,"Georgia","Clarke County",76.2,161400,38623
+13061,"Georgia","Clay County",54.6,58500,22325
+13063,"Georgia","Clayton County",75.2,127800,47864
+13065,"Georgia","Clinch County",45.2,76700,27658
+13067,"Georgia","Cobb County",87.6,211000,77932
+13069,"Georgia","Coffee County",59.3,77700,40859
+13071,"Georgia","Colquitt County",67.8,84300,36435
+13073,"Georgia","Columbia County",80.2,168700,82339
+13075,"Georgia","Cook County",59.8,80000,41854
+13077,"Georgia","Coweta County",81.5,177900,75913
+13079,"Georgia","Crawford County",64.8,92400,46283
+13081,"Georgia","Crisp County",55.1,93900,36042
+13083,"Georgia","Dade County",68.6,123400,42581
+13085,"Georgia","Dawson County",81,201400,66281
+13087,"Georgia","Decatur County",52.7,98900,41481
+13089,"Georgia","DeKalb County",81,190000,62399
+13091,"Georgia","Dodge County",53,75500,39302
+13093,"Georgia","Dooly County",53.7,66000,37340
+13095,"Georgia","Dougherty County",68.7,100300,39584
+13097,"Georgia","Douglas County",77.7,157300,63835
+13099,"Georgia","Early County",52,75000,30640
+13101,"Georgia","Echols County",47.7,73800,39494
+13103,"Georgia","Effingham County",80.3,153500,66822
+13105,"Georgia","Elbert County",52.8,81400,38678
+13107,"Georgia","Emanuel County",59.4,77800,37453
+13109,"Georgia","Evans County",63.7,91500,42607
+13111,"Georgia","Fannin County",74.6,172400,47997
+13113,"Georgia","Fayette County",88.7,252700,90145
+13115,"Georgia","Floyd County",75.5,118300,48336
+13117,"Georgia","Forsyth County",91.2,276700,107218
+13119,"Georgia","Franklin County",59.5,124300,42488
+13121,"Georgia","Fulton County",80.9,253100,69673
+13123,"Georgia","Gilmer County",71.7,137600,52625
+13125,"Georgia","Glascock County",61.9,69500,45000
+13127,"Georgia","Glynn County",75.9,180900,52977
+13129,"Georgia","Gordon County",68.6,123200,45865
+13131,"Georgia","Grady County",67.9,90800,43531
+13133,"Georgia","Greene County",64.9,124300,52129
+13135,"Georgia","Gwinnett County",85.8,194200,71026
+13137,"Georgia","Habersham County",62.5,144600,50563
+13139,"Georgia","Hall County",78.8,175200,62984
+13141,"Georgia","Hancock County",43.6,73800,31860
+13143,"Georgia","Haralson County",68.6,109000,48550
+13145,"Georgia","Harris County",76.9,196000,76319
+13147,"Georgia","Hart County",61.1,129900,43204
+13149,"Georgia","Heard County",59.9,95300,51358
+13151,"Georgia","Henry County",87.3,171500,71288
+13153,"Georgia","Houston County",76.9,132500,61723
+13155,"Georgia","Irwin County",59,77500,37736
+13157,"Georgia","Jackson County",74.8,166000,65385
+13159,"Georgia","Jasper County",63,121800,51250
+13161,"Georgia","Jeff Davis County",52.1,74000,36669
+13163,"Georgia","Jefferson County",44.2,74500,33944
+13165,"Georgia","Jenkins County",46.6,69700,27375
+13167,"Georgia","Johnson County",54.8,64000,42446
+13169,"Georgia","Jones County",77.7,135200,56020
+13171,"Georgia","Lamar County",67.5,114100,44846
+13173,"Georgia","Lanier County",50.1,81300,40986
+13175,"Georgia","Laurens County",54.5,88800,39120
+13177,"Georgia","Lee County",83,145300,69280
+13179,"Georgia","Liberty County",80.2,120300,48007
+13181,"Georgia","Lincoln County",53.7,98100,39742
+13183,"Georgia","Long County",76.7,75700,54605
+13185,"Georgia","Lowndes County",66.2,128800,42441
+13187,"Georgia","Lumpkin County",75.1,170400,51790
+13189,"Georgia","McDuffie County",57.5,93600,43468
+13191,"Georgia","McIntosh County",69,103400,49504
+13193,"Georgia","Macon County",56.7,69000,32161
+13195,"Georgia","Madison County",66.9,128100,52500
+13197,"Georgia","Marion County",52.4,75900,44643
+13199,"Georgia","Meriwether County",54.4,95600,37121
+13201,"Georgia","Miller County",44.7,80200,44542
+13205,"Georgia","Mitchell County",58.4,76800,38116
+13207,"Georgia","Monroe County",70.1,152400,54754
+13209,"Georgia","Montgomery County",68.8,80300,41996
+13211,"Georgia","Morgan County",71.5,169400,66178
+13213,"Georgia","Murray County",73.6,98300,48033
+13215,"Georgia","Muscogee County",72.4,131900,46408
+13217,"Georgia","Newton County",80.2,148600,56316
+13219,"Georgia","Oconee County",83.4,228700,90751
+13221,"Georgia","Oglethorpe County",61.6,134400,47120
+13223,"Georgia","Paulding County",82.9,149600,68370
+13225,"Georgia","Peach County",72.2,113900,46636
+13227,"Georgia","Pickens County",80.8,170600,67631
+13229,"Georgia","Pierce County",61,75400,42804
+13231,"Georgia","Pike County",74.8,153300,64878
+13233,"Georgia","Polk County",69.2,108300,44891
+13235,"Georgia","Pulaski County",58.8,79000,45148
+13237,"Georgia","Putnam County",75.9,157600,51606
+13239,"Georgia","Quitman County",45.5,66700,26667
+13241,"Georgia","Rabun County",69,175700,42500
+13243,"Georgia","Randolph County",60.7,64300,31699
+13245,"Georgia","Richmond County",69.2,99300,42728
+13247,"Georgia","Rockdale County",76.5,169900,60189
+13249,"Georgia","Schley County",69.7,91300,44448
+13251,"Georgia","Screven County",65.3,76800,39842
+13253,"Georgia","Seminole County",55.9,72900,33357
+13255,"Georgia","Spalding County",65.6,124400,47111
+13257,"Georgia","Stephens County",66.6,108100,47164
+13259,"Georgia","Stewart County",51.7,49500,29732
+13261,"Georgia","Sumter County",66.7,86300,36681
+13263,"Georgia","Talbot County",50.5,85900,38549
+13265,"Georgia","Taliaferro County",35.4,67200,37446
+13267,"Georgia","Tattnall County",65.2,80700,40730
+13269,"Georgia","Taylor County",54.9,61500,33832
+13271,"Georgia","Telfair County",24.9,58900,32405
+13273,"Georgia","Terrell County",65.5,75100,34768
+13275,"Georgia","Thomas County",74.3,137200,43740
+13277,"Georgia","Tift County",62.8,109500,45639
+13279,"Georgia","Toombs County",63.2,86000,40175
+13281,"Georgia","Towns County",70,194600,48219
+13283,"Georgia","Treutlen County",58.6,69000,32241
+13285,"Georgia","Troup County",69.4,130300,45649
+13287,"Georgia","Turner County",67.5,83100,37039
+13289,"Georgia","Twiggs County",48.5,65500,34879
+13291,"Georgia","Union County",70.7,197000,50021
+13293,"Georgia","Upson County",62.7,93700,37640
+13295,"Georgia","Walker County",70.6,108100,46157
+13297,"Georgia","Walton County",77.3,164900,61599
+13299,"Georgia","Ware County",64.8,78000,36869
+13301,"Georgia","Warren County",40.7,61100,37203
+13303,"Georgia","Washington County",61.6,77500,38068
+13305,"Georgia","Wayne County",63.4,86800,45483
+13307,"Georgia","Webster County",48.4,62800,37297
+13309,"Georgia","Wheeler County",24.5,65000,30192
+13311,"Georgia","White County",67.2,171000,52493
+13313,"Georgia","Whitfield County",73.7,130000,48623
+13315,"Georgia","Wilcox County",49.9,56900,36964
+13317,"Georgia","Wilkes County",41.8,84700,37838
+13319,"Georgia","Wilkinson County",55.3,71200,38996
+13321,"Georgia","Worth County",66.9,85400,45398
+15001,"Hawaii","Hawaii County",74.5,361400,62409
+15003,"Hawaii","Honolulu County",83.8,559000,85857
+15005,"Hawaii","Kalawao County",60.4,0,69375
+15007,"Hawaii","Kauai County",78,583200,83554
+15009,"Hawaii","Maui County",81.5,614600,80948
+16001,"Idaho","Ada County",79,214500,66293
+16003,"Idaho","Adams County",66.1,205100,48856
+16005,"Idaho","Bannock County",80.5,135500,51734
+16007,"Idaho","Bear Lake County",76.6,135900,54167
+16009,"Idaho","Benewah County",62.6,123000,47556
+16011,"Idaho","Bingham County",78.3,125300,55472
+16013,"Idaho","Blaine County",85.7,473600,56694
+16015,"Idaho","Boise County",72.5,186700,59646
+16017,"Idaho","Bonner County",72.5,236300,50256
+16019,"Idaho","Bonneville County",82.6,153400,60615
+16021,"Idaho","Boundary County",66.7,174600,43423
+16023,"Idaho","Butte County",72.8,108500,42132
+16025,"Idaho","Camas County",66.8,226100,39688
+16027,"Idaho","Canyon County",73.9,151300,52134
+16029,"Idaho","Caribou County",82.9,116000,59053
+16031,"Idaho","Cassia County",79.6,114600,52935
+16033,"Idaho","Clark County",51.8,82800,46154
+16035,"Idaho","Clearwater County",68.3,124800,43915
+16037,"Idaho","Custer County",74.8,127600,40875
+16039,"Idaho","Elmore County",76.9,142600,46855
+16041,"Idaho","Franklin County",79.6,165300,57215
+16043,"Idaho","Fremont County",75.4,125200,58065
+16045,"Idaho","Gem County",72.2,161700,45492
+16047,"Idaho","Gooding County",70,127500,47204
+16049,"Idaho","Idaho County",64.3,140900,41516
+16051,"Idaho","Jefferson County",78.8,154000,63048
+16053,"Idaho","Jerome County",68.7,135200,52921
+16055,"Idaho","Kootenai County",80.7,220000,57242
+16057,"Idaho","Latah County",81.8,183800,49158
+16059,"Idaho","Lemhi County",73.1,174900,39324
+16061,"Idaho","Lewis County",63,112100,41198
+16063,"Idaho","Lincoln County",64.1,124600,50053
+16065,"Idaho","Madison County",75.9,169700,39160
+16067,"Idaho","Minidoka County",76.8,98400,53370
+16069,"Idaho","Nez Perce County",75.7,159600,58107
+16071,"Idaho","Oneida County",78.9,120400,53841
+16073,"Idaho","Owyhee County",61.2,133500,43798
+16075,"Idaho","Payette County",71.1,134800,50579
+16077,"Idaho","Power County",80,121900,48823
+16079,"Idaho","Shoshone County",66.9,145000,39386
+16081,"Idaho","Teton County",80,294800,74216
+16083,"Idaho","Twin Falls County",77.6,148400,52919
+16085,"Idaho","Valley County",72.8,287100,64475
+16087,"Idaho","Washington County",65.6,140200,40992
+17001,"Illinois","Adams County",72.7,98400,52993
+17003,"Illinois","Alexander County",45.4,58200,36806
+17005,"Illinois","Bond County",74.5,106500,57289
+17007,"Illinois","Boone County",82.2,174400,69272
+17009,"Illinois","Brown County",69.8,80100,61655
+17011,"Illinois","Bureau County",74.9,102000,57436
+17013,"Illinois","Calhoun County",63.1,101900,63009
+17015,"Illinois","Carroll County",74,98500,52410
+17017,"Illinois","Cass County",67.4,77300,52373
+17019,"Illinois","Champaign County",80.8,145200,52797
+17021,"Illinois","Christian County",72.6,80500,52834
+17023,"Illinois","Clark County",68.1,84100,56531
+17025,"Illinois","Clay County",73.5,72700,48500
+17027,"Illinois","Clinton County",74.5,124200,66639
+17029,"Illinois","Coles County",75.6,89500,46202
+17031,"Illinois","Cook County",76.7,265800,64660
+17033,"Illinois","Crawford County",72,70400,49779
+17035,"Illinois","Cumberland County",70.2,81300,56206
+17037,"Illinois","DeKalb County",84.2,192300,63317
+17039,"Illinois","De Witt County",73.6,96200,55587
+17041,"Illinois","Douglas County",71.1,93000,56714
+17043,"Illinois","DuPage County",86.9,316900,92809
+17045,"Illinois","Edgar County",71.5,74200,53647
+17047,"Illinois","Edwards County",72.4,61400,51080
+17049,"Illinois","Effingham County",76.9,106500,56685
+17051,"Illinois","Fayette County",64.5,73200,46650
+17053,"Illinois","Ford County",75.2,90700,52092
+17055,"Illinois","Franklin County",64.9,61100,42769
+17057,"Illinois","Fulton County",70.5,79000,51643
+17059,"Illinois","Gallatin County",64,56600,44076
+17061,"Illinois","Greene County",67,72000,49885
+17063,"Illinois","Grundy County",81.3,193300,77350
+17065,"Illinois","Hamilton County",67.8,67500,54046
+17067,"Illinois","Hancock County",67.3,80200,52561
+17069,"Illinois","Hardin County",63.1,63300,51250
+17071,"Illinois","Henderson County",70.1,77600,53676
+17073,"Illinois","Henry County",72.6,108800,59933
+17075,"Illinois","Iroquois County",73.9,101100,52700
+17077,"Illinois","Jackson County",72.1,96100,37241
+17079,"Illinois","Jasper County",68.8,77900,54256
+17081,"Illinois","Jefferson County",73,85800,49896
+17083,"Illinois","Jersey County",70.6,118200,63028
+17085,"Illinois","Jo Daviess County",75.1,138000,57946
+17087,"Illinois","Johnson County",60.7,94700,52774
+17089,"Illinois","Kane County",85.3,245000,79394
+17091,"Illinois","Kankakee County",74.4,148400,58902
+17093,"Illinois","Kendall County",92.3,248300,96563
+17095,"Illinois","Knox County",69.3,80600,44129
+17097,"Illinois","Lake County",86.9,287300,89427
+17099,"Illinois","LaSalle County",77.5,125500,58142
+17101,"Illinois","Lawrence County",67.8,67900,46636
+17103,"Illinois","Lee County",76.4,113400,58194
+17105,"Illinois","Livingston County",75.7,101700,55160
+17107,"Illinois","Logan County",75,95100,57308
+17109,"Illinois","McDonough County",72.7,85100,44471
+17111,"Illinois","McHenry County",88.9,249700,86799
+17113,"Illinois","McLean County",80.2,151700,67675
+17115,"Illinois","Macon County",74.5,90500,50480
+17117,"Illinois","Macoupin County",75.8,93400,55159
+17119,"Illinois","Madison County",79.1,122600,60738
+17121,"Illinois","Marion County",73.3,71400,47519
+17123,"Illinois","Marshall County",72.3,102700,58465
+17125,"Illinois","Mason County",70.1,81400,48417
+17127,"Illinois","Massac County",60.3,81800,47481
+17129,"Illinois","Menard County",77.2,113500,74684
+17131,"Illinois","Mercer County",74.7,102800,59787
+17133,"Illinois","Monroe County",80.2,197400,85747
+17135,"Illinois","Montgomery County",69.2,78100,52748
+17137,"Illinois","Morgan County",74.1,93300,51437
+17139,"Illinois","Moultrie County",68.9,89700,61456
+17141,"Illinois","Ogle County",76.4,152400,60986
+17143,"Illinois","Peoria County",73.1,119000,55842
+17145,"Illinois","Perry County",68.5,76900,52428
+17147,"Illinois","Piatt County",82,119100,70849
+17149,"Illinois","Pike County",63.7,76000,47492
+17151,"Illinois","Pope County",56.2,88300,38056
+17153,"Illinois","Pulaski County",51.9,48800,34640
+17155,"Illinois","Putnam County",72.9,123600,63638
+17157,"Illinois","Randolph County",68.2,86900,53816
+17159,"Illinois","Richland County",70.9,76000,48894
+17161,"Illinois","Rock Island County",75.9,111700,54858
+17163,"Illinois","St. Clair County",69.8,122400,55179
+17165,"Illinois","Saline County",65.1,69400,44090
+17167,"Illinois","Sangamon County",78.7,118900,61912
+17169,"Illinois","Schuyler County",75.6,74900,52357
+17171,"Illinois","Scott County",72.4,82100,57118
+17173,"Illinois","Shelby County",66.4,84500,52953
+17175,"Illinois","Stark County",70.6,87500,54907
+17177,"Illinois","Stephenson County",75.4,103300,48805
+17179,"Illinois","Tazewell County",78.6,125700,63454
+17181,"Illinois","Union County",61.3,84200,50625
+17183,"Illinois","Vermilion County",68,76500,46515
+17185,"Illinois","Wabash County",70.6,77400,50770
+17187,"Illinois","Warren County",71.4,83300,50310
+17189,"Illinois","Washington County",70.8,103100,61763
+17191,"Illinois","Wayne County",64.4,65100,50251
+17193,"Illinois","White County",71.2,62900,49290
+17195,"Illinois","Whiteside County",75.8,98100,54232
+17197,"Illinois","Will County",85.7,240500,86961
+17199,"Illinois","Williamson County",71.9,87600,50734
+17201,"Illinois","Winnebago County",77.2,128100,54489
+17203,"Illinois","Woodford County",79,151500,72808
+18001,"Indiana","Adams County",63.7,111700,52504
+18003,"Indiana","Allen County",78.4,113200,54857
+18005,"Indiana","Bartholomew County",75.5,133100,63431
+18007,"Indiana","Benton County",69.9,85200,49488
+18009,"Indiana","Blackford County",65.7,77600,43505
+18011,"Indiana","Boone County",83.4,174300,83077
+18013,"Indiana","Brown County",66,158500,61030
+18015,"Indiana","Carroll County",71.1,107400,54806
+18017,"Indiana","Cass County",70,82400,49415
+18019,"Indiana","Clark County",73.6,125800,55630
+18021,"Indiana","Clay County",71.1,87100,55637
+18023,"Indiana","Clinton County",72,98700,54286
+18025,"Indiana","Crawford County",55.7,86300,41662
+18027,"Indiana","Daviess County",60.3,97200,53629
+18029,"Indiana","Dearborn County",77.5,160300,68658
+18031,"Indiana","Decatur County",66.1,118500,57949
+18033,"Indiana","DeKalb County",74.9,112300,56421
+18035,"Indiana","Delaware County",73.7,92400,43512
+18037,"Indiana","Dubois County",76.6,129600,60666
+18039,"Indiana","Elkhart County",73.9,128000,57021
+18041,"Indiana","Fayette County",62.1,84900,46175
+18043,"Indiana","Floyd County",74.5,147100,64468
+18045,"Indiana","Fountain County",70.9,87600,52874
+18047,"Indiana","Franklin County",65,144500,62462
+18049,"Indiana","Fulton County",65.8,93900,52034
+18051,"Indiana","Gibson County",75.1,99100,55462
+18053,"Indiana","Grant County",65.3,83100,44356
+18055,"Indiana","Greene County",66.8,87500,51613
+18057,"Indiana","Hamilton County",91.9,211200,98173
+18059,"Indiana","Hancock County",82.9,159200,74072
+18061,"Indiana","Harrison County",68.9,124200,57712
+18063,"Indiana","Hendricks County",85.4,161100,81933
+18065,"Indiana","Henry County",68,95200,49832
+18067,"Indiana","Howard County",74.4,108300,52373
+18069,"Indiana","Huntington County",72.2,96700,53632
+18071,"Indiana","Jackson County",71.4,113700,51250
+18073,"Indiana","Jasper County",76.9,142200,63892
+18075,"Indiana","Jay County",61.4,81300,47658
+18077,"Indiana","Jefferson County",72.6,106800,52718
+18079,"Indiana","Jennings County",67.2,92200,54191
+18081,"Indiana","Johnson County",81.5,143400,72440
+18083,"Indiana","Knox County",74,84700,47380
+18085,"Indiana","Kosciusko County",74.2,134600,61366
+18087,"Indiana","LaGrange County",54,148200,64498
+18089,"Indiana","Lake County",74.6,135400,56128
+18091,"Indiana","LaPorte County",74.2,119800,53658
+18093,"Indiana","Lawrence County",69.8,97400,53610
+18095,"Indiana","Madison County",74,96300,49522
+18097,"Indiana","Marion County",74.3,122200,48316
+18099,"Indiana","Marshall County",67.5,123400,52658
+18101,"Indiana","Martin County",67.9,84100,52726
+18103,"Indiana","Miami County",70.7,86100,50657
+18105,"Indiana","Monroe County",80.1,146700,49839
+18107,"Indiana","Montgomery County",76.3,107100,55522
+18109,"Indiana","Morgan County",75.3,141200,64335
+18111,"Indiana","Newton County",74.1,109600,55356
+18113,"Indiana","Noble County",74.7,112600,56789
+18115,"Indiana","Ohio County",72,134200,60128
+18117,"Indiana","Orange County",61.9,90500,47917
+18119,"Indiana","Owen County",64,95700,49543
+18121,"Indiana","Parke County",63.1,91600,52618
+18123,"Indiana","Perry County",66.4,93600,52348
+18125,"Indiana","Pike County",64,80700,50194
+18127,"Indiana","Porter County",81,164500,71152
+18129,"Indiana","Posey County",74.3,120500,64196
+18131,"Indiana","Pulaski County",69.4,97900,49580
+18133,"Indiana","Putnam County",76,119800,61047
+18135,"Indiana","Randolph County",69.5,80100,48036
+18137,"Indiana","Ripley County",72.7,138200,56332
+18139,"Indiana","Rush County",58.7,106800,54346
+18141,"Indiana","St. Joseph County",73.9,116300,52769
+18143,"Indiana","Scott County",66.8,96600,48700
+18145,"Indiana","Shelby County",71.1,126400,60404
+18147,"Indiana","Spencer County",68,111600,57305
+18149,"Indiana","Starke County",66.4,98200,51190
+18151,"Indiana","Steuben County",76.7,121700,58279
+18153,"Indiana","Sullivan County",63.3,77000,50245
+18155,"Indiana","Switzerland County",63.3,119800,49383
+18157,"Indiana","Tippecanoe County",79.9,128900,53130
+18159,"Indiana","Tipton County",74,113500,58118
+18161,"Indiana","Union County",63.9,112600,50375
+18163,"Indiana","Vanderburgh County",75,111700,49708
+18165,"Indiana","Vermillion County",72.6,77000,50243
+18167,"Indiana","Vigo County",72.6,89900,45230
+18169,"Indiana","Wabash County",69.4,96400,54259
+18171,"Indiana","Warren County",71.4,102600,60553
+18173,"Indiana","Warrick County",81.4,140200,73482
+18175,"Indiana","Washington County",62.7,100200,47983
+18177,"Indiana","Wayne County",65.3,99700,46516
+18179,"Indiana","Wells County",73.7,110100,59237
+18181,"Indiana","White County",74.1,111000,54576
+18183,"Indiana","Whitley County",74.6,123500,61741
+19001,"Iowa","Adair County",70.4,93800,53363
+19003,"Iowa","Adams County",68.1,81200,49255
+19005,"Iowa","Allamakee County",66.6,105200,52216
+19007,"Iowa","Appanoose County",65.5,72400,40167
+19009,"Iowa","Audubon County",67.8,72900,52055
+19011,"Iowa","Benton County",73,128900,67729
+19013,"Iowa","Black Hawk County",77.6,118600,53539
+19015,"Iowa","Boone County",75.6,115800,64000
+19017,"Iowa","Bremer County",77,132800,70395
+19019,"Iowa","Buchanan County",74.1,113400,64837
+19021,"Iowa","Buena Vista County",77.2,87600,57125
+19023,"Iowa","Butler County",70.3,90900,57115
+19025,"Iowa","Calhoun County",70.7,70700,52323
+19027,"Iowa","Carroll County",73.2,106700,59212
+19029,"Iowa","Cass County",69.8,82600,50187
+19031,"Iowa","Cedar County",76.3,125900,67795
+19033,"Iowa","Cerro Gordo County",73,107900,53963
+19035,"Iowa","Cherokee County",77.7,77500,56550
+19037,"Iowa","Chickasaw County",72.1,93800,60034
+19039,"Iowa","Clarke County",74.1,92400,54427
+19041,"Iowa","Clay County",76.3,98500,50521
+19043,"Iowa","Clayton County",68.5,96500,53152
+19045,"Iowa","Clinton County",73,106100,51688
+19047,"Iowa","Crawford County",66.2,81500,55755
+19049,"Iowa","Dallas County",86.9,176600,88479
+19051,"Iowa","Davis County",61.9,101400,63404
+19053,"Iowa","Decatur County",63.9,69300,44462
+19055,"Iowa","Delaware County",72.7,113700,63750
+19057,"Iowa","Des Moines County",74,90400,51267
+19059,"Iowa","Dickinson County",78.3,153000,59969
+19061,"Iowa","Dubuque County",79.3,136800,63031
+19063,"Iowa","Emmet County",70.8,78600,51563
+19065,"Iowa","Fayette County",71.2,81200,51128
+19067,"Iowa","Floyd County",72.1,89200,50406
+19069,"Iowa","Franklin County",66.8,82500,56419
+19071,"Iowa","Fremont County",73.5,92800,56750
+19073,"Iowa","Greene County",71.2,80400,53050
+19075,"Iowa","Grundy County",77,111000,68038
+19077,"Iowa","Guthrie County",73,94600,61161
+19079,"Iowa","Hamilton County",71.2,90500,60910
+19081,"Iowa","Hancock County",69.3,81200,61761
+19083,"Iowa","Hardin County",69.2,85600,54196
+19085,"Iowa","Harrison County",70.1,111400,63854
+19087,"Iowa","Henry County",73.2,96400,53501
+19089,"Iowa","Howard County",70.3,90300,55060
+19091,"Iowa","Humboldt County",72.8,81600,54575
+19093,"Iowa","Ida County",73.2,74300,58427
+19095,"Iowa","Iowa County",70.8,128400,61443
+19097,"Iowa","Jackson County",71.4,106100,55967
+19099,"Iowa","Jasper County",72.8,114600,58952
+19101,"Iowa","Jefferson County",79.2,92400,47708
+19103,"Iowa","Johnson County",86.5,177000,62542
+19105,"Iowa","Jones County",71.6,106900,57549
+19107,"Iowa","Keokuk County",69.1,74700,52881
+19109,"Iowa","Kossuth County",73.7,84700,56073
+19111,"Iowa","Lee County",70.7,78900,49564
+19113,"Iowa","Linn County",80.8,136400,64903
+19115,"Iowa","Louisa County",75.2,87400,56673
+19117,"Iowa","Lucas County",71.5,85200,55205
+19119,"Iowa","Lyon County",79.4,97900,64982
+19121,"Iowa","Madison County",75.4,145400,66316
+19123,"Iowa","Mahaska County",76.1,95200,54825
+19125,"Iowa","Marion County",74.8,137300,61038
+19127,"Iowa","Marshall County",70,99600,56437
+19129,"Iowa","Mills County",77,144200,72079
+19131,"Iowa","Mitchell County",71.5,99200,58302
+19133,"Iowa","Monona County",70.7,71300,47605
+19135,"Iowa","Monroe County",69.6,80100,58269
+19137,"Iowa","Montgomery County",72.1,80800,51696
+19139,"Iowa","Muscatine County",75.2,120300,58453
+19141,"Iowa","O'Brien County",70.9,83000,53703
+19143,"Iowa","Osceola County",76.2,70200,59725
+19145,"Iowa","Page County",73.2,81900,51867
+19147,"Iowa","Palo Alto County",74.3,74500,52932
+19149,"Iowa","Plymouth County",78.5,119400,67297
+19151,"Iowa","Pocahontas County",73.8,56100,52448
+19153,"Iowa","Polk County",81.4,149700,67637
+19155,"Iowa","Pottawattamie County",74.4,126100,60065
+19157,"Iowa","Poweshiek County",72.3,108900,53852
+19159,"Iowa","Ringgold County",67.3,83300,55271
+19161,"Iowa","Sac County",72.6,76800,58232
+19163,"Iowa","Scott County",76.3,134600,61183
+19165,"Iowa","Shelby County",74.4,103100,58000
+19167,"Iowa","Sioux County",81.9,119900,69844
+19169,"Iowa","Story County",81.8,156000,56756
+19171,"Iowa","Tama County",71.5,96500,56037
+19173,"Iowa","Taylor County",69.6,67000,50431
+19175,"Iowa","Union County",70.7,88100,49900
+19177,"Iowa","Van Buren County",61.7,67600,48591
+19179,"Iowa","Wapello County",71,74800,46246
+19181,"Iowa","Warren County",81.2,150900,77048
+19183,"Iowa","Washington County",73,118600,62556
+19185,"Iowa","Wayne County",65.7,60500,44768
+19187,"Iowa","Webster County",72.4,85600,47466
+19189,"Iowa","Winnebago County",71.3,90900,49870
+19191,"Iowa","Winneshiek County",75.5,147600,65263
+19193,"Iowa","Woodbury County",71.7,94700,59224
+19195,"Iowa","Worth County",69,95200,57130
+19197,"Iowa","Wright County",69.2,72700,53333
+20001,"Kansas","Allen County",70,64400,45333
+20003,"Kansas","Anderson County",65.1,87300,50213
+20005,"Kansas","Atchison County",68.5,89200,50439
+20007,"Kansas","Barber County",69.2,52500,50174
+20009,"Kansas","Barton County",70.7,71000,49723
+20011,"Kansas","Bourbon County",63.7,76400,43917
+20013,"Kansas","Brown County",72,74800,48333
+20015,"Kansas","Butler County",78.9,121200,64782
+20017,"Kansas","Chase County",68.5,86100,45353
+20019,"Kansas","Chautauqua County",64.1,49800,40298
+20021,"Kansas","Cherokee County",65.2,69100,43175
+20023,"Kansas","Cheyenne County",72.5,67100,47639
+20025,"Kansas","Clark County",61.6,59100,53348
+20027,"Kansas","Clay County",70,86500,53929
+20029,"Kansas","Cloud County",67.7,63400,45373
+20031,"Kansas","Coffey County",76.2,98500,59583
+20033,"Kansas","Comanche County",72.9,42500,54821
+20035,"Kansas","Cowley County",70.1,76900,50102
+20037,"Kansas","Crawford County",72.5,83900,41004
+20039,"Kansas","Decatur County",73.1,57300,48125
+20041,"Kansas","Dickinson County",71.9,97400,49991
+20043,"Kansas","Doniphan County",62,84600,49703
+20045,"Kansas","Douglas County",85.3,176500,59435
+20047,"Kansas","Edwards County",63.2,54600,50902
+20049,"Kansas","Elk County",64.3,52700,38750
+20051,"Kansas","Ellis County",80.2,123800,52883
+20053,"Kansas","Ellsworth County",73,67400,54902
+20055,"Kansas","Finney County",76.5,102100,60798
+20057,"Kansas","Ford County",71.1,82700,51711
+20059,"Kansas","Franklin County",67.8,117100,56582
+20061,"Kansas","Geary County",83,118600,53133
+20063,"Kansas","Gove County",75.4,66500,48317
+20065,"Kansas","Graham County",74.6,71200,46375
+20067,"Kansas","Grant County",78.2,85500,53413
+20069,"Kansas","Gray County",72.5,100000,64930
+20071,"Kansas","Greeley County",77.1,67800,54112
+20073,"Kansas","Greenwood County",62.4,52400,41982
+20075,"Kansas","Hamilton County",71.9,73300,46944
+20077,"Kansas","Harper County",70,61400,49865
+20079,"Kansas","Harvey County",75.7,103300,57982
+20081,"Kansas","Haskell County",73.5,88100,55064
+20083,"Kansas","Hodgeman County",72.6,63700,61211
+20085,"Kansas","Jackson County",73.3,114800,57914
+20087,"Kansas","Jefferson County",74.1,136200,64864
+20089,"Kansas","Jewell County",65.6,45500,40676
+20091,"Kansas","Johnson County",90.2,209900,89087
+20093,"Kansas","Kearny County",69.7,85900,52599
+20095,"Kansas","Kingman County",69.2,77100,60469
+20097,"Kansas","Kiowa County",66.3,75000,53274
+20099,"Kansas","Labette County",70.4,64600,47643
+20101,"Kansas","Lane County",75.5,55100,52125
+20103,"Kansas","Leavenworth County",79.8,166700,73013
+20105,"Kansas","Lincoln County",70.4,64300,45076
+20107,"Kansas","Linn County",55.1,98800,48778
+20109,"Kansas","Logan County",76.1,66600,51740
+20111,"Kansas","Lyon County",77.4,91200,46338
+20113,"Kansas","McPherson County",78.3,115300,59089
+20115,"Kansas","Marion County",68.5,80500,52123
+20117,"Kansas","Marshall County",69.7,74700,51895
+20119,"Kansas","Meade County",74.6,80800,59316
+20121,"Kansas","Miami County",71,165500,71995
+20123,"Kansas","Mitchell County",73.7,68500,46203
+20125,"Kansas","Montgomery County",69.8,68100,45157
+20127,"Kansas","Morris County",76.6,76400,55658
+20129,"Kansas","Morton County",69.6,64600,47750
+20131,"Kansas","Nemaha County",71,85800,63216
+20133,"Kansas","Neosho County",65.1,71100,46291
+20135,"Kansas","Ness County",70.3,47100,56492
+20137,"Kansas","Norton County",69.8,51200,49038
+20139,"Kansas","Osage County",69.9,96400,54090
+20141,"Kansas","Osborne County",71,39700,51286
+20143,"Kansas","Ottawa County",66,83800,54784
+20145,"Kansas","Pawnee County",72.5,63200,49917
+20147,"Kansas","Phillips County",76.7,57400,50093
+20149,"Kansas","Pottawatomie County",79.8,138600,66835
+20151,"Kansas","Pratt County",70.4,74500,52327
+20153,"Kansas","Rawlins County",75.9,57600,53207
+20155,"Kansas","Reno County",73.8,87500,49936
+20157,"Kansas","Republic County",63.3,47800,47976
+20159,"Kansas","Rice County",74.4,62600,53012
+20161,"Kansas","Riley County",84.4,154800,51208
+20163,"Kansas","Rooks County",73.2,62900,49415
+20165,"Kansas","Rush County",68.6,50500,47981
+20167,"Kansas","Russell County",73.9,63300,44792
+20169,"Kansas","Saline County",74.7,114000,52200
+20171,"Kansas","Scott County",85.9,100100,65417
+20173,"Kansas","Sedgwick County",76.4,117300,56524
+20175,"Kansas","Seward County",72.3,82100,49291
+20177,"Kansas","Shawnee County",72.7,115300,56762
+20179,"Kansas","Sheridan County",75.6,81600,62885
+20181,"Kansas","Sherman County",80.3,79300,54754
+20183,"Kansas","Smith County",73.2,58400,43429
+20185,"Kansas","Stafford County",67.4,50200,49375
+20187,"Kansas","Stanton County",63.4,77500,52054
+20189,"Kansas","Stevens County",70.2,78200,57806
+20191,"Kansas","Sumner County",70.5,82400,55000
+20193,"Kansas","Thomas County",85.2,83900,60124
+20195,"Kansas","Trego County",83.2,69700,57966
+20197,"Kansas","Wabaunsee County",73.1,99400,61178
+20199,"Kansas","Wallace County",71.5,65300,63269
+20201,"Kansas","Washington County",65.2,53600,50588
+20203,"Kansas","Wichita County",70.3,76800,57978
+20205,"Kansas","Wilson County",59.6,58500,48341
+20207,"Kansas","Woodson County",59.6,47800,39643
+20209,"Kansas","Wyandotte County",67.8,97600,46881
+21001,"Kentucky","Adair County",63.6,80000,38021
+21003,"Kentucky","Allen County",61.7,89500,44036
+21005,"Kentucky","Anderson County",70.2,131900,55334
+21007,"Kentucky","Ballard County",70,78100,45048
+21009,"Kentucky","Barren County",73.1,96400,41459
+21011,"Kentucky","Bath County",66.3,70100,44898
+21013,"Kentucky","Bell County",57.1,64500,26272
+21015,"Kentucky","Boone County",87.5,175900,78327
+21017,"Kentucky","Bourbon County",64.6,137700,49637
+21019,"Kentucky","Boyd County",75.4,93200,48308
+21021,"Kentucky","Boyle County",72.3,126700,46382
+21023,"Kentucky","Bracken County",62.8,87500,49158
+21025,"Kentucky","Breathitt County",56.6,50900,27344
+21027,"Kentucky","Breckinridge County",64.5,80800,47190
+21029,"Kentucky","Bullitt County",79.4,143000,63348
+21031,"Kentucky","Butler County",62.4,77700,41763
+21033,"Kentucky","Caldwell County",64.6,72300,44775
+21035,"Kentucky","Calloway County",73.7,105300,42273
+21037,"Kentucky","Campbell County",77.9,146300,63050
+21039,"Kentucky","Carlisle County",66.9,67400,45109
+21041,"Kentucky","Carroll County",55.9,109700,43524
+21043,"Kentucky","Carter County",62.8,74500,34736
+21045,"Kentucky","Casey County",62.7,71000,34819
+21047,"Kentucky","Christian County",67.9,95500,43919
+21049,"Kentucky","Clark County",71.8,134500,54953
+21051,"Kentucky","Clay County",67.9,51200,26840
+21053,"Kentucky","Clinton County",54.6,62700,32184
+21055,"Kentucky","Crittenden County",60.3,69300,45244
+21057,"Kentucky","Cumberland County",60.4,67700,35344
+21059,"Kentucky","Daviess County",75.3,106400,51673
+21061,"Kentucky","Edmonson County",71.9,84600,43401
+21063,"Kentucky","Elliott County",58.7,66100,32306
+21065,"Kentucky","Estill County",58.5,70300,31688
+21067,"Kentucky","Fayette County",81.7,159200,57291
+21069,"Kentucky","Fleming County",68.5,82700,44612
+21071,"Kentucky","Floyd County",65.6,66700,32730
+21073,"Kentucky","Franklin County",77.1,138900,56274
+21075,"Kentucky","Fulton County",58.3,55300,30114
+21077,"Kentucky","Gallatin County",59.7,105500,52167
+21079,"Kentucky","Garrard County",71.1,109200,52631
+21081,"Kentucky","Grant County",67,117900,48714
+21083,"Kentucky","Graves County",66.9,83900,44043
+21085,"Kentucky","Grayson County",62.7,83700,38612
+21087,"Kentucky","Green County",61.7,75400,35899
+21089,"Kentucky","Greenup County",73.9,88400,51655
+21091,"Kentucky","Hancock County",73.8,85500,57217
+21093,"Kentucky","Hardin County",77.4,131900,54367
+21095,"Kentucky","Harlan County",57.9,52500,26478
+21097,"Kentucky","Harrison County",59.4,112800,48438
+21099,"Kentucky","Hart County",64.3,80200,38396
+21101,"Kentucky","Henderson County",71.1,101200,48926
+21103,"Kentucky","Henry County",65.1,123900,53926
+21105,"Kentucky","Hickman County",54.5,63600,42929
+21107,"Kentucky","Hopkins County",67.7,77200,47170
+21109,"Kentucky","Jackson County",58,64700,32138
+21111,"Kentucky","Jefferson County",77.7,145900,56586
+21113,"Kentucky","Jessamine County",79.5,150200,58245
+21115,"Kentucky","Johnson County",69.7,71400,37055
+21117,"Kentucky","Kenton County",80.8,145200,64339
+21119,"Kentucky","Knott County",61.2,60200,31198
+21121,"Kentucky","Knox County",48,65000,30181
+21123,"Kentucky","Larue County",73.1,97200,47643
+21125,"Kentucky","Laurel County",70,96100,41526
+21127,"Kentucky","Lawrence County",65.1,65800,32798
+21129,"Kentucky","Lee County",50.2,57300,25275
+21131,"Kentucky","Leslie County",59.1,54600,31627
+21133,"Kentucky","Letcher County",64.4,51500,29886
+21135,"Kentucky","Lewis County",59.7,55800,31147
+21137,"Kentucky","Lincoln County",62.1,83000,42919
+21139,"Kentucky","Livingston County",60.4,76800,50839
+21141,"Kentucky","Logan County",59.4,87500,48014
+21143,"Kentucky","Lyon County",65.6,84900,52528
+21145,"Kentucky","McCracken County",71.6,107500,46080
+21147,"Kentucky","McCreary County",44.1,62400,28105
+21149,"Kentucky","McLean County",67.5,71900,51861
+21151,"Kentucky","Madison County",75.2,141100,50060
+21153,"Kentucky","Magoffin County",65.3,46200,28147
+21155,"Kentucky","Marion County",62.8,97000,40107
+21157,"Kentucky","Marshall County",76.9,96900,55113
+21159,"Kentucky","Martin County",64.5,67800,41013
+21161,"Kentucky","Mason County",66.4,98500,45377
+21163,"Kentucky","Meade County",80.2,107700,56603
+21165,"Kentucky","Menifee County",63.7,67100,39325
+21167,"Kentucky","Mercer County",70.7,129400,55093
+21169,"Kentucky","Metcalfe County",69.6,73400,37386
+21171,"Kentucky","Monroe County",60.6,67600,34879
+21173,"Kentucky","Montgomery County",67.4,98100,45516
+21175,"Kentucky","Morgan County",66.5,72700,36134
+21177,"Kentucky","Muhlenberg County",64.4,75700,43590
+21179,"Kentucky","Nelson County",74.9,116800,60127
+21181,"Kentucky","Nicholas County",58.7,79800,38149
+21183,"Kentucky","Ohio County",65.2,78000,45564
+21185,"Kentucky","Oldham County",88.7,234400,99128
+21187,"Kentucky","Owen County",55.8,102000,48801
+21189,"Kentucky","Owsley County",60.6,68500,30284
+21191,"Kentucky","Pendleton County",63.8,101200,54375
+21193,"Kentucky","Perry County",69.5,55900,33640
+21195,"Kentucky","Pike County",67.8,64700,34856
+21197,"Kentucky","Powell County",56.3,80700,37469
+21199,"Kentucky","Pulaski County",64.9,95500,39998
+21201,"Kentucky","Robertson County",40.7,64500,41902
+21203,"Kentucky","Rockcastle County",63.4,72300,35720
+21205,"Kentucky","Rowan County",76.6,90400,38230
+21207,"Kentucky","Russell County",60.2,81400,38390
+21209,"Kentucky","Scott County",81.1,158700,70817
+21211,"Kentucky","Shelby County",76,169500,67056
+21213,"Kentucky","Simpson County",64.7,113700,48623
+21215,"Kentucky","Spencer County",83.6,167300,80166
+21217,"Kentucky","Taylor County",70.1,96600,44522
+21219,"Kentucky","Todd County",52.9,79700,44005
+21221,"Kentucky","Trigg County",67.3,98300,50536
+21223,"Kentucky","Trimble County",65.5,119900,53056
+21225,"Kentucky","Union County",69.1,78600,46673
+21227,"Kentucky","Warren County",78.9,135400,52270
+21229,"Kentucky","Washington County",63.1,107800,53743
+21231,"Kentucky","Wayne County",58,70600,34914
+21233,"Kentucky","Webster County",59.1,66200,42119
+21235,"Kentucky","Whitley County",59.4,64400,39005
+21237,"Kentucky","Wolfe County",55.2,54400,24623
+21239,"Kentucky","Woodford County",81,180800,63820
+22001,"Louisiana","Acadia Parish",66,86700,43396
+22003,"Louisiana","Allen Parish",64.9,76500,46446
+22005,"Louisiana","Ascension Parish",82.2,164200,80527
+22007,"Louisiana","Assumption Parish",66.5,86500,43759
+22009,"Louisiana","Avoyelles Parish",60.7,82100,38565
+22011,"Louisiana","Beauregard Parish",69.1,83400,53209
+22013,"Louisiana","Bienville Parish",58.6,62700,30272
+22015,"Louisiana","Bossier Parish",67.5,130400,54268
+22017,"Louisiana","Caddo Parish",68.1,113300,41797
+22019,"Louisiana","Calcasieu Parish",70.8,109400,51148
+22021,"Louisiana","Caldwell Parish",58,67800,37691
+22023,"Louisiana","Cameron Parish",66.1,122700,53423
+22025,"Louisiana","Catahoula Parish",54,67900,40129
+22027,"Louisiana","Claiborne Parish",44.7,61200,26776
+22029,"Louisiana","Concordia Parish",56.5,72700,32500
+22031,"Louisiana","De Soto Parish",64.2,80300,46006
+22033,"Louisiana","East Baton Rouge Parish",77.1,156100,54948
+22035,"Louisiana","East Carroll Parish",33.4,44400,22346
+22037,"Louisiana","East Feliciana Parish",56.2,101500,51803
+22039,"Louisiana","Evangeline Parish",58.2,76100,31965
+22041,"Louisiana","Franklin Parish",44.1,72100,35282
+22043,"Louisiana","Grant Parish",58,83000,42505
+22045,"Louisiana","Iberia Parish",68.4,98100,46861
+22047,"Louisiana","Iberville Parish",65.7,88700,50161
+22049,"Louisiana","Jackson Parish",67.3,73600,39139
+22051,"Louisiana","Jefferson Parish",72.9,175100,54032
+22053,"Louisiana","Jefferson Davis Parish",64,83700,42105
+22055,"Louisiana","Lafayette Parish",80.5,151600,56999
+22057,"Louisiana","Lafourche Parish",72.7,115500,55506
+22059,"Louisiana","LaSalle Parish",64.9,72800,42104
+22061,"Louisiana","Lincoln Parish",76.1,110700,35467
+22063,"Louisiana","Livingston Parish",75.6,142400,63389
+22065,"Louisiana","Madison Parish",42.5,71400,30350
+22067,"Louisiana","Morehouse Parish",50.6,71200,32929
+22069,"Louisiana","Natchitoches Parish",53.8,90500,28567
+22071,"Louisiana","Orleans Parish",66.1,184100,41604
+22073,"Louisiana","Ouachita Parish",67.8,112400,41121
+22075,"Louisiana","Plaquemines Parish",74.8,203100,57204
+22077,"Louisiana","Pointe Coupee Parish",62.6,108600,41480
+22079,"Louisiana","Rapides Parish",72.6,110500,47269
+22081,"Louisiana","Red River Parish",60,72200,33816
+22083,"Louisiana","Richland Parish",47.8,70000,34029
+22085,"Louisiana","Sabine Parish",54.3,74600,40336
+22087,"Louisiana","St. Bernard Parish",68.4,132400,44661
+22089,"Louisiana","St. Charles Parish",78.2,170200,69019
+22091,"Louisiana","St. Helena Parish",48.8,82400,43886
+22093,"Louisiana","St. James Parish",68,116600,51603
+22095,"Louisiana","St. John the Baptist Parish",70.1,146700,57429
+22097,"Louisiana","St. Landry Parish",62.7,82100,36403
+22099,"Louisiana","St. Martin Parish",68,84300,48656
+22101,"Louisiana","St. Mary Parish",66.3,85500,40485
+22103,"Louisiana","St. Tammany Parish",83.6,201800,68905
+22105,"Louisiana","Tangipahoa Parish",72.3,133400,47832
+22107,"Louisiana","Tensas Parish",42,72400,27500
+22109,"Louisiana","Terrebonne Parish",69.8,118100,48747
+22111,"Louisiana","Union Parish",48.2,79700,44100
+22113,"Louisiana","Vermilion Parish",70,93300,51945
+22115,"Louisiana","Vernon Parish",70.8,85400,49141
+22117,"Louisiana","Washington Parish",53.5,84400,37570
+22119,"Louisiana","Webster Parish",49.1,76400,28951
+22121,"Louisiana","West Baton Rouge Parish",72.4,126500,65385
+22123,"Louisiana","West Carroll Parish",43.8,76600,38500
+22125,"Louisiana","West Feliciana Parish",65.9,161400,59637
+22127,"Louisiana","Winn Parish",64.5,59500,38353
+23001,"Maine","Androscoggin County",77.1,155700,53509
+23003,"Maine","Aroostook County",68.2,85900,41123
+23005,"Maine","Cumberland County",83.9,248400,73072
+23007,"Maine","Franklin County",75.3,128700,51422
+23009,"Maine","Hancock County",75.6,201600,57178
+23011,"Maine","Kennebec County",77,148100,55365
+23013,"Maine","Knox County",77.3,203800,57751
+23015,"Maine","Lincoln County",75.4,206200,57720
+23017,"Maine","Oxford County",71.1,146500,49204
+23019,"Maine","Penobscot County",76.4,133600,50808
+23021,"Maine","Piscataquis County",64.7,100800,40890
+23023,"Maine","Sagadahoc County",79.1,193100,63694
+23025,"Maine","Somerset County",70.2,109500,44256
+23027,"Maine","Waldo County",75.9,150300,51931
+23029,"Maine","Washington County",68.6,102300,41347
+23031,"Maine","York County",81.5,233300,67830
+24001,"Maryland","Allegany County",70.4,116800,45893
+24003,"Maryland","Anne Arundel County",87.9,370100,100798
+24005,"Maryland","Baltimore County",83,269900,76866
+24009,"Maryland","Calvert County",87.9,392900,109313
+24011,"Maryland","Caroline County",72.8,228100,58638
+24013,"Maryland","Carroll County",83.3,350900,96769
+24015,"Maryland","Cecil County",78.1,261200,76887
+24017,"Maryland","Charles County",84.6,355800,100003
+24019,"Maryland","Dorchester County",70.5,205000,52917
+24021,"Maryland","Frederick County",85.3,349500,97730
+24023,"Maryland","Garrett County",68.9,169400,52617
+24025,"Maryland","Harford County",85.2,298800,89147
+24027,"Maryland","Howard County",92.8,456200,121160
+24029,"Maryland","Kent County",72.6,281100,58598
+24031,"Maryland","Montgomery County",89.6,482900,108820
+24033,"Maryland","Prince George's County",83.2,327600,84920
+24035,"Maryland","Queen Anne's County",84.6,375700,97034
+24037,"Maryland","St. Mary's County",78.5,327800,89845
+24039,"Maryland","Somerset County",63.8,155900,37803
+24041,"Maryland","Talbot County",79.3,352400,73547
+24043,"Maryland","Washington County",72.4,238000,60860
+24045,"Maryland","Wicomico County",75.6,195100,56956
+24047,"Maryland","Worcester County",76.9,289100,63499
+24510,"Maryland","Baltimore city",69.5,160400,50379
+25001,"Massachusetts","Barnstable County",83.5,392700,74336
+25003,"Massachusetts","Berkshire County",78.2,207800,59230
+25005,"Massachusetts","Bristol County",77.9,306600,69095
+25007,"Massachusetts","Dukes County",77,681300,71811
+25009,"Massachusetts","Essex County",82.6,372400,79263
+25011,"Massachusetts","Franklin County",78,222000,60950
+25013,"Massachusetts","Hampden County",75.5,200500,55429
+25015,"Massachusetts","Hampshire County",85.5,262200,70876
+25017,"Massachusetts","Middlesex County",86.7,420800,102603
+25019,"Massachusetts","Nantucket County",90.3,1000001,107717
+25021,"Massachusetts","Norfolk County",87.3,408100,103291
+25023,"Massachusetts","Plymouth County",85.6,360700,89489
+25025,"Massachusetts","Suffolk County",80.7,384500,69669
+25027,"Massachusetts","Worcester County",82.2,282800,74679
+26001,"Michigan","Alcona County",65.1,119300,40484
+26003,"Michigan","Alger County",68.4,111500,45570
+26005,"Michigan","Allegan County",72.1,149400,62965
+26007,"Michigan","Alpena County",70.4,104800,43363
+26009,"Michigan","Antrim County",72.6,156500,56165
+26011,"Michigan","Arenac County",61.8,99000,42290
+26013,"Michigan","Baraga County",69.1,86500,46065
+26015,"Michigan","Barry County",76,147300,64490
+26017,"Michigan","Bay County",74.7,107800,48819
+26019,"Michigan","Benzie County",77.2,160200,57974
+26021,"Michigan","Berrien County",72.4,135600,50795
+26023,"Michigan","Branch County",72.7,111800,51947
+26025,"Michigan","Calhoun County",71.9,110300,48607
+26027,"Michigan","Cass County",72.3,133700,55107
+26029,"Michigan","Charlevoix County",75.5,162600,55760
+26031,"Michigan","Cheboygan County",68.4,123400,48044
+26033,"Michigan","Chippewa County",71,103100,46486
+26035,"Michigan","Clare County",63.2,92500,39565
+26037,"Michigan","Clinton County",82.2,167700,70390
+26039,"Michigan","Crawford County",72.6,108000,47977
+26041,"Michigan","Delta County",72.1,100600,47434
+26043,"Michigan","Dickinson County",73,87800,51645
+26045,"Michigan","Eaton County",79,152700,64348
+26047,"Michigan","Emmet County",76.5,182900,55829
+26049,"Michigan","Genesee County",72.1,118000,48588
+26051,"Michigan","Gladwin County",59.4,117700,44619
+26053,"Michigan","Gogebic County",59.3,69200,38839
+26055,"Michigan","Grand Traverse County",82.1,174300,63575
+26057,"Michigan","Gratiot County",66.7,93600,47848
+26059,"Michigan","Hillsdale County",66.5,116500,49622
+26061,"Michigan","Houghton County",72.8,86100,43183
+26063,"Michigan","Huron County",67,104900,48289
+26065,"Michigan","Ingham County",78.8,137900,52872
+26067,"Michigan","Ionia County",74,123700,57043
+26069,"Michigan","Iosco County",71.5,102300,43678
+26071,"Michigan","Iron County",57.6,75700,41599
+26073,"Michigan","Isabella County",70.5,128000,45116
+26075,"Michigan","Jackson County",74.7,130000,53658
+26077,"Michigan","Kalamazoo County",82.3,145900,56511
+26079,"Michigan","Kalkaska County",65.3,105900,46898
+26081,"Michigan","Kent County",81.8,147600,63053
+26083,"Michigan","Keweenaw County",61.5,81800,50292
+26085,"Michigan","Lake County",56.8,92900,37320
+26087,"Michigan","Lapeer County",76.3,165200,62641
+26089,"Michigan","Leelanau County",81.5,241200,65249
+26091,"Michigan","Lenawee County",76.9,140400,55450
+26093,"Michigan","Livingston County",83.9,216400,84221
+26095,"Michigan","Luce County",61.4,86000,45469
+26097,"Michigan","Mackinac County",65.7,126100,47938
+26099,"Michigan","Macomb County",81.1,157000,62855
+26101,"Michigan","Manistee County",72.2,124000,50055
+26103,"Michigan","Marquette County",75.4,125100,53970
+26105,"Michigan","Mason County",71,121600,51725
+26107,"Michigan","Mecosta County",70.1,119200,45018
+26109,"Michigan","Menominee County",68,97300,46828
+26111,"Michigan","Midland County",76.8,132800,62625
+26113,"Michigan","Missaukee County",68.2,112300,47194
+26115,"Michigan","Monroe County",77.6,161800,62203
+26117,"Michigan","Montcalm County",66.8,112700,49448
+26119,"Michigan","Montmorency County",65.8,103200,41772
+26121,"Michigan","Muskegon County",73.5,112800,50854
+26123,"Michigan","Newaygo County",64.2,115800,50326
+26125,"Michigan","Oakland County",85.5,204300,79698
+26127,"Michigan","Oceana County",65.3,115400,50104
+26129,"Michigan","Ogemaw County",65.7,105900,40373
+26131,"Michigan","Ontonagon County",57.6,75300,41546
+26133,"Michigan","Osceola County",58.6,101100,44032
+26135,"Michigan","Oscoda County",58.4,93100,42335
+26137,"Michigan","Otsego County",75.3,122300,54332
+26139,"Michigan","Ottawa County",83.1,161200,69314
+26141,"Michigan","Presque Isle County",62.7,108700,47948
+26143,"Michigan","Roscommon County",71.8,107400,42054
+26145,"Michigan","Saginaw County",72.2,110000,48000
+26147,"Michigan","St. Clair County",77.6,150300,56951
+26149,"Michigan","St. Joseph County",70.8,116200,52086
+26151,"Michigan","Sanilac County",66.5,115600,47672
+26153,"Michigan","Schoolcraft County",62.2,87700,45500
+26155,"Michigan","Shiawassee County",74.7,129300,56032
+26157,"Michigan","Tuscola County",69.6,112200,49988
+26159,"Michigan","Van Buren County",70.1,125600,54485
+26161,"Michigan","Washtenaw County",85.4,216200,72586
+26163,"Michigan","Wayne County",68.9,121100,47301
+26165,"Michigan","Wexford County",67,111500,47193
+27001,"Minnesota","Aitkin County",66.5,177900,49351
+27003,"Minnesota","Anoka County",85.7,223100,82175
+27005,"Minnesota","Becker County",73,166800,60284
+27007,"Minnesota","Beltrami County",76.5,143800,49160
+27009,"Minnesota","Benton County",78,170800,57715
+27011,"Minnesota","Big Stone County",69.5,81900,53900
+27013,"Minnesota","Blue Earth County",82.6,163500,57429
+27015,"Minnesota","Brown County",75.7,122400,61120
+27017,"Minnesota","Carlton County",69,163500,63098
+27019,"Minnesota","Carver County",87,287100,101496
+27021,"Minnesota","Cass County",72.3,184900,52204
+27023,"Minnesota","Chippewa County",72,94400,55269
+27025,"Minnesota","Chisago County",82.4,230600,83464
+27027,"Minnesota","Clay County",74.8,146100,65269
+27029,"Minnesota","Clearwater County",68.5,113300,50386
+27031,"Minnesota","Cook County",70.4,247100,57432
+27033,"Minnesota","Cottonwood County",72,81800,52087
+27035,"Minnesota","Crow Wing County",79.5,187000,56549
+27037,"Minnesota","Dakota County",86.7,243700,86036
+27039,"Minnesota","Dodge County",82.9,163700,74575
+27041,"Minnesota","Douglas County",75.2,182600,63819
+27043,"Minnesota","Faribault County",70.5,87000,53156
+27045,"Minnesota","Fillmore County",71,133900,61207
+27047,"Minnesota","Freeborn County",73.1,111800,53631
+27049,"Minnesota","Goodhue County",79.1,192900,66800
+27051,"Minnesota","Grant County",70.5,102700,55466
+27053,"Minnesota","Hennepin County",83.6,247900,78167
+27055,"Minnesota","Houston County",78.1,149200,60382
+27057,"Minnesota","Hubbard County",74.7,175500,56709
+27059,"Minnesota","Isanti County",77.1,203700,74616
+27061,"Minnesota","Itasca County",75,146800,55139
+27063,"Minnesota","Jackson County",73.9,100300,58727
+27065,"Minnesota","Kanabec County",67.4,162800,57163
+27067,"Minnesota","Kandiyohi County",77.1,157400,60294
+27069,"Minnesota","Kittson County",55.5,64200,59643
+27071,"Minnesota","Koochiching County",69.8,99800,50870
+27073,"Minnesota","Lac qui Parle County",71.5,77100,53071
+27075,"Minnesota","Lake County",74.6,142000,61452
+27077,"Minnesota","Lake of the Woods County",42.1,135500,49967
+27079,"Minnesota","Le Sueur County",77.1,191900,71080
+27081,"Minnesota","Lincoln County",68.2,76300,53077
+27083,"Minnesota","Lyon County",79.7,136300,57730
+27085,"Minnesota","McLeod County",78.7,169400,62121
+27087,"Minnesota","Mahnomen County",61.3,86500,44688
+27089,"Minnesota","Marshall County",68.8,84600,60118
+27091,"Minnesota","Martin County",74.8,96200,52798
+27093,"Minnesota","Meeker County",71.7,165600,63452
+27095,"Minnesota","Mille Lacs County",71.5,167600,56135
+27097,"Minnesota","Morrison County",71,159500,57815
+27099,"Minnesota","Mower County",75.5,108600,54295
+27101,"Minnesota","Murray County",73.2,90000,60231
+27103,"Minnesota","Nicollet County",81.4,169700,67399
+27105,"Minnesota","Nobles County",72.8,97200,55304
+27107,"Minnesota","Norman County",59.8,79300,55085
+27109,"Minnesota","Olmsted County",85.7,174000,76951
+27111,"Minnesota","Otter Tail County",70.3,158600,58682
+27113,"Minnesota","Pennington County",72.5,91600,60122
+27115,"Minnesota","Pine County",64.6,162400,53422
+27117,"Minnesota","Pipestone County",70.4,85100,52917
+27119,"Minnesota","Polk County",75.7,115800,59343
+27121,"Minnesota","Pope County",73.4,148700,61275
+27123,"Minnesota","Ramsey County",82.1,222700,64660
+27125,"Minnesota","Red Lake County",69.9,80800,58576
+27127,"Minnesota","Redwood County",66.9,88300,55404
+27129,"Minnesota","Renville County",63.7,97100,59028
+27131,"Minnesota","Rice County",80.2,210400,68584
+27133,"Minnesota","Rock County",77,99200,63005
+27135,"Minnesota","Roseau County",55.6,96200,62202
+27137,"Minnesota","St. Louis County",73.9,140400,55646
+27139,"Minnesota","Scott County",87.7,274300,102152
+27141,"Minnesota","Sherburne County",85.6,226300,89250
+27143,"Minnesota","Sibley County",69.5,148500,63439
+27145,"Minnesota","Stearns County",78.7,174500,62789
+27147,"Minnesota","Steele County",79.1,156300,64903
+27149,"Minnesota","Stevens County",75.4,120300,60559
+27151,"Minnesota","Swift County",68.8,97600,51620
+27153,"Minnesota","Todd County",67.4,139400,53585
+27155,"Minnesota","Traverse County",68.5,69200,51957
+27157,"Minnesota","Wabasha County",75.7,157300,65226
+27159,"Minnesota","Wadena County",69.3,113800,46605
+27161,"Minnesota","Waseca County",79.3,141400,56762
+27163,"Minnesota","Washington County",89.1,264800,96671
+27165,"Minnesota","Watonwan County",62.6,89300,54065
+27167,"Minnesota","Wilkin County",72,102800,60595
+27169,"Minnesota","Winona County",79.7,159200,59329
+27171,"Minnesota","Wright County",83,222300,84974
+27173,"Minnesota","Yellow Medicine County",72.9,97100,59210
+28001,"Mississippi","Adams County",67.7,77500,29936
+28003,"Mississippi","Alcorn County",59.4,85700,42086
+28005,"Mississippi","Amite County",51,72300,33981
+28007,"Mississippi","Attala County",57.1,72200,33767
+28009,"Mississippi","Benton County",52.6,79100,36258
+28011,"Mississippi","Bolivar County",54.4,77800,29854
+28013,"Mississippi","Calhoun County",53.2,60700,37263
+28015,"Mississippi","Carroll County",57.9,65400,46052
+28017,"Mississippi","Chickasaw County",51.4,59800,36548
+28019,"Mississippi","Choctaw County",51.6,72800,36777
+28021,"Mississippi","Claiborne County",55.1,53500,29338
+28023,"Mississippi","Clarke County",51.1,59900,43207
+28025,"Mississippi","Clay County",60,74500,31833
+28027,"Mississippi","Coahoma County",51.2,53400,29121
+28029,"Mississippi","Copiah County",44.6,73200,42151
+28031,"Mississippi","Covington County",52.2,81600,38178
+28033,"Mississippi","DeSoto County",79.5,152300,67038
+28035,"Mississippi","Forrest County",69.9,110400,39840
+28037,"Mississippi","Franklin County",67.3,70000,40219
+28039,"Mississippi","George County",60.9,92400,47292
+28041,"Mississippi","Greene County",62.1,72600,49677
+28043,"Mississippi","Grenada County",57.1,85900,40122
+28045,"Mississippi","Hancock County",73.2,150700,48119
+28047,"Mississippi","Harrison County",74.6,142700,47894
+28049,"Mississippi","Hinds County",69.8,105000,44625
+28051,"Mississippi","Holmes County",32.4,46900,21504
+28053,"Mississippi","Humphreys County",52.6,60100,28962
+28055,"Mississippi","Issaquena County",49.2,62000,24208
+28057,"Mississippi","Itawamba County",67,80000,44567
+28059,"Mississippi","Jackson County",72,125500,51657
+28061,"Mississippi","Jasper County",45.5,67100,35872
+28063,"Mississippi","Jefferson County",56.5,67000,25019
+28065,"Mississippi","Jefferson Davis County",40.8,58800,32116
+28067,"Mississippi","Jones County",48.9,79500,41775
+28069,"Mississippi","Kemper County",38.5,61700,31103
+28071,"Mississippi","Lafayette County",76,149800,50272
+28073,"Mississippi","Lamar County",78.5,157200,60328
+28075,"Mississippi","Lauderdale County",60.4,83200,42534
+28077,"Mississippi","Lawrence County",44.6,71500,41914
+28079,"Mississippi","Leake County",50.2,70100,37096
+28081,"Mississippi","Lee County",69.1,107100,50559
+28083,"Mississippi","Leflore County",39.9,63400,26735
+28085,"Mississippi","Lincoln County",53.5,80000,42606
+28087,"Mississippi","Lowndes County",64,104200,50441
+28089,"Mississippi","Madison County",77.8,181100,71824
+28091,"Mississippi","Marion County",50.2,79600,32090
+28093,"Mississippi","Marshall County",48.7,84800,42233
+28095,"Mississippi","Monroe County",55.9,79500,42354
+28097,"Mississippi","Montgomery County",59.6,68400,39840
+28099,"Mississippi","Neshoba County",56.6,69200,37987
+28101,"Mississippi","Newton County",56.8,67100,35958
+28103,"Mississippi","Noxubee County",46.1,55900,33784
+28105,"Mississippi","Oktibbeha County",71.7,106900,40453
+28107,"Mississippi","Panola County",48.6,75000,38304
+28109,"Mississippi","Pearl River County",69.2,121700,46901
+28111,"Mississippi","Perry County",58.5,71500,42469
+28113,"Mississippi","Pike County",48.3,82000,31784
+28115,"Mississippi","Pontotoc County",56.2,84000,44759
+28117,"Mississippi","Prentiss County",63.2,70800,39256
+28119,"Mississippi","Quitman County",47.3,46200,25283
+28121,"Mississippi","Rankin County",80.1,142400,65996
+28123,"Mississippi","Scott County",47.1,63800,34943
+28125,"Mississippi","Sharkey County",60.3,65300,29394
+28127,"Mississippi","Simpson County",52,75100,43850
+28129,"Mississippi","Smith County",43.2,72600,43105
+28131,"Mississippi","Stone County",64.1,105400,45483
+28133,"Mississippi","Sunflower County",53.9,63300,30838
+28135,"Mississippi","Tallahatchie County",48.2,51600,29864
+28137,"Mississippi","Tate County",64.5,100500,51030
+28139,"Mississippi","Tippah County",59.9,71100,39246
+28141,"Mississippi","Tishomingo County",59.2,73200,37681
+28143,"Mississippi","Tunica County",60.3,73000,39370
+28145,"Mississippi","Union County",62.5,78600,45754
+28147,"Mississippi","Walthall County",45.4,83800,30961
+28149,"Mississippi","Warren County",69.9,99700,45113
+28151,"Mississippi","Washington County",60.7,72800,29705
+28153,"Mississippi","Wayne County",56.6,60500,37706
+28155,"Mississippi","Webster County",59,72500,45730
+28157,"Mississippi","Wilkinson County",45.6,55400,27313
+28159,"Mississippi","Winston County",54.8,71900,34724
+28161,"Mississippi","Yalobusha County",44.1,61700,41464
+28163,"Mississippi","Yazoo County",51.5,70500,33279
+29001,"Missouri","Adair County",72.7,97800,41929
+29003,"Missouri","Andrew County",73.8,125500,58772
+29005,"Missouri","Atchison County",69.5,69500,50236
+29007,"Missouri","Audrain County",68,84700,44261
+29009,"Missouri","Barry County",57.3,101600,44403
+29011,"Missouri","Barton County",57.8,84000,44125
+29013,"Missouri","Bates County",68.1,102000,47625
+29015,"Missouri","Benton County",60.2,97500,40249
+29017,"Missouri","Bollinger County",61.6,92800,44158
+29019,"Missouri","Boone County",81.8,153900,55328
+29021,"Missouri","Buchanan County",71.2,107800,51916
+29023,"Missouri","Butler County",66.5,87700,39915
+29025,"Missouri","Caldwell County",67.1,97600,49839
+29027,"Missouri","Callaway County",68,122700,56938
+29029,"Missouri","Camden County",72.5,187200,53478
+29031,"Missouri","Cape Girardeau County",77,132500,53732
+29033,"Missouri","Carroll County",64.6,72600,50830
+29035,"Missouri","Carter County",59.9,88100,39530
+29037,"Missouri","Cass County",81.2,152900,69433
+29039,"Missouri","Cedar County",63.5,92300,39365
+29041,"Missouri","Chariton County",64.3,76500,46738
+29043,"Missouri","Christian County",78.9,146800,60645
+29045,"Missouri","Clark County",66.7,68700,48909
+29047,"Missouri","Clay County",84.1,153900,70510
+29049,"Missouri","Clinton County",74.9,150200,62701
+29051,"Missouri","Cole County",68.7,136300,60066
+29053,"Missouri","Cooper County",69.4,112400,52735
+29055,"Missouri","Crawford County",64.4,105400,44438
+29057,"Missouri","Dade County",62.9,73000,40399
+29059,"Missouri","Dallas County",60.1,96800,43542
+29061,"Missouri","Daviess County",67.9,99100,51679
+29063,"Missouri","DeKalb County",66.5,115100,55918
+29065,"Missouri","Dent County",65.6,84100,42100
+29067,"Missouri","Douglas County",54.3,87800,37425
+29069,"Missouri","Dunklin County",63.1,67300,36380
+29071,"Missouri","Franklin County",73.7,147200,57214
+29073,"Missouri","Gasconade County",71.3,111900,54885
+29075,"Missouri","Gentry County",72.5,79500,47790
+29077,"Missouri","Greene County",73.8,125500,46086
+29079,"Missouri","Grundy County",66.8,71700,45594
+29081,"Missouri","Harrison County",72.5,77700,42917
+29083,"Missouri","Henry County",69.2,103300,45795
+29085,"Missouri","Hickory County",63.2,89900,34182
+29087,"Missouri","Holt County",68,74600,49524
+29089,"Missouri","Howard County",66.6,98300,52700
+29091,"Missouri","Howell County",64.8,94200,38357
+29093,"Missouri","Iron County",59.5,77200,37435
+29095,"Missouri","Jackson County",76.1,129900,55134
+29097,"Missouri","Jasper County",67.5,93400,48357
+29099,"Missouri","Jefferson County",79.7,154700,65454
+29101,"Missouri","Johnson County",81.6,133100,55273
+29103,"Missouri","Knox County",59.6,56500,40000
+29105,"Missouri","Laclede County",65.4,93000,47257
+29107,"Missouri","Lafayette County",70.8,121000,58766
+29109,"Missouri","Lawrence County",70.8,94700,44742
+29111,"Missouri","Lewis County",69.2,79400,45988
+29113,"Missouri","Lincoln County",76.4,155600,64196
+29115,"Missouri","Linn County",67.9,66800,45930
+29117,"Missouri","Livingston County",66.5,92700,46992
+29119,"Missouri","McDonald County",51.6,86800,41643
+29121,"Missouri","Macon County",64,84200,42746
+29123,"Missouri","Madison County",61.8,83400,43636
+29125,"Missouri","Maries County",57.5,112500,47569
+29127,"Missouri","Marion County",72.6,91200,48784
+29129,"Missouri","Mercer County",64.4,69600,47298
+29131,"Missouri","Miller County",65,108200,47171
+29133,"Missouri","Mississippi County",66.1,67400,35357
+29135,"Missouri","Moniteau County",59.5,111900,58010
+29137,"Missouri","Monroe County",63.2,79100,43966
+29139,"Missouri","Montgomery County",61.5,107300,46757
+29141,"Missouri","Morgan County",58.2,114400,39003
+29143,"Missouri","New Madrid County",62.3,67100,38679
+29145,"Missouri","Newton County",66.2,103400,50813
+29147,"Missouri","Nodaway County",73,94900,44232
+29149,"Missouri","Oregon County",53.5,69200,33601
+29151,"Missouri","Osage County",59.9,120400,61687
+29153,"Missouri","Ozark County",55.4,107000,31947
+29155,"Missouri","Pemiscot County",62.4,61200,33859
+29157,"Missouri","Perry County",72,122400,55863
+29159,"Missouri","Pettis County",71.4,93200,46157
+29161,"Missouri","Phelps County",76,114700,44154
+29163,"Missouri","Pike County",66.1,97900,46385
+29165,"Missouri","Platte County",87.5,185100,80393
+29167,"Missouri","Polk County",71.8,112300,45660
+29169,"Missouri","Pulaski County",77.2,120200,53492
+29171,"Missouri","Putnam County",63,98200,42849
+29173,"Missouri","Ralls County",75.8,106800,55377
+29175,"Missouri","Randolph County",69.8,81100,47740
+29177,"Missouri","Ray County",71,126100,61957
+29179,"Missouri","Reynolds County",63.2,76300,40324
+29181,"Missouri","Ripley County",64.3,68100,34971
+29183,"Missouri","St. Charles County",86.6,197300,84978
+29185,"Missouri","St. Clair County",60,82800,38870
+29186,"Missouri","Ste. Genevieve County",68.8,124700,60129
+29187,"Missouri","St. Francois County",71.3,101800,46466
+29189,"Missouri","St. Louis County",82.4,179300,67420
+29195,"Missouri","Saline County",69.7,84000,44720
+29197,"Missouri","Schuyler County",56.7,55900,42694
+29199,"Missouri","Scotland County",69.3,75000,50085
+29201,"Missouri","Scott County",71.1,95000,44139
+29203,"Missouri","Shannon County",49.4,72100,34265
+29205,"Missouri","Shelby County",69.5,69400,44083
+29207,"Missouri","Stoddard County",68.7,80800,41062
+29209,"Missouri","Stone County",72.9,139900,49656
+29211,"Missouri","Sullivan County",62.7,68700,46481
+29213,"Missouri","Taney County",74.5,132100,46031
+29215,"Missouri","Texas County",57.9,92100,35067
+29217,"Missouri","Vernon County",71.6,82600,43276
+29219,"Missouri","Warren County",74,161000,60125
+29221,"Missouri","Washington County",59,82400,41483
+29223,"Missouri","Wayne County",61.7,72200,34316
+29225,"Missouri","Webster County",64.2,120500,50560
+29227,"Missouri","Worth County",68.4,57600,53580
+29229,"Missouri","Wright County",61.4,89300,34776
+29510,"Missouri","St. Louis city",67.8,122200,43896
+30001,"Montana","Beaverhead County",72.6,169700,43201
+30003,"Montana","Big Horn County",59.1,89700,49859
+30005,"Montana","Blaine County",63.7,73100,41279
+30007,"Montana","Broadwater County",67.9,159700,60594
+30009,"Montana","Carbon County",72.1,200700,58707
+30011,"Montana","Carter County",70.4,66200,48000
+30013,"Montana","Cascade County",72.9,146600,49913
+30015,"Montana","Chouteau County",67.5,107000,42298
+30017,"Montana","Custer County",75.9,86700,52965
+30019,"Montana","Daniels County",72.5,77300,57440
+30021,"Montana","Dawson County",75,100300,58596
+30023,"Montana","Deer Lodge County",70.1,102600,41820
+30025,"Montana","Fallon County",74.3,86700,64545
+30027,"Montana","Fergus County",72.6,104100,50540
+30029,"Montana","Flathead County",79.9,231800,56182
+30031,"Montana","Gallatin County",85.2,277300,66397
+30033,"Montana","Garfield County",70.1,68800,42000
+30035,"Montana","Glacier County",53.7,73600,36045
+30037,"Montana","Golden Valley County",70.2,90900,43875
+30039,"Montana","Granite County",73.9,169900,49881
+30041,"Montana","Hill County",71.5,109000,49321
+30043,"Montana","Jefferson County",77.8,225300,69646
+30045,"Montana","Judith Basin County",70.8,101500,43661
+30047,"Montana","Lake County",68.5,201900,48829
+30049,"Montana","Lewis and Clark County",78.3,185500,65791
+30051,"Montana","Liberty County",61.9,71400,44875
+30053,"Montana","Lincoln County",69.6,148500,40140
+30055,"Montana","McCone County",66.3,82800,49701
+30057,"Montana","Madison County",67.3,240100,54107
+30059,"Montana","Meagher County",64.2,96500,46607
+30061,"Montana","Mineral County",63.8,159400,41705
+30063,"Montana","Missoula County",81.4,233700,54062
+30065,"Montana","Musselshell County",73.9,112200,43274
+30067,"Montana","Park County",75.2,207300,53068
+30069,"Montana","Petroleum County",73.8,106800,51250
+30071,"Montana","Phillips County",67.4,79100,46212
+30073,"Montana","Pondera County",66.3,86200,51151
+30075,"Montana","Powder River County",68.6,99700,54427
+30077,"Montana","Powell County",65.8,114600,54667
+30079,"Montana","Prairie County",69,69400,43625
+30081,"Montana","Ravalli County",74.1,235500,53054
+30083,"Montana","Richland County",74.7,106500,67205
+30085,"Montana","Roosevelt County",64.7,61700,43194
+30087,"Montana","Rosebud County",56.5,102900,57992
+30089,"Montana","Sanders County",65.2,172500,40823
+30091,"Montana","Sheridan County",76,68400,55521
+30093,"Montana","Silver Bow County",71,117200,45718
+30095,"Montana","Stillwater County",77,170100,64645
+30097,"Montana","Sweet Grass County",70.5,184100,49886
+30099,"Montana","Teton County",72.2,133700,55000
+30101,"Montana","Toole County",70.4,97900,50721
+30103,"Montana","Treasure County",64.4,66200,43047
+30105,"Montana","Valley County",71.3,81400,53162
+30107,"Montana","Wheatland County",64.3,85000,39655
+30109,"Montana","Wibaux County",53.7,60000,53958
+30111,"Montana","Yellowstone County",80.3,168800,61264
+31001,"Nebraska","Adams County",76,95000,53023
+31003,"Nebraska","Antelope County",70.3,67000,49912
+31005,"Nebraska","Arthur County",69.5,76100,42813
+31007,"Nebraska","Banner County",79.3,76900,51750
+31009,"Nebraska","Blaine County",78.4,57600,51094
+31011,"Nebraska","Boone County",75.6,71100,54979
+31013,"Nebraska","Box Butte County",76.4,90600,54004
+31015,"Nebraska","Boyd County",65.2,52100,47778
+31017,"Nebraska","Brown County",67.8,56400,43098
+31019,"Nebraska","Buffalo County",80.1,128600,59431
+31021,"Nebraska","Burt County",64.9,83100,54203
+31023,"Nebraska","Butler County",71.3,87800,58979
+31025,"Nebraska","Cass County",82,142800,71846
+31027,"Nebraska","Cedar County",74.5,85100,61869
+31029,"Nebraska","Chase County",75.4,82600,57009
+31031,"Nebraska","Cherry County",76.8,95300,56651
+31033,"Nebraska","Cheyenne County",72.8,94200,53871
+31035,"Nebraska","Clay County",74.5,73700,57173
+31037,"Nebraska","Colfax County",68,85400,58872
+31039,"Nebraska","Cuming County",65.3,88000,56768
+31041,"Nebraska","Custer County",65,71500,52184
+31043,"Nebraska","Dakota County",72.3,97800,59231
+31045,"Nebraska","Dawes County",69.3,91800,50750
+31047,"Nebraska","Dawson County",73,83400,53721
+31049,"Nebraska","Deuel County",69.4,65600,47287
+31051,"Nebraska","Dixon County",70.2,75200,56905
+31053,"Nebraska","Dodge County",74.1,110500,54085
+31055,"Nebraska","Douglas County",80.3,141400,64629
+31057,"Nebraska","Dundy County",72.9,63400,41716
+31059,"Nebraska","Fillmore County",70.3,75100,60313
+31061,"Nebraska","Franklin County",69.8,50400,49282
+31063,"Nebraska","Frontier County",67.8,73600,54659
+31065,"Nebraska","Furnas County",70.6,55700,48838
+31067,"Nebraska","Gage County",74.5,97800,53110
+31069,"Nebraska","Garden County",68.1,58700,43750
+31071,"Nebraska","Garfield County",60.6,73900,53000
+31073,"Nebraska","Gosper County",74.2,94900,64053
+31075,"Nebraska","Grant County",71.5,41100,46500
+31077,"Nebraska","Greeley County",63.6,52100,47869
+31079,"Nebraska","Hall County",75.6,107700,57104
+31081,"Nebraska","Hamilton County",79.6,108600,64210
+31083,"Nebraska","Harlan County",73.8,69900,49835
+31085,"Nebraska","Hayes County",73.5,84500,51726
+31087,"Nebraska","Hitchcock County",63,48700,49962
+31089,"Nebraska","Holt County",66.3,82300,60387
+31091,"Nebraska","Hooker County",61.1,67800,41125
+31093,"Nebraska","Howard County",70.1,89300,59348
+31095,"Nebraska","Jefferson County",68.7,74400,44510
+31097,"Nebraska","Johnson County",68.8,76400,54712
+31099,"Nebraska","Kearney County",76.1,101100,60266
+31101,"Nebraska","Keith County",78.5,88200,50735
+31103,"Nebraska","Keya Paha County",78.7,57500,56500
+31105,"Nebraska","Kimball County",70.4,76800,53403
+31107,"Nebraska","Knox County",66.1,67000,52332
+31109,"Nebraska","Lancaster County",84,145400,60527
+31111,"Nebraska","Lincoln County",75.2,109100,59795
+31113,"Nebraska","Logan County",66.4,72200,52708
+31115,"Nebraska","Loup County",67.3,58900,51000
+31117,"Nebraska","McPherson County",62,74400,48125
+31119,"Nebraska","Madison County",72.4,100500,53188
+31121,"Nebraska","Merrick County",68.5,78900,55649
+31123,"Nebraska","Morrill County",70.4,79800,46194
+31125,"Nebraska","Nance County",71,60200,49032
+31127,"Nebraska","Nemaha County",70.6,78200,51828
+31129,"Nebraska","Nuckolls County",70.4,54200,43388
+31131,"Nebraska","Otoe County",72.8,114000,59167
+31133,"Nebraska","Pawnee County",65.5,55100,46452
+31135,"Nebraska","Perkins County",82.3,77100,65543
+31137,"Nebraska","Phelps County",76.7,90200,59040
+31139,"Nebraska","Pierce County",74.1,87800,64511
+31141,"Nebraska","Platte County",75.4,108100,62305
+31143,"Nebraska","Polk County",78.9,86400,67719
+31145,"Nebraska","Red Willow County",70.5,77300,48808
+31147,"Nebraska","Richardson County",71,63700,47917
+31149,"Nebraska","Rock County",68.9,57300,56250
+31151,"Nebraska","Saline County",72,95100,51502
+31153,"Nebraska","Sarpy County",88.4,158600,82032
+31155,"Nebraska","Saunders County",75.2,137500,68682
+31157,"Nebraska","Scotts Bluff County",74,95900,49745
+31159,"Nebraska","Seward County",76.8,136400,70389
+31161,"Nebraska","Sheridan County",64.7,63300,45371
+31163,"Nebraska","Sherman County",68.8,53200,50781
+31165,"Nebraska","Sioux County",66.1,109300,48269
+31167,"Nebraska","Stanton County",74.1,87800,63986
+31169,"Nebraska","Thayer County",73.6,61900,51821
+31171,"Nebraska","Thomas County",77.5,71100,59432
+31173,"Nebraska","Thurston County",59,67100,51034
+31175,"Nebraska","Valley County",65.6,72900,55324
+31177,"Nebraska","Washington County",77.7,167200,71430
+31179,"Nebraska","Wayne County",80.3,102400,56456
+31181,"Nebraska","Webster County",68.8,58700,46188
+31183,"Nebraska","Wheeler County",68.3,66100,51591
+31185,"Nebraska","York County",77,92300,60298
+32001,"Nevada","Churchill County",78,188300,57824
+32003,"Nevada","Clark County",79.3,257300,59340
+32005,"Nevada","Douglas County",84.5,375800,66810
+32007,"Nevada","Elko County",81.3,178200,81232
+32009,"Nevada","Esmeralda County",57.7,77300,37375
+32011,"Nevada","Eureka County",72.3,87400,67105
+32013,"Nevada","Humboldt County",71.6,138100,67756
+32015,"Nevada","Lander County",69.1,103400,88030
+32017,"Nevada","Lincoln County",74.3,151900,58462
+32019,"Nevada","Lyon County",78.7,185000,56875
+32021,"Nevada","Mineral County",66.6,114200,35806
+32023,"Nevada","Nye County",71.6,161700,47300
+32027,"Nevada","Pershing County",62.1,134500,50491
+32029,"Nevada","Storey County",78.6,239200,66292
+32031,"Nevada","Washoe County",80.8,295700,64791
+32033,"Nevada","White Pine County",73.5,117500,60827
+32510,"Nevada","Carson City",77.9,270500,55718
+33001,"New Hampshire","Belknap County",82.5,232300,69447
+33003,"New Hampshire","Carroll County",82.5,240800,63153
+33005,"New Hampshire","Cheshire County",80.8,201800,64751
+33007,"New Hampshire","Coos County",73.4,131400,47117
+33009,"New Hampshire","Grafton County",80.2,210600,63389
+33011,"New Hampshire","Hillsborough County",87,269900,81460
+33013,"New Hampshire","Merrimack County",83,243600,75737
+33015,"New Hampshire","Rockingham County",88.2,306800,93756
+33017,"New Hampshire","Strafford County",83,229100,72960
+33019,"New Hampshire","Sullivan County",78.1,181800,61312
+34001,"New Jersey","Atlantic County",78.4,264400,62110
+34003,"New Jersey","Bergen County",87.4,482300,101144
+34005,"New Jersey","Burlington County",86.3,270200,87416
+34007,"New Jersey","Camden County",80.6,223700,70451
+34009,"New Jersey","Cape May County",79.9,337300,67074
+34011,"New Jersey","Cumberland County",71.4,175500,54149
+34013,"New Jersey","Essex County",76.2,395700,61510
+34015,"New Jersey","Gloucester County",84.5,236900,87283
+34017,"New Jersey","Hudson County",81.5,383900,71189
+34019,"New Jersey","Hunterdon County",88.2,446700,115379
+34021,"New Jersey","Mercer County",80.5,309300,81057
+34023,"New Jersey","Middlesex County",83.4,356000,89533
+34025,"New Jersey","Monmouth County",86.2,424800,99733
+34027,"New Jersey","Morris County",89.3,474700,115527
+34029,"New Jersey","Ocean County",79.2,294100,70909
+34031,"New Jersey","Passaic County",76.7,382600,69688
+34033,"New Jersey","Salem County",74.4,196600,66842
+34035,"New Jersey","Somerset County",89.4,431200,113611
+34037,"New Jersey","Sussex County",86.3,322400,94520
+34039,"New Jersey","Union County",79.4,397200,80198
+34041,"New Jersey","Warren County",82.8,307300,81307
+35001,"New Mexico","Bernalillo County",75.7,188800,53329
+35003,"New Mexico","Catron County",55.1,129400,41910
+35005,"New Mexico","Chaves County",67.9,86200,43359
+35006,"New Mexico","Cibola County",52.2,74800,39413
+35007,"New Mexico","Colfax County",62.6,103100,36302
+35009,"New Mexico","Curry County",73.7,98500,45092
+35011,"New Mexico","De Baca County",64.9,71100,31625
+35013,"New Mexico","Dona Ana County",70.2,137200,40973
+35015,"New Mexico","Eddy County",76.2,90700,65328
+35017,"New Mexico","Grant County",65.1,125000,37843
+35019,"New Mexico","Guadalupe County",32.3,74500,24798
+35021,"New Mexico","Harding County",47.3,70300,29375
+35023,"New Mexico","Hidalgo County",61.1,90800,42526
+35025,"New Mexico","Lea County",73.4,87500,60546
+35027,"New Mexico","Lincoln County",64.7,166600,46216
+35028,"New Mexico","Los Alamos County",86.3,297100,121324
+35029,"New Mexico","Luna County",51.1,91700,29360
+35031,"New Mexico","McKinley County",39.6,69300,33834
+35033,"New Mexico","Mora County",45.3,107500,28446
+35035,"New Mexico","Otero County",72.9,104500,41988
+35037,"New Mexico","Quay County",55.6,65200,29035
+35039,"New Mexico","Rio Arriba County",49.1,136300,39952
+35041,"New Mexico","Roosevelt County",71.5,94800,42702
+35043,"New Mexico","Sandoval County",78.4,184400,63802
+35045,"New Mexico","San Juan County",58.4,149400,50518
+35047,"New Mexico","San Miguel County",47.1,112200,30946
+35049,"New Mexico","Santa Fe County",76.2,291700,61200
+35051,"New Mexico","Sierra County",57.9,92800,29755
+35053,"New Mexico","Socorro County",53.9,108400,42083
+35055,"New Mexico","Taos County",56.6,212400,38329
+35057,"New Mexico","Torrance County",59.2,92300,36120
+35059,"New Mexico","Union County",55.1,91900,35884
+35061,"New Mexico","Valencia County",63.3,129900,48945
+36001,"New York","Albany County",80.7,202500,66252
+36003,"New York","Allegany County",69.4,66100,48412
+36005,"New York","Bronx County",70.4,386200,40088
+36007,"New York","Broome County",77.6,99500,52226
+36009,"New York","Cattaraugus County",66.6,77000,48703
+36011,"New York","Cayuga County",74.5,98400,58377
+36013,"New York","Chautauqua County",71.5,79600,46820
+36015,"New York","Chemung County",74.9,85900,54940
+36017,"New York","Chenango County",75.2,88200,52002
+36019,"New York","Clinton County",76,117800,56365
+36021,"New York","Columbia County",74.9,221900,66787
+36023,"New York","Cortland County",70.3,95100,56023
+36025,"New York","Delaware County",71.9,126700,49544
+36027,"New York","Dutchess County",84.3,323300,81219
+36029,"New York","Erie County",76,117700,58121
+36031,"New York","Essex County",75.2,148100,56763
+36033,"New York","Franklin County",70.8,88800,50407
+36035,"New York","Fulton County",73.3,95200,50482
+36037,"New York","Genesee County",75.4,101400,60524
+36039,"New York","Greene County",71.8,180500,53601
+36041,"New York","Hamilton County",73.2,172300,58675
+36043,"New York","Herkimer County",73.1,87600,54646
+36045,"New York","Jefferson County",80.7,116800,52685
+36047,"New York","Kings County",75.4,562400,60231
+36049,"New York","Lewis County",72.4,100700,54524
+36051,"New York","Livingston County",78.4,112300,59510
+36053,"New York","Madison County",78.5,111700,61633
+36055,"New York","Monroe County",79.4,130400,60075
+36057,"New York","Montgomery County",71.9,95000,49462
+36059,"New York","Nassau County",87.6,487900,116100
+36061,"New York","New York County",81.9,825200,86553
+36063,"New York","Niagara County",73.2,97600,55522
+36065,"New York","Oneida County",75.7,101900,56027
+36067,"New York","Onondaga County",77.8,124400,61359
+36069,"New York","Ontario County",80.5,129600,64944
+36071,"New York","Orange County",75.6,312100,79944
+36073,"New York","Orleans County",74.9,86400,52620
+36075,"New York","Oswego County",79.5,88000,55967
+36077,"New York","Otsego County",75.4,129000,54028
+36079,"New York","Putnam County",89.9,418100,104486
+36081,"New York","Queens County",79.7,479300,68666
+36083,"New York","Rensselaer County",81.3,171200,68991
+36085,"New York","Richmond County",79.9,461700,82783
+36087,"New York","Rockland County",78.9,476900,93024
+36089,"New York","St. Lawrence County",75.5,79600,50940
+36091,"New York","Saratoga County",85.7,221100,84291
+36093,"New York","Schenectady County",80.2,160200,65499
+36095,"New York","Schoharie County",71.1,139000,57714
+36097,"New York","Schuyler County",72.2,86700,52327
+36099,"New York","Seneca County",75.4,88900,54545
+36101,"New York","Steuben County",71.6,83000,53663
+36103,"New York","Suffolk County",85.7,424200,101031
+36105,"New York","Sullivan County",76,186900,57426
+36107,"New York","Tioga County",77.1,98200,62999
+36109,"New York","Tompkins County",82.9,162100,60240
+36111,"New York","Ulster County",81.8,242100,64304
+36113,"New York","Warren County",81,183000,61024
+36115,"New York","Washington County",73.6,137000,57258
+36117,"New York","Wayne County",73,107400,59449
+36119,"New York","Westchester County",83.4,556900,96610
+36121,"New York","Wyoming County",73.1,97300,58052
+36123,"New York","Yates County",69.6,114200,56563
+37001,"North Carolina","Alamance County",73.5,137100,49688
+37003,"North Carolina","Alexander County",66.8,119400,48756
+37005,"North Carolina","Alleghany County",68.6,133100,37830
+37007,"North Carolina","Anson County",61.9,78400,40213
+37009,"North Carolina","Ashe County",66.1,145700,40962
+37011,"North Carolina","Avery County",62.8,155100,40340
+37013,"North Carolina","Beaufort County",60.8,107000,45212
+37015,"North Carolina","Bertie County",52,77400,35527
+37017,"North Carolina","Bladen County",60.5,77300,36173
+37019,"North Carolina","Brunswick County",77.6,190500,58236
+37021,"North Carolina","Buncombe County",79.3,188300,52207
+37023,"North Carolina","Burke County",65.8,108800,44557
+37025,"North Carolina","Cabarrus County",85.4,164100,67328
+37027,"North Carolina","Caldwell County",70.4,106900,44511
+37029,"North Carolina","Camden County",79.6,221900,64572
+37031,"North Carolina","Carteret County",79.4,207500,57194
+37033,"North Carolina","Caswell County",60.7,97500,45733
+37035,"North Carolina","Catawba County",75,130300,52056
+37037,"North Carolina","Chatham County",76.2,193900,67031
+37039,"North Carolina","Cherokee County",65.6,146100,41438
+37041,"North Carolina","Chowan County",63.8,137000,46519
+37043,"North Carolina","Clay County",73.7,163000,42222
+37045,"North Carolina","Cleveland County",61.8,103300,42247
+37047,"North Carolina","Columbus County",57.6,89000,37628
+37049,"North Carolina","Craven County",78.4,151500,52687
+37051,"North Carolina","Cumberland County",78.9,116900,46875
+37053,"North Carolina","Currituck County",80.1,240000,69964
+37055,"North Carolina","Dare County",84.8,342100,59381
+37057,"North Carolina","Davidson County",73.2,128200,49546
+37059,"North Carolina","Davie County",77,160900,60434
+37061,"North Carolina","Duplin County",57.7,83800,41764
+37063,"North Carolina","Durham County",83.8,176100,60958
+37065,"North Carolina","Edgecombe County",58,82600,36866
+37067,"North Carolina","Forsyth County",77.9,149000,51569
+37069,"North Carolina","Franklin County",71.9,121700,55193
+37071,"North Carolina","Gaston County",74.7,120800,52835
+37073,"North Carolina","Gates County",63.6,120200,50750
+37075,"North Carolina","Graham County",49,119000,39571
+37077,"North Carolina","Granville County",73.3,125200,55856
+37079,"North Carolina","Greene County",68.9,85100,39837
+37081,"North Carolina","Guilford County",70.9,153800,53261
+37083,"North Carolina","Halifax County",56.3,85800,35502
+37085,"North Carolina","Harnett County",75,123500,53554
+37087,"North Carolina","Haywood County",67.7,158200,51659
+37089,"North Carolina","Henderson County",76.7,184200,55945
+37091,"North Carolina","Hertford County",56.8,83000,41028
+37093,"North Carolina","Hoke County",75.6,116900,48072
+37095,"North Carolina","Hyde County",47.5,95600,39663
+37097,"North Carolina","Iredell County",77.4,164300,60955
+37099,"North Carolina","Jackson County",64.8,163200,47252
+37101,"North Carolina","Johnston County",75,136200,59865
+37103,"North Carolina","Jones County",55.5,91500,38158
+37105,"North Carolina","Lee County",73.7,127800,49994
+37107,"North Carolina","Lenoir County",71.2,91900,39402
+37109,"North Carolina","Lincoln County",75.4,146700,57536
+37111,"North Carolina","McDowell County",67.3,99200,43646
+37113,"North Carolina","Macon County",67.7,167800,45507
+37115,"North Carolina","Madison County",67,154600,45873
+37117,"North Carolina","Martin County",57.5,79400,40090
+37119,"North Carolina","Mecklenburg County",84.2,185100,66641
+37121,"North Carolina","Mitchell County",62.6,105000,46103
+37123,"North Carolina","Montgomery County",61.2,83100,44146
+37125,"North Carolina","Moore County",78.5,186900,59963
+37127,"North Carolina","Nash County",68.7,116300,49537
+37129,"North Carolina","New Hanover County",81.5,227800,54891
+37131,"North Carolina","Northampton County",52.8,74600,37146
+37133,"North Carolina","Onslow County",83.3,137400,50278
+37135,"North Carolina","Orange County",87,258800,71723
+37137,"North Carolina","Pamlico County",68.3,133800,46728
+37139,"North Carolina","Pasquotank County",69.2,170700,50558
+37141,"North Carolina","Pender County",70.9,147200,57240
+37143,"North Carolina","Perquimans County",67.2,159100,47162
+37145,"North Carolina","Person County",69.9,115900,51020
+37147,"North Carolina","Pitt County",75.9,125900,47437
+37149,"North Carolina","Polk County",74.4,167500,48787
+37151,"North Carolina","Randolph County",68.4,119100,47288
+37153,"North Carolina","Richmond County",65.2,71300,36148
+37155,"North Carolina","Robeson County",50.2,69200,34976
+37157,"North Carolina","Rockingham County",66.5,101000,43579
+37159,"North Carolina","Rowan County",73.3,125100,49842
+37161,"North Carolina","Rutherford County",63.2,101100,42608
+37163,"North Carolina","Sampson County",58.3,87500,42151
+37165,"North Carolina","Scotland County",54.6,77700,37238
+37167,"North Carolina","Stanly County",72.7,125600,52623
+37169,"North Carolina","Stokes County",67.4,117800,48054
+37171,"North Carolina","Surry County",62.3,103700,43597
+37173,"North Carolina","Swain County",44.9,114600,39317
+37175,"North Carolina","Transylvania County",74.6,169600,50212
+37177,"North Carolina","Tyrrell County",55.4,112000,35300
+37179,"North Carolina","Union County",87.1,194900,80033
+37181,"North Carolina","Vance County",61.2,98100,40529
+37183,"North Carolina","Wake County",88.3,222300,80591
+37185,"North Carolina","Warren County",53.8,94700,36466
+37187,"North Carolina","Washington County",56.1,91900,35979
+37189,"North Carolina","Watauga County",78.7,215800,47526
+37191,"North Carolina","Wayne County",72.8,104800,44416
+37193,"North Carolina","Wilkes County",66.5,109100,44107
+37195,"North Carolina","Wilson County",71.2,111100,43877
+37197,"North Carolina","Yadkin County",65.5,109000,44682
+37199,"North Carolina","Yancey County",59.1,129700,42222
+38001,"North Dakota","Adams County",76.1,81300,56681
+38003,"North Dakota","Barnes County",72.5,80600,58365
+38005,"North Dakota","Benson County",54.8,47800,47667
+38007,"North Dakota","Billings County",64.6,79500,75208
+38009,"North Dakota","Bottineau County",76.7,68300,60381
+38011,"North Dakota","Bowman County",75.3,85100,62442
+38013,"North Dakota","Burke County",69.2,45600,77232
+38015,"North Dakota","Burleigh County",80.6,152900,71524
+38017,"North Dakota","Cass County",82.5,147900,64482
+38019,"North Dakota","Cavalier County",79,58800,64798
+38021,"North Dakota","Dickey County",78.2,61600,65492
+38023,"North Dakota","Divide County",63.7,56000,62865
+38025,"North Dakota","Dunn County",74.8,73000,76719
+38027,"North Dakota","Eddy County",65.8,48900,54868
+38029,"North Dakota","Emmons County",55.5,59600,55902
+38031,"North Dakota","Foster County",73.8,76500,61425
+38033,"North Dakota","Golden Valley County",65.4,56400,58690
+38035,"North Dakota","Grand Forks County",79.2,139100,54051
+38037,"North Dakota","Grant County",67.6,59200,50938
+38039,"North Dakota","Griggs County",67.3,61200,53565
+38041,"North Dakota","Hettinger County",69,58400,60164
+38043,"North Dakota","Kidder County",65.1,59400,54643
+38045,"North Dakota","LaMoure County",69.1,63400,60806
+38047,"North Dakota","Logan County",67.6,55500,59375
+38049,"North Dakota","McHenry County",75.8,66300,64179
+38051,"North Dakota","McIntosh County",62.4,49800,52587
+38053,"North Dakota","McKenzie County",77.5,86600,77845
+38055,"North Dakota","McLean County",63.1,94100,68529
+38057,"North Dakota","Mercer County",76.9,96100,82181
+38059,"North Dakota","Morton County",76.2,110800,70556
+38061,"North Dakota","Mountrail County",67.1,66900,72147
+38063,"North Dakota","Nelson County",67.4,51100,52039
+38065,"North Dakota","Oliver County",73.7,92100,78929
+38067,"North Dakota","Pembina County",69,71800,64549
+38069,"North Dakota","Pierce County",72.7,77100,55660
+38071,"North Dakota","Ramsey County",70.7,85300,58910
+38073,"North Dakota","Ransom County",73.2,87200,63903
+38075,"North Dakota","Renville County",73,64900,73182
+38077,"North Dakota","Richland County",73.6,93400,61371
+38079,"North Dakota","Rolette County",64.3,56700,43158
+38081,"North Dakota","Sargent County",77.8,74600,63073
+38083,"North Dakota","Sheridan County",62.9,48700,51055
+38085,"North Dakota","Sioux County",54.2,71800,38939
+38087,"North Dakota","Slope County",68.3,52900,63611
+38089,"North Dakota","Stark County",78.1,115300,72045
+38091,"North Dakota","Steele County",77.3,63100,70724
+38093,"North Dakota","Stutsman County",72.2,91500,57674
+38095,"North Dakota","Towner County",68.5,48800,52300
+38097,"North Dakota","Traill County",77.6,89000,64453
+38099,"North Dakota","Walsh County",68.6,64300,55700
+38101,"North Dakota","Ward County",84.8,118200,68871
+38103,"North Dakota","Wells County",72.3,55700,57582
+38105,"North Dakota","Williams County",75.7,93800,87161
+39001,"Ohio","Adams County",54.8,97600,39079
+39003,"Ohio","Allen County",74.1,104800,53131
+39005,"Ohio","Ashland County",75.2,128500,52823
+39007,"Ohio","Ashtabula County",71.8,118500,46700
+39009,"Ohio","Athens County",71,114100,40905
+39011,"Ohio","Auglaize County",80.2,125000,64074
+39013,"Ohio","Belmont County",69.6,85200,50904
+39015,"Ohio","Brown County",68.8,124100,54575
+39017,"Ohio","Butler County",82.1,160600,66117
+39019,"Ohio","Carroll County",69.3,110300,55267
+39021,"Ohio","Champaign County",79.9,124900,60112
+39023,"Ohio","Clark County",76.2,109900,50873
+39025,"Ohio","Clermont County",81.3,162000,66968
+39027,"Ohio","Clinton County",73.1,125600,52815
+39029,"Ohio","Columbiana County",72.1,97400,48345
+39031,"Ohio","Coshocton County",66.4,94800,46606
+39033,"Ohio","Crawford County",72.8,93800,44971
+39035,"Ohio","Cuyahoga County",74.6,137200,50366
+39037,"Ohio","Darke County",71.9,114600,55620
+39039,"Ohio","Defiance County",77.5,108400,59931
+39041,"Ohio","Delaware County",90.4,252700,106908
+39043,"Ohio","Erie County",76.8,138100,54226
+39045,"Ohio","Fairfield County",81.7,167200,67609
+39047,"Ohio","Fayette County",67.1,112200,47308
+39049,"Ohio","Franklin County",83.1,155300,61305
+39051,"Ohio","Fulton County",78,134000,63092
+39053,"Ohio","Gallia County",63.9,98100,44858
+39055,"Ohio","Geauga County",79.8,230900,82303
+39057,"Ohio","Greene County",82.6,160000,68720
+39059,"Ohio","Guernsey County",70.3,90800,45917
+39061,"Ohio","Hamilton County",77.8,148200,57212
+39063,"Ohio","Hancock County",79.4,130400,58450
+39065,"Ohio","Hardin County",69.8,102700,50506
+39067,"Ohio","Harrison County",68.4,81800,49689
+39069,"Ohio","Henry County",77.8,119800,59695
+39071,"Ohio","Highland County",63.4,106200,44169
+39073,"Ohio","Hocking County",69.4,114000,52363
+39075,"Ohio","Holmes County",52.4,154600,63753
+39077,"Ohio","Huron County",74.7,121500,52560
+39079,"Ohio","Jackson County",67.5,88600,47550
+39081,"Ohio","Jefferson County",71.4,84800,46581
+39083,"Ohio","Knox County",74.3,134700,57749
+39085,"Ohio","Lake County",82.5,158100,64466
+39087,"Ohio","Lawrence County",66.6,92300,45118
+39089,"Ohio","Licking County",81.1,152600,64589
+39091,"Ohio","Logan County",76,124500,56754
+39093,"Ohio","Lorain County",77.8,147400,58427
+39095,"Ohio","Lucas County",75.6,122400,48736
+39097,"Ohio","Madison County",78.3,146800,68022
+39099,"Ohio","Mahoning County",73.3,98400,46042
+39101,"Ohio","Marion County",73.4,98500,47498
+39103,"Ohio","Medina County",85.1,184900,76600
+39105,"Ohio","Meigs County",64.2,80700,44899
+39107,"Ohio","Mercer County",79.6,125600,62952
+39109,"Ohio","Miami County",78.7,137700,61041
+39111,"Ohio","Monroe County",60.5,86900,45289
+39113,"Ohio","Montgomery County",77.6,119100,51542
+39115,"Ohio","Morgan County",63.7,86000,42341
+39117,"Ohio","Morrow County",71.5,131300,59452
+39119,"Ohio","Muskingum County",73,111100,47254
+39121,"Ohio","Noble County",59.1,88600,46897
+39123,"Ohio","Ottawa County",77.1,142200,59099
+39125,"Ohio","Paulding County",70.7,89600,55330
+39127,"Ohio","Perry County",66.6,100400,50150
+39129,"Ohio","Pickaway County",77.8,144800,63633
+39131,"Ohio","Pike County",65.2,96400,42832
+39133,"Ohio","Portage County",77.7,157100,57618
+39135,"Ohio","Preble County",74.9,123500,58957
+39137,"Ohio","Putnam County",77.1,130200,64822
+39139,"Ohio","Richland County",70.1,112200,49547
+39141,"Ohio","Ross County",72.3,111800,51092
+39143,"Ohio","Sandusky County",71.4,116300,54089
+39145,"Ohio","Scioto County",67.1,85000,41330
+39147,"Ohio","Seneca County",73.8,101100,52500
+39149,"Ohio","Shelby County",74.6,124500,63806
+39151,"Ohio","Stark County",78.7,128000,53860
+39153,"Ohio","Summit County",77.4,141200,57181
+39155,"Ohio","Trumbull County",70.8,102500,47280
+39157,"Ohio","Tuscarawas County",70.1,110900,53243
+39159,"Ohio","Union County",83.8,174800,86715
+39161,"Ohio","Van Wert County",71.7,88100,54254
+39163,"Ohio","Vinton County",55.6,87300,45673
+39165,"Ohio","Warren County",88.2,194700,87125
+39167,"Ohio","Washington County",67.6,110800,50021
+39169,"Ohio","Wayne County",75,136800,58300
+39171,"Ohio","Williams County",75.4,101900,53183
+39173,"Ohio","Wood County",81.2,154600,62390
+39175,"Ohio","Wyandot County",71.4,107500,55767
+40001,"Oklahoma","Adair County",49.1,74100,34695
+40003,"Oklahoma","Alfalfa County",74.1,50100,61852
+40005,"Oklahoma","Atoka County",64.2,68300,39316
+40007,"Oklahoma","Beaver County",70.5,66800,52349
+40009,"Oklahoma","Beckham County",72.3,86100,50721
+40011,"Oklahoma","Blaine County",59.5,67900,45792
+40013,"Oklahoma","Bryan County",65.7,85700,44212
+40015,"Oklahoma","Caddo County",56.9,64100,46592
+40017,"Oklahoma","Canadian County",82,131600,72056
+40019,"Oklahoma","Carter County",60.7,88500,51419
+40021,"Oklahoma","Cherokee County",58.9,97100,42774
+40023,"Oklahoma","Choctaw County",53,68300,34489
+40025,"Oklahoma","Cimarron County",62.7,56400,46328
+40027,"Oklahoma","Cleveland County",84.4,131800,64016
+40029,"Oklahoma","Coal County",60.2,63100,40938
+40031,"Oklahoma","Comanche County",76.4,99900,52161
+40033,"Oklahoma","Cotton County",66.1,72100,50885
+40035,"Oklahoma","Craig County",60.4,87000,43329
+40037,"Oklahoma","Creek County",72.1,100600,51318
+40039,"Oklahoma","Custer County",74.3,90000,49900
+40041,"Oklahoma","Delaware County",65.9,92400,41696
+40043,"Oklahoma","Dewey County",63.6,73200,52428
+40045,"Oklahoma","Ellis County",61.2,66800,53245
+40047,"Oklahoma","Garfield County",74.1,82100,54006
+40049,"Oklahoma","Garvin County",66.8,74400,47125
+40051,"Oklahoma","Grady County",64.5,104100,60875
+40053,"Oklahoma","Grant County",69.1,60900,57727
+40055,"Oklahoma","Greer County",69.7,57800,41488
+40057,"Oklahoma","Harmon County",70.3,44400,48344
+40059,"Oklahoma","Harper County",63.4,65700,46154
+40061,"Oklahoma","Haskell County",60.2,72200,42348
+40063,"Oklahoma","Hughes County",51.2,65700,39365
+40065,"Oklahoma","Jackson County",74,85100,49703
+40067,"Oklahoma","Jefferson County",54.9,56100,39895
+40069,"Oklahoma","Johnston County",58.2,64900,41332
+40071,"Oklahoma","Kay County",62.4,74700,46809
+40073,"Oklahoma","Kingfisher County",64.6,101800,57777
+40075,"Oklahoma","Kiowa County",67.5,50100,38019
+40077,"Oklahoma","Latimer County",59,65700,44214
+40079,"Oklahoma","Le Flore County",61.8,72700,40677
+40081,"Oklahoma","Lincoln County",59.4,87700,50671
+40083,"Oklahoma","Logan County",73.8,116400,65357
+40085,"Oklahoma","Love County",61.4,77200,49399
+40087,"Oklahoma","McClain County",79.3,118200,67662
+40089,"Oklahoma","McCurtain County",53.7,71500,37061
+40091,"Oklahoma","McIntosh County",56.2,74400,39084
+40093,"Oklahoma","Major County",65.7,77600,54332
+40095,"Oklahoma","Marshall County",57,80800,45746
+40097,"Oklahoma","Mayes County",68.8,89200,50345
+40099,"Oklahoma","Murray County",64.2,77700,52478
+40101,"Oklahoma","Muskogee County",62.5,84100,43078
+40103,"Oklahoma","Noble County",65,74800,56117
+40105,"Oklahoma","Nowata County",58.7,76800,43145
+40107,"Oklahoma","Okfuskee County",57.8,70400,38411
+40109,"Oklahoma","Oklahoma County",76.8,117500,54520
+40111,"Oklahoma","Okmulgee County",61.7,78000,42998
+40113,"Oklahoma","Osage County",67,96100,49103
+40115,"Oklahoma","Ottawa County",59.3,78700,39872
+40117,"Oklahoma","Pawnee County",59.5,78100,48009
+40119,"Oklahoma","Payne County",78.3,116000,41603
+40121,"Oklahoma","Pittsburg County",67.1,83000,46784
+40123,"Oklahoma","Pontotoc County",64,92500,50392
+40125,"Oklahoma","Pottawatomie County",66.3,89300,49250
+40127,"Oklahoma","Pushmataha County",59.8,69400,37692
+40129,"Oklahoma","Roger Mills County",61.8,78900,51302
+40131,"Oklahoma","Rogers County",75.5,139200,65434
+40133,"Oklahoma","Seminole County",59.2,66000,39373
+40135,"Oklahoma","Sequoyah County",63.4,80100,40351
+40137,"Oklahoma","Stephens County",67.2,80900,47214
+40139,"Oklahoma","Texas County",61.3,83600,52282
+40141,"Oklahoma","Tillman County",65.2,51100,42280
+40143,"Oklahoma","Tulsa County",78.8,126200,55517
+40145,"Oklahoma","Wagoner County",82,133800,62795
+40147,"Oklahoma","Washington County",73.8,99700,54997
+40149,"Oklahoma","Washita County",66.8,72800,53274
+40151,"Oklahoma","Woods County",73.3,80700,54282
+40153,"Oklahoma","Woodward County",73.3,95600,60147
+41001,"Oregon","Baker County",70,142400,45998
+41003,"Oregon","Benton County",87.3,263200,62077
+41005,"Oregon","Clackamas County",85.4,331100,80484
+41007,"Oregon","Clatsop County",79.8,253100,54886
+41009,"Oregon","Columbia County",81.4,219800,62257
+41011,"Oregon","Coos County",70,194800,45051
+41013,"Oregon","Crook County",77.7,228700,49006
+41015,"Oregon","Curry County",72.3,266800,48440
+41017,"Oregon","Deschutes County",83,314400,67043
+41019,"Oregon","Douglas County",75.6,185100,47267
+41021,"Oregon","Gilliam County",67.1,99900,47500
+41023,"Oregon","Grant County",73.1,128500,44712
+41025,"Oregon","Harney County",70.9,124300,40735
+41027,"Oregon","Hood River County",77.9,308000,65679
+41029,"Oregon","Jackson County",81.2,274500,53412
+41031,"Oregon","Jefferson County",75.6,184900,53277
+41033,"Oregon","Josephine County",76.5,253600,45616
+41035,"Oregon","Klamath County",74.3,170100,46491
+41037,"Oregon","Lake County",62.1,122200,37898
+41039,"Oregon","Lane County",80.8,230000,52426
+41041,"Oregon","Lincoln County",76.8,246300,47882
+41043,"Oregon","Linn County",78.3,180300,55893
+41045,"Oregon","Malheur County",67.9,136400,43313
+41047,"Oregon","Marion County",81,205100,59625
+41049,"Oregon","Morrow County",72.7,115300,54269
+41051,"Oregon","Multnomah County",84.1,281600,69176
+41053,"Oregon","Polk County",82.4,227900,62691
+41055,"Oregon","Sherman County",75.9,119500,51071
+41057,"Oregon","Tillamook County",74.7,237900,49895
+41059,"Oregon","Umatilla County",75.2,137900,54699
+41061,"Oregon","Union County",75.4,151200,52171
+41063,"Oregon","Wallowa County",72.3,183800,51224
+41065,"Oregon","Wasco County",73,188400,53105
+41067,"Oregon","Washington County",87.9,303700,82215
+41069,"Oregon","Wheeler County",70.3,99100,40926
+41071,"Oregon","Yamhill County",81.2,237800,63902
+42001,"Pennsylvania","Adams County",76.5,200700,67253
+42003,"Pennsylvania","Allegheny County",79,115200,61043
+42005,"Pennsylvania","Armstrong County",71.8,89100,51410
+42007,"Pennsylvania","Beaver County",76.1,112400,57807
+42009,"Pennsylvania","Bedford County",69,112800,50509
+42011,"Pennsylvania","Berks County",78.6,170400,63728
+42013,"Pennsylvania","Blair County",72.3,97400,49181
+42015,"Pennsylvania","Bradford County",73.8,101700,52358
+42017,"Pennsylvania","Bucks County",86.4,321500,89139
+42019,"Pennsylvania","Butler County",81.3,159000,70668
+42021,"Pennsylvania","Cambria County",71.8,86000,46659
+42023,"Pennsylvania","Cameron County",71.8,74200,41165
+42025,"Pennsylvania","Carbon County",74.4,139800,57006
+42027,"Pennsylvania","Centre County",81,175800,60403
+42029,"Pennsylvania","Chester County",86.2,334300,100214
+42031,"Pennsylvania","Clarion County",73.7,97800,46680
+42033,"Pennsylvania","Clearfield County",68.2,82900,49015
+42035,"Pennsylvania","Clinton County",71.9,98400,50923
+42037,"Pennsylvania","Columbia County",73.4,118800,50550
+42039,"Pennsylvania","Crawford County",72.9,97900,50304
+42041,"Pennsylvania","Cumberland County",80.5,174600,71269
+42043,"Pennsylvania","Dauphin County",78.1,153100,60715
+42045,"Pennsylvania","Delaware County",82.2,232300,74477
+42047,"Pennsylvania","Elk County",74.5,91300,53440
+42049,"Pennsylvania","Erie County",76.4,111300,51529
+42051,"Pennsylvania","Fayette County",67.9,82500,47364
+42053,"Pennsylvania","Forest County",60,79700,39717
+42055,"Pennsylvania","Franklin County",74.7,175000,63379
+42057,"Pennsylvania","Fulton County",67.1,157500,53476
+42059,"Pennsylvania","Greene County",73.4,81800,54776
+42061,"Pennsylvania","Huntingdon County",70.1,105800,51678
+42063,"Pennsylvania","Indiana County",69.7,98200,49320
+42065,"Pennsylvania","Jefferson County",69.7,80100,47603
+42067,"Pennsylvania","Juniata County",68.6,127200,53879
+42069,"Pennsylvania","Lackawanna County",73.3,137100,52821
+42071,"Pennsylvania","Lancaster County",74.8,184400,66056
+42073,"Pennsylvania","Lawrence County",71,92600,50204
+42075,"Pennsylvania","Lebanon County",75.4,155900,60281
+42077,"Pennsylvania","Lehigh County",78.9,203200,63897
+42079,"Pennsylvania","Luzerne County",71.8,113300,53473
+42081,"Pennsylvania","Lycoming County",72.3,119200,54241
+42083,"Pennsylvania","McKean County",71.1,72300,48647
+42085,"Pennsylvania","Mercer County",73.2,101700,50696
+42087,"Pennsylvania","Mifflin County",63.8,92500,50219
+42089,"Pennsylvania","Monroe County",80.6,206400,63934
+42091,"Pennsylvania","Montgomery County",86.6,297200,91546
+42093,"Pennsylvania","Montour County",73.1,143900,58333
+42095,"Pennsylvania","Northampton County",79,220800,70471
+42097,"Pennsylvania","Northumberland County",67.9,93500,48671
+42099,"Pennsylvania","Perry County",73.2,144800,63718
+42101,"Pennsylvania","Philadelphia County",69.6,135200,45927
+42103,"Pennsylvania","Pike County",84.6,217900,65928
+42105,"Pennsylvania","Potter County",69.9,89600,45419
+42107,"Pennsylvania","Schuylkill County",71.1,88400,52280
+42109,"Pennsylvania","Snyder County",70.4,122900,58997
+42111,"Pennsylvania","Somerset County",67.7,92200,49089
+42113,"Pennsylvania","Sullivan County",67.8,120600,47407
+42115,"Pennsylvania","Susquehanna County",75.6,124400,54966
+42117,"Pennsylvania","Tioga County",72.3,105700,51324
+42119,"Pennsylvania","Union County",70.6,143200,59399
+42121,"Pennsylvania","Venango County",72.9,76500,49945
+42123,"Pennsylvania","Warren County",70,83900,50250
+42125,"Pennsylvania","Washington County",77.2,130300,63543
+42127,"Pennsylvania","Wayne County",74.6,173600,56096
+42129,"Pennsylvania","Westmoreland County",74.8,126800,60471
+42131,"Pennsylvania","Wyoming County",78.6,140800,59415
+42133,"Pennsylvania","York County",76.4,175500,66457
+44001,"Rhode Island","Bristol County",81.6,363100,83092
+44003,"Rhode Island","Kent County",83.4,246600,73521
+44005,"Rhode Island","Newport County",82.8,388800,79454
+44007,"Rhode Island","Providence County",77.3,258000,58974
+44009,"Rhode Island","Washington County",85.6,351100,85531
+45001,"South Carolina","Abbeville County",62.7,85900,38741
+45003,"South Carolina","Aiken County",72.7,119000,51399
+45005,"South Carolina","Allendale County",40.6,67500,27185
+45007,"South Carolina","Anderson County",68.9,117700,50865
+45009,"South Carolina","Bamberg County",53.6,84300,31422
+45011,"South Carolina","Barnwell County",54.6,67400,35803
+45013,"South Carolina","Beaufort County",82.2,290900,68377
+45015,"South Carolina","Berkeley County",78.5,149700,63309
+45017,"South Carolina","Calhoun County",62.1,94500,46339
+45019,"South Carolina","Charleston County",74.6,242100,64022
+45021,"South Carolina","Cherokee County",58.6,82700,36883
+45023,"South Carolina","Chester County",51.7,87100,42442
+45025,"South Carolina","Chesterfield County",58.4,77600,41505
+45027,"South Carolina","Clarendon County",60.9,89100,40900
+45029,"South Carolina","Colleton County",73.6,90000,36324
+45031,"South Carolina","Darlington County",64.1,81800,38448
+45033,"South Carolina","Dillon County",49.8,61400,30812
+45035,"South Carolina","Dorchester County",77.9,171400,63080
+45037,"South Carolina","Edgefield County",62.6,101600,49127
+45039,"South Carolina","Fairfield County",49.5,91500,38213
+45041,"South Carolina","Florence County",69,108400,47058
+45043,"South Carolina","Georgetown County",70.5,174700,48456
+45045,"South Carolina","Greenville County",76.7,148100,60351
+45047,"South Carolina","Greenwood County",65.2,105000,42336
+45049,"South Carolina","Hampton County",60.9,79600,33429
+45051,"South Carolina","Horry County",79.4,170100,50704
+45053,"South Carolina","Jasper County",61.6,118700,45601
+45055,"South Carolina","Kershaw County",64.1,110800,51479
+45057,"South Carolina","Lancaster County",72.3,122300,58849
+45059,"South Carolina","Laurens County",64.8,85800,43304
+45061,"South Carolina","Lee County",49.2,61400,32371
+45063,"South Carolina","Lexington County",77.7,136800,61173
+45065,"South Carolina","McCormick County",65.6,110800,43633
+45067,"South Carolina","Marion County",46,82500,32063
+45069,"South Carolina","Marlboro County",53.1,60300,33586
+45071,"South Carolina","Newberry County",59,102300,44226
+45073,"South Carolina","Oconee County",69.1,126700,49134
+45075,"South Carolina","Orangeburg County",59,81000,37955
+45077,"South Carolina","Pickens County",72.1,123500,49573
+45079,"South Carolina","Richland County",77.2,146300,54767
+45081,"South Carolina","Saluda County",55.1,96400,45714
+45083,"South Carolina","Spartanburg County",74.1,116300,52332
+45085,"South Carolina","Sumter County",70.2,98800,45661
+45087,"South Carolina","Union County",56.7,74300,41186
+45089,"South Carolina","Williamsburg County",46.2,67200,32485
+45091,"South Carolina","York County",80,158900,65361
+46003,"South Dakota","Aurora County",69.4,63100,64083
+46005,"South Dakota","Beadle County",68.5,83400,52313
+46007,"South Dakota","Bennett County",62.4,60200,47500
+46009,"South Dakota","Bon Homme County",68.9,67700,54737
+46011,"South Dakota","Brookings County",80.3,138300,58136
+46013,"South Dakota","Brown County",75.4,115700,58216
+46015,"South Dakota","Brule County",68.6,87300,57196
+46017,"South Dakota","Buffalo County",50.4,67500,34808
+46019,"South Dakota","Butte County",75.4,114300,46508
+46021,"South Dakota","Campbell County",68.7,40600,54449
+46023,"South Dakota","Charles Mix County",58.3,67700,50481
+46025,"South Dakota","Clark County",62.2,64500,48980
+46027,"South Dakota","Clay County",84.5,116900,50724
+46029,"South Dakota","Codington County",73.7,131000,56376
+46031,"South Dakota","Corson County",52.5,45900,35759
+46033,"South Dakota","Custer County",74.2,160700,58522
+46035,"South Dakota","Davison County",79.6,108800,50570
+46037,"South Dakota","Day County",60.9,64800,46679
+46039,"South Dakota","Deuel County",71.4,87200,65437
+46041,"South Dakota","Dewey County",51.4,56900,47475
+46043,"South Dakota","Douglas County",67.7,58300,58684
+46045,"South Dakota","Edmunds County",71.2,70300,71324
+46047,"South Dakota","Fall River County",76.2,86800,50588
+46049,"South Dakota","Faulk County",62.5,51300,55096
+46051,"South Dakota","Grant County",75.6,99800,58158
+46053,"South Dakota","Gregory County",63.9,56100,43438
+46055,"South Dakota","Haakon County",59,74800,42250
+46057,"South Dakota","Hamlin County",70,83700,67105
+46059,"South Dakota","Hand County",69.1,74900,54155
+46061,"South Dakota","Hanson County",80.4,87300,64696
+46063,"South Dakota","Harding County",78.6,67000,59655
+46065,"South Dakota","Hughes County",76.4,133200,64783
+46067,"South Dakota","Hutchinson County",66.8,68700,57089
+46069,"South Dakota","Hyde County",73.2,66600,57788
+46071,"South Dakota","Jackson County",50.8,54600,33295
+46073,"South Dakota","Jerauld County",71.5,62200,49632
+46075,"South Dakota","Jones County",72.3,75000,46149
+46077,"South Dakota","Kingsbury County",67.5,70300,61699
+46079,"South Dakota","Lake County",76.9,108800,61846
+46081,"South Dakota","Lawrence County",79.2,155100,52641
+46083,"South Dakota","Lincoln County",87.5,169700,82473
+46085,"South Dakota","Lyman County",67.4,64900,53862
+46087,"South Dakota","McCook County",75.3,91900,61507
+46089,"South Dakota","McPherson County",57.7,45100,44574
+46091,"South Dakota","Marshall County",72.9,81700,63723
+46093,"South Dakota","Meade County",80,145800,60578
+46095,"South Dakota","Mellette County",40.7,49800,30650
+46097,"South Dakota","Miner County",73.2,58400,52910
+46099,"South Dakota","Minnehaha County",79.4,144900,61772
+46101,"South Dakota","Moody County",74.1,102800,61538
+46102,"South Dakota","Oglala Lakota County",NA,18600,31997
+46103,"South Dakota","Pennington County",78.9,149700,57039
+46105,"South Dakota","Perkins County",72.2,50800,57981
+46107,"South Dakota","Potter County",72.9,55600,54583
+46109,"South Dakota","Roberts County",64.1,73200,50348
+46111,"South Dakota","Sanborn County",76.1,62700,56875
+46115,"South Dakota","Spink County",77.1,62700,54423
+46117,"South Dakota","Stanley County",84.4,113700,71382
+46119,"South Dakota","Sully County",76,72200,62153
+46121,"South Dakota","Todd County",47,53800,24331
+46123,"South Dakota","Tripp County",68.8,69400,57720
+46125,"South Dakota","Turner County",69,85600,59242
+46127,"South Dakota","Union County",77.4,132200,70378
+46129,"South Dakota","Walworth County",63.7,62500,55583
+46135,"South Dakota","Yankton County",74.3,115500,58342
+46137,"South Dakota","Ziebach County",47.3,62200,37400
+47001,"Tennessee","Anderson County",71.4,116400,50392
+47003,"Tennessee","Bedford County",68.3,114400,50415
+47005,"Tennessee","Benton County",57.9,77900,37512
+47007,"Tennessee","Bledsoe County",58.6,99700,44122
+47009,"Tennessee","Blount County",74.4,157200,56667
+47011,"Tennessee","Bradley County",72.4,133800,51331
+47013,"Tennessee","Campbell County",55.1,86400,39803
+47015,"Tennessee","Cannon County",61.2,112100,55330
+47017,"Tennessee","Carroll County",65.7,77400,42637
+47019,"Tennessee","Carter County",60.5,92700,38092
+47021,"Tennessee","Cheatham County",76.7,155900,61913
+47023,"Tennessee","Chester County",69.5,102500,51946
+47025,"Tennessee","Claiborne County",58.8,89300,36835
+47027,"Tennessee","Clay County",50.8,88600,32167
+47029,"Tennessee","Cocke County",53.2,95900,36716
+47031,"Tennessee","Coffee County",67.1,119200,50351
+47033,"Tennessee","Crockett County",60.3,84100,44717
+47035,"Tennessee","Cumberland County",70.8,133900,45958
+47037,"Tennessee","Davidson County",79.2,164700,60388
+47039,"Tennessee","Decatur County",64.4,66500,42031
+47041,"Tennessee","DeKalb County",65.8,98000,45511
+47043,"Tennessee","Dickson County",66.6,128700,53076
+47045,"Tennessee","Dyer County",71.8,91900,44185
+47047,"Tennessee","Fayette County",70.1,170400,60711
+47049,"Tennessee","Fentress County",62.6,101000,36520
+47051,"Tennessee","Franklin County",65.9,110700,51585
+47053,"Tennessee","Gibson County",65.1,86900,43171
+47055,"Tennessee","Giles County",62.3,98700,49614
+47057,"Tennessee","Grainger County",67.2,89900,44064
+47059,"Tennessee","Greene County",64.7,104200,42595
+47061,"Tennessee","Grundy County",59.3,80100,40516
+47063,"Tennessee","Hamblen County",65.9,118900,43619
+47065,"Tennessee","Hamilton County",75.2,147200,55070
+47067,"Tennessee","Hancock County",39.9,76200,30136
+47069,"Tennessee","Hardeman County",54.1,88700,40304
+47071,"Tennessee","Hardin County",62.4,86600,40682
+47073,"Tennessee","Hawkins County",59.5,104900,41924
+47075,"Tennessee","Haywood County",54.7,87100,37905
+47077,"Tennessee","Henderson County",62.6,90700,43305
+47079,"Tennessee","Henry County",67.2,85000,40502
+47081,"Tennessee","Hickman County",53.7,102800,43596
+47083,"Tennessee","Houston County",62.4,87900,42711
+47085,"Tennessee","Humphreys County",63.3,104900,45667
+47087,"Tennessee","Jackson County",59.8,89200,35207
+47089,"Tennessee","Jefferson County",68.6,122600,49139
+47091,"Tennessee","Johnson County",56,92800,36004
+47093,"Tennessee","Knox County",78.6,152300,57470
+47095,"Tennessee","Lake County",60.3,65400,35191
+47097,"Tennessee","Lauderdale County",59.9,77100,39896
+47099,"Tennessee","Lawrence County",62.9,91600,43614
+47101,"Tennessee","Lewis County",55.7,90400,37277
+47103,"Tennessee","Lincoln County",61.4,113600,49485
+47105,"Tennessee","Loudon County",75.5,166400,58065
+47107,"Tennessee","McMinn County",64.4,105600,43285
+47109,"Tennessee","McNairy County",59.8,84200,39161
+47111,"Tennessee","Macon County",61.4,93500,37430
+47113,"Tennessee","Madison County",70.2,112100,48161
+47115,"Tennessee","Marion County",64.3,107400,49432
+47117,"Tennessee","Marshall County",67.7,107900,53197
+47119,"Tennessee","Maury County",76.8,137100,57170
+47121,"Tennessee","Meigs County",57.7,107000,49167
+47123,"Tennessee","Monroe County",65.9,107900,42429
+47125,"Tennessee","Montgomery County",80.8,129400,57541
+47127,"Tennessee","Moore County",56.2,135500,57708
+47129,"Tennessee","Morgan County",65.2,79600,41333
+47131,"Tennessee","Obion County",68.4,87700,39615
+47133,"Tennessee","Overton County",60.5,87700,37197
+47135,"Tennessee","Perry County",52,71600,41034
+47137,"Tennessee","Pickett County",64.9,94900,39554
+47139,"Tennessee","Polk County",64.5,96300,43306
+47141,"Tennessee","Putnam County",68.4,124000,44259
+47143,"Tennessee","Rhea County",62.2,102600,42206
+47145,"Tennessee","Roane County",69.3,118900,53367
+47147,"Tennessee","Robertson County",76.8,149100,63307
+47149,"Tennessee","Rutherford County",80.5,157100,67429
+47151,"Tennessee","Scott County",60.5,76600,38864
+47153,"Tennessee","Sequatchie County",70.1,105800,49370
+47155,"Tennessee","Sevier County",72.7,155500,49610
+47157,"Tennessee","Shelby County",70.5,135300,51657
+47159,"Tennessee","Smith County",66.9,117400,48068
+47161,"Tennessee","Stewart County",60.2,105900,45809
+47163,"Tennessee","Sullivan County",73,110500,46684
+47165,"Tennessee","Sumner County",80.5,169100,67204
+47167,"Tennessee","Tipton County",71.7,135100,61291
+47169,"Tennessee","Trousdale County",58.1,109300,56321
+47171,"Tennessee","Unicoi County",62.4,111900,41890
+47173,"Tennessee","Union County",58.3,91300,44671
+47175,"Tennessee","Van Buren County",65.7,73800,42724
+47177,"Tennessee","Warren County",67,90400,41125
+47179,"Tennessee","Washington County",78,136700,48334
+47181,"Tennessee","Wayne County",58.4,74500,41427
+47183,"Tennessee","Weakley County",69.1,82100,39937
+47185,"Tennessee","White County",62.9,94600,41998
+47187,"Tennessee","Williamson County",90.3,335800,112962
+47189,"Tennessee","Wilson County",81.7,187500,75991
+48001,"Texas","Anderson County",64.2,81000,43455
+48003,"Texas","Andrews County",81.5,86600,76158
+48005,"Texas","Angelina County",76,81300,50453
+48007,"Texas","Aransas County",75.7,129900,45137
+48009,"Texas","Archer County",70,93500,63835
+48011,"Texas","Armstrong County",73.1,90700,72500
+48013,"Texas","Atascosa County",73.7,80400,55366
+48015,"Texas","Austin County",70.9,146500,66206
+48017,"Texas","Bailey County",56.5,65000,52273
+48019,"Texas","Bandera County",71.8,147100,58661
+48021,"Texas","Bastrop County",76.8,119800,64597
+48023,"Texas","Baylor County",69.9,64700,40739
+48025,"Texas","Bee County",62.9,73200,44578
+48027,"Texas","Bell County",79.6,113800,54884
+48029,"Texas","Bexar County",76.5,117100,57157
+48031,"Texas","Blanco County",77,165600,66390
+48033,"Texas","Borden County",76.2,75200,72188
+48035,"Texas","Bosque County",67.5,88800,52148
+48037,"Texas","Bowie County",66.1,88600,50164
+48039,"Texas","Brazoria County",81.3,140300,81447
+48041,"Texas","Brazos County",78.3,141700,49181
+48043,"Texas","Brewster County",67,101200,47080
+48045,"Texas","Briscoe County",68.5,43000,40227
+48047,"Texas","Brooks County",54.6,46800,28333
+48049,"Texas","Brown County",68.4,76900,48365
+48051,"Texas","Burleson County",61.2,80200,57731
+48053,"Texas","Burnet County",71.4,137800,59492
+48055,"Texas","Caldwell County",60.4,99600,54152
+48057,"Texas","Calhoun County",75.2,89800,58776
+48059,"Texas","Callahan County",57.3,73700,48651
+48061,"Texas","Cameron County",53,74000,38758
+48063,"Texas","Camp County",56.4,93700,48207
+48065,"Texas","Carson County",72.6,82800,74872
+48067,"Texas","Cass County",56,68700,44848
+48069,"Texas","Castro County",64,68300,50142
+48071,"Texas","Chambers County",79.1,136600,91141
+48073,"Texas","Cherokee County",66.6,68100,48186
+48075,"Texas","Childress County",67.3,54800,43181
+48077,"Texas","Clay County",66,77300,55989
+48079,"Texas","Cochran County",56.3,40100,40962
+48081,"Texas","Coke County",65.8,58000,45000
+48083,"Texas","Coleman County",62.4,59000,46743
+48085,"Texas","Collin County",90.1,199000,96913
+48087,"Texas","Collingsworth County",65.6,58900,39120
+48089,"Texas","Colorado County",61.5,97000,52559
+48091,"Texas","Comal County",85.6,187400,79936
+48093,"Texas","Comanche County",60.2,83900,53516
+48095,"Texas","Concho County",69.8,70300,47500
+48097,"Texas","Cooke County",72.2,111400,60202
+48099,"Texas","Coryell County",82.7,92000,52893
+48101,"Texas","Cottle County",59,42400,32305
+48103,"Texas","Crane County",68.7,54200,65969
+48105,"Texas","Crockett County",66.5,60800,47386
+48107,"Texas","Crosby County",60.5,51200,40759
+48109,"Texas","Culberson County",49.3,39900,37900
+48111,"Texas","Dallam County",68.2,70200,58811
+48113,"Texas","Dallas County",76.5,129700,59607
+48115,"Texas","Dawson County",61.1,48000,43239
+48117,"Texas","Deaf Smith County",68.9,73600,49701
+48119,"Texas","Delta County",64.7,62700,51038
+48121,"Texas","Denton County",88.8,178300,86913
+48123,"Texas","DeWitt County",60,68700,55357
+48125,"Texas","Dickens County",71.3,44000,42540
+48127,"Texas","Dimmit County",57.3,49000,27161
+48129,"Texas","Donley County",58.6,58300,42961
+48131,"Texas","Duval County",55.2,53300,41186
+48133,"Texas","Eastland County",57,58400,37276
+48135,"Texas","Ector County",80,75500,62973
+48137,"Texas","Edwards County",43.8,61500,40766
+48139,"Texas","Ellis County",81,136100,76871
+48141,"Texas","El Paso County",71.4,101800,46871
+48143,"Texas","Erath County",72.1,110900,52742
+48145,"Texas","Falls County",54.4,59500,39497
+48147,"Texas","Fannin County",69,81500,54648
+48149,"Texas","Fayette County",59.3,133500,60189
+48151,"Texas","Fisher County",65.4,52000,46146
+48153,"Texas","Floyd County",70.3,56000,50580
+48155,"Texas","Foard County",68.1,29700,43625
+48157,"Texas","Fort Bend County",90.8,171500,97743
+48159,"Texas","Franklin County",70.5,94600,53783
+48161,"Texas","Freestone County",68.3,89900,49471
+48163,"Texas","Frio County",54,49500,46729
+48165,"Texas","Gaines County",68.3,77600,63054
+48167,"Texas","Galveston County",80.5,141400,73330
+48169,"Texas","Garza County",70.5,57000,49627
+48171,"Texas","Gillespie County",75.9,191100,59155
+48173,"Texas","Glasscock County",73.9,90800,78456
+48175,"Texas","Goliad County",61.3,99100,60690
+48177,"Texas","Gonzales County",67,69500,53577
+48179,"Texas","Gray County",67.3,65500,47952
+48181,"Texas","Grayson County",72.7,99600,54815
+48183,"Texas","Gregg County",71.9,109800,50180
+48185,"Texas","Grimes County",65.5,89400,52913
+48187,"Texas","Guadalupe County",80.3,142400,74496
+48189,"Texas","Hale County",73.6,73500,48384
+48191,"Texas","Hall County",56.5,44300,34673
+48193,"Texas","Hamilton County",63.6,82900,50825
+48195,"Texas","Hansford County",69.7,64900,38000
+48197,"Texas","Hardeman County",64.3,46900,41859
+48199,"Texas","Hardin County",75.9,95500,60339
+48201,"Texas","Harris County",78.4,131700,61705
+48203,"Texas","Harrison County",63.1,94400,52220
+48205,"Texas","Hartley County",76.6,128500,58298
+48207,"Texas","Haskell County",55.4,39200,40313
+48209,"Texas","Hays County",80.5,173300,68717
+48211,"Texas","Hemphill County",71.7,90700,70625
+48213,"Texas","Henderson County",66.7,86400,47355
+48215,"Texas","Hidalgo County",62.4,73000,40014
+48217,"Texas","Hill County",68.3,85000,53307
+48219,"Texas","Hockley County",72,71200,48248
+48221,"Texas","Hood County",81.3,152200,64041
+48223,"Texas","Hopkins County",72.7,95300,52078
+48225,"Texas","Houston County",54.4,67600,37904
+48227,"Texas","Howard County",68.4,57200,54208
+48229,"Texas","Hudspeth County",43.7,43900,31677
+48231,"Texas","Hunt County",70.4,90700,54959
+48233,"Texas","Hutchinson County",74.4,56400,52524
+48235,"Texas","Irion County",69,74700,47500
+48237,"Texas","Jack County",65,67500,52045
+48239,"Texas","Jackson County",64.9,77500,62806
+48241,"Texas","Jasper County",52,76600,44370
+48243,"Texas","Jeff Davis County",66.3,101300,53088
+48245,"Texas","Jefferson County",66.1,88400,51248
+48247,"Texas","Jim Hogg County",48.6,65000,33382
+48249,"Texas","Jim Wells County",53.1,67800,41505
+48251,"Texas","Johnson County",79.4,111800,64359
+48253,"Texas","Jones County",63.1,51700,50344
+48255,"Texas","Karnes County",55,69700,56127
+48257,"Texas","Kaufman County",74.8,130000,70107
+48259,"Texas","Kendall County",82.6,243900,84747
+48261,"Texas","Kenedy County",36.2,71000,38021
+48263,"Texas","Kent County",62.2,48900,44688
+48265,"Texas","Kerr County",74.9,129600,55990
+48267,"Texas","Kimble County",61.8,89500,43328
+48269,"Texas","King County",73.3,325000,52083
+48271,"Texas","Kinney County",54.7,46400,26738
+48273,"Texas","Kleberg County",73.4,74500,43730
+48275,"Texas","Knox County",66.9,42900,48798
+48277,"Texas","Lamar County",65.4,81100,45117
+48279,"Texas","Lamb County",61,50100,45111
+48281,"Texas","Lampasas County",70.1,121300,60772
+48283,"Texas","La Salle County",54.5,39600,50151
+48285,"Texas","Lavaca County",70.1,83100,54403
+48287,"Texas","Lee County",70.5,115300,54744
+48289,"Texas","Leon County",72.9,78100,43045
+48291,"Texas","Liberty County",72.6,79200,51494
+48293,"Texas","Limestone County",58.5,78600,44418
+48295,"Texas","Lipscomb County",79.3,73700,59091
+48297,"Texas","Live Oak County",55,83500,53848
+48299,"Texas","Llano County",72,150700,53411
+48301,"Texas","Loving County",64.5,66700,83750
+48303,"Texas","Lubbock County",74.7,103100,52429
+48305,"Texas","Lynn County",64.7,66900,43382
+48307,"Texas","McCulloch County",70.1,71200,47707
+48309,"Texas","McLennan County",70.1,101000,49778
+48311,"Texas","McMullen County",56.2,83100,62000
+48313,"Texas","Madison County",64.7,84700,52664
+48315,"Texas","Marion County",55.7,58700,37662
+48317,"Texas","Martin County",64.4,75200,66610
+48319,"Texas","Mason County",58.3,131400,42276
+48321,"Texas","Matagorda County",60.1,83400,48913
+48323,"Texas","Maverick County",55.5,77700,39625
+48325,"Texas","Medina County",68.6,102900,62599
+48327,"Texas","Menard County",56,66600,36395
+48329,"Texas","Midland County",81.9,121200,79421
+48331,"Texas","Milam County",61.7,81600,47902
+48333,"Texas","Mills County",70.6,95000,49306
+48335,"Texas","Mitchell County",61.9,55300,51492
+48337,"Texas","Montague County",65.7,83900,51765
+48339,"Texas","Montgomery County",85,157100,80902
+48341,"Texas","Moore County",72.6,83100,54871
+48343,"Texas","Morris County",72.1,75500,41359
+48345,"Texas","Motley County",68.9,60500,43859
+48347,"Texas","Nacogdoches County",72.9,88600,44847
+48349,"Texas","Navarro County",67,79300,48529
+48351,"Texas","Newton County",54.5,67600,40101
+48353,"Texas","Nolan County",67.9,51600,45537
+48355,"Texas","Nueces County",76.1,103900,55919
+48357,"Texas","Ochiltree County",70.1,82100,50464
+48359,"Texas","Oldham County",75.2,86900,64545
+48361,"Texas","Orange County",73.9,81500,59399
+48363,"Texas","Palo Pinto County",68.4,80500,50154
+48365,"Texas","Panola County",65.3,81900,52982
+48367,"Texas","Parker County",81.2,147100,77503
+48369,"Texas","Parmer County",55.7,88500,55359
+48371,"Texas","Pecos County",58.2,50900,52397
+48373,"Texas","Polk County",62.9,67700,49279
+48375,"Texas","Potter County",67.2,80600,42528
+48377,"Texas","Presidio County",43.1,56200,25098
+48379,"Texas","Rains County",67.4,82000,51579
+48381,"Texas","Randall County",83.8,130400,68261
+48383,"Texas","Reagan County",65.9,63100,74868
+48385,"Texas","Real County",59.6,75300,35862
+48387,"Texas","Red River County",60,59700,39142
+48389,"Texas","Reeves County",53.9,31400,53311
+48391,"Texas","Refugio County",64.8,67800,50076
+48393,"Texas","Roberts County",83.4,111400,68750
+48395,"Texas","Robertson County",70.1,77300,52928
+48397,"Texas","Rockwall County",89.3,189000,100920
+48399,"Texas","Runnels County",63.7,60100,44940
+48401,"Texas","Rusk County",59.4,86700,55234
+48403,"Texas","Sabine County",68.1,68000,34992
+48405,"Texas","San Augustine County",55.9,65000,40353
+48407,"Texas","San Jacinto County",68.9,75600,41614
+48409,"Texas","San Patricio County",67,88300,56556
+48411,"Texas","San Saba County",63.9,71200,45083
+48413,"Texas","Schleicher County",63.2,67900,53229
+48415,"Texas","Scurry County",72.9,71100,54326
+48417,"Texas","Shackelford County",66.3,69000,46935
+48419,"Texas","Shelby County",54.3,64400,42522
+48421,"Texas","Sherman County",74.3,80800,51926
+48423,"Texas","Smith County",76.9,118000,56810
+48425,"Texas","Somervell County",64.6,144300,60632
+48427,"Texas","Starr County",49.4,57000,30387
+48429,"Texas","Stephens County",62.4,57600,46232
+48431,"Texas","Sterling County",69.7,68700,59868
+48433,"Texas","Stonewall County",61.4,55300,51250
+48435,"Texas","Sutton County",55.2,77700,54306
+48437,"Texas","Swisher County",71.8,59500,39771
+48439,"Texas","Tarrant County",81.6,134900,67700
+48441,"Texas","Taylor County",71.6,89900,53143
+48443,"Texas","Terrell County",42.6,42600,43208
+48445,"Texas","Terry County",62.9,63000,44627
+48447,"Texas","Throckmorton County",59.6,46700,40000
+48449,"Texas","Titus County",64.6,86800,50196
+48451,"Texas","Tom Green County",72.9,88600,53903
+48453,"Texas","Travis County",84.8,200300,75887
+48455,"Texas","Trinity County",56.6,73800,41357
+48457,"Texas","Tyler County",61.5,71100,44497
+48459,"Texas","Upshur County",70.8,86100,52162
+48461,"Texas","Upton County",49.9,42800,52171
+48463,"Texas","Uvalde County",61.5,64400,41679
+48465,"Texas","Val Verde County",67.6,81000,46147
+48467,"Texas","Van Zandt County",61.6,95900,54654
+48469,"Texas","Victoria County",68.2,98200,56834
+48471,"Texas","Walker County",74.6,106100,43742
+48473,"Texas","Waller County",65,117900,59642
+48475,"Texas","Ward County",67.1,45200,62986
+48477,"Texas","Washington County",60.8,135500,54971
+48479,"Texas","Webb County",57.5,104000,46475
+48481,"Texas","Wharton County",62,85800,48310
+48483,"Texas","Wheeler County",69.5,65300,49315
+48485,"Texas","Wichita County",71.8,87400,48650
+48487,"Texas","Wilbarger County",67.4,57500,45302
+48489,"Texas","Willacy County",50.2,46200,35521
+48491,"Texas","Williamson County",89.7,172200,87337
+48493,"Texas","Wilson County",77.7,124100,76692
+48495,"Texas","Winkler County",67.7,38900,60366
+48497,"Texas","Wise County",72.6,119900,64536
+48499,"Texas","Wood County",73.8,94800,53394
+48501,"Texas","Yoakum County",67.2,61000,70005
+48503,"Texas","Young County",68.7,69400,50635
+48505,"Texas","Zapata County",54.4,47100,33952
+48507,"Texas","Zavala County",43.7,36900,34459
+49001,"Utah","Beaver County",75.3,150200,55221
+49003,"Utah","Box Elder County",81.3,162000,62233
+49005,"Utah","Cache County",84.4,180300,59038
+49007,"Utah","Carbon County",75.6,109200,51158
+49009,"Utah","Daggett County",90.5,181800,75417
+49011,"Utah","Davis County",88.8,224400,83310
+49013,"Utah","Duchesne County",80.4,162600,63224
+49015,"Utah","Emery County",76,105500,55554
+49017,"Utah","Garfield County",75.2,129900,54565
+49019,"Utah","Grand County",79.9,194100,51557
+49021,"Utah","Iron County",80.7,204600,51807
+49023,"Utah","Juab County",77.3,163300,61463
+49025,"Utah","Kane County",73.5,174500,47044
+49027,"Utah","Millard County",78.7,121100,62242
+49029,"Utah","Morgan County",91.8,260600,91341
+49031,"Utah","Piute County",70,163500,42813
+49033,"Utah","Rich County",72,120300,57902
+49035,"Utah","Salt Lake County",83,237500,74865
+49037,"Utah","San Juan County",48.8,108000,45394
+49039,"Utah","Sanpete County",76.4,148700,53838
+49041,"Utah","Sevier County",77.2,148300,54799
+49043,"Utah","Summit County",91.2,492100,102958
+49045,"Utah","Tooele County",87.1,183000,74562
+49047,"Utah","Uintah County",79.5,183100,65264
+49049,"Utah","Utah County",85.5,233800,74665
+49051,"Utah","Wasatch County",88.5,317900,85166
+49053,"Utah","Washington County",83.3,240900,59839
+49055,"Utah","Wayne County",74.7,167500,44245
+49057,"Utah","Weber County",81.8,168300,67244
+50001,"Vermont","Addison County",78.3,219000,68825
+50003,"Vermont","Bennington County",77.2,198800,56183
+50005,"Vermont","Caledonia County",70,154200,50563
+50007,"Vermont","Chittenden County",85,254700,73647
+50009,"Vermont","Essex County",67.5,124300,44349
+50011,"Vermont","Franklin County",77.7,202800,65485
+50013,"Vermont","Grand Isle County",80.7,235600,71587
+50015,"Vermont","Lamoille County",78.8,211100,64003
+50017,"Vermont","Orange County",73.5,182700,60925
+50019,"Vermont","Orleans County",71.2,149200,49168
+50021,"Vermont","Rutland County",75.8,172100,56139
+50023,"Vermont","Washington County",79.7,197600,62791
+50025,"Vermont","Windham County",75.1,204600,51985
+50027,"Vermont","Windsor County",79.7,209900,60987
+51001,"Virginia","Accomack County",61.9,149800,46073
+51003,"Virginia","Albemarle County",82.6,349800,79880
+51005,"Virginia","Alleghany County",64.9,104000,47673
+51007,"Virginia","Amelia County",69.3,189800,57946
+51009,"Virginia","Amherst County",60.7,142200,52888
+51011,"Virginia","Appomattox County",59.3,132200,58696
+51013,"Virginia","Arlington County",89.8,571700,120071
+51015,"Virginia","Augusta County",69.9,187800,62711
+51017,"Virginia","Bath County",61,129700,49738
+51019,"Virginia","Bedford County",71.5,187200,64199
+51021,"Virginia","Bland County",68.1,88600,48531
+51023,"Virginia","Botetourt County",75.1,202500,71110
+51025,"Virginia","Brunswick County",56.9,97500,44434
+51027,"Virginia","Buchanan County",57.3,62000,31956
+51029,"Virginia","Buckingham County",57.5,99300,49025
+51031,"Virginia","Campbell County",69.5,134000,49664
+51033,"Virginia","Caroline County",66.6,218800,65103
+51035,"Virginia","Carroll County",62.3,97400,44835
+51036,"Virginia","Charles City County",54.2,146000,57198
+51037,"Virginia","Charlotte County",49.9,103200,40573
+51041,"Virginia","Chesterfield County",87.1,235600,82599
+51043,"Virginia","Clarke County",72,366900,80026
+51045,"Virginia","Craig County",60.3,142100,55708
+51047,"Virginia","Culpeper County",76.9,309000,77935
+51049,"Virginia","Cumberland County",54.2,149700,47469
+51051,"Virginia","Dickenson County",56.1,71300,29932
+51053,"Virginia","Dinwiddie County",68.4,163800,60346
+51057,"Virginia","Essex County",54,185400,51954
+51059,"Virginia","Fairfax County",92.1,507800,124831
+51061,"Virginia","Fauquier County",83.5,390900,100783
+51063,"Virginia","Floyd County",66.8,138800,51521
+51065,"Virginia","Fluvanna County",81.5,246100,76873
+51067,"Virginia","Franklin County",66.1,156100,56254
+51069,"Virginia","Frederick County",75.7,248600,78002
+51071,"Virginia","Giles County",70.8,97800,54520
+51073,"Virginia","Gloucester County",79.3,228100,70537
+51075,"Virginia","Goochland County",78.8,338000,93994
+51077,"Virginia","Grayson County",61.1,92200,36544
+51079,"Virginia","Greene County",78.8,223100,67398
+51081,"Virginia","Greensville County",53.1,94600,50300
+51083,"Virginia","Halifax County",52.4,96000,42669
+51085,"Virginia","Hanover County",83.1,281600,89390
+51087,"Virginia","Henrico County",83.3,230000,70307
+51089,"Virginia","Henry County",64.8,91200,37952
+51091,"Virginia","Highland County",65.3,177400,48587
+51093,"Virginia","Isle of Wight County",72.7,256600,73991
+51095,"Virginia","James City County",85.3,348600,87678
+51097,"Virginia","King and Queen County",51.7,171500,63982
+51099,"Virginia","King George County",82.8,305200,94274
+51101,"Virginia","King William County",66.2,198100,66987
+51103,"Virginia","Lancaster County",69.9,254500,53711
+51105,"Virginia","Lee County",48.8,77600,32888
+51107,"Virginia","Loudoun County",93,495000,142299
+51109,"Virginia","Louisa County",71.7,218600,60975
+51111,"Virginia","Lunenburg County",52.9,101500,44303
+51113,"Virginia","Madison County",67,250900,57895
+51115,"Virginia","Mathews County",72.2,207900,64237
+51117,"Virginia","Mecklenburg County",54.9,115000,43207
+51119,"Virginia","Middlesex County",64.6,248100,57438
+51121,"Virginia","Montgomery County",84.1,187600,57977
+51125,"Virginia","Nelson County",60.2,174100,64313
+51127,"Virginia","New Kent County",75,251000,87904
+51131,"Virginia","Northampton County",61.9,199600,47227
+51133,"Virginia","Northumberland County",69.8,251600,62632
+51135,"Virginia","Nottoway County",57.4,126100,45535
+51137,"Virginia","Orange County",74.4,249100,71548
+51139,"Virginia","Page County",60.3,168700,51792
+51141,"Virginia","Patrick County",61.5,102200,43073
+51143,"Virginia","Pittsylvania County",61.6,102000,47690
+51145,"Virginia","Powhatan County",83.7,279300,89090
+51147,"Virginia","Prince Edward County",62.2,155400,47202
+51149,"Virginia","Prince George County",78.8,202700,71912
+51153,"Virginia","Prince William County",91.6,377700,107132
+51155,"Virginia","Pulaski County",64,121100,53866
+51157,"Virginia","Rappahannock County",70.2,428700,74284
+51159,"Virginia","Richmond County",61.9,148700,49517
+51161,"Virginia","Roanoke County",80.4,189500,68948
+51163,"Virginia","Rockbridge County",65.8,180900,54600
+51165,"Virginia","Rockingham County",71.7,192900,61864
+51167,"Virginia","Russell County",56.5,85200,39758
+51169,"Virginia","Scott County",59.9,85000,39820
+51171,"Virginia","Shenandoah County",70.9,216200,57252
+51173,"Virginia","Smyth County",64.2,86900,40932
+51175,"Virginia","Southampton County",64.9,149200,61348
+51177,"Virginia","Spotsylvania County",85.8,305000,88628
+51179,"Virginia","Stafford County",91.5,355300,111108
+51181,"Virginia","Surry County",58.8,171800,57962
+51183,"Virginia","Sussex County",59.7,119300,49487
+51185,"Virginia","Tazewell County",67,80200,42099
+51187,"Virginia","Warren County",78.3,254400,69116
+51191,"Virginia","Washington County",70.5,126100,48495
+51193,"Virginia","Westmoreland County",71.2,202300,53853
+51195,"Virginia","Wise County",65.1,77100,38888
+51197,"Virginia","Wythe County",64.4,104500,49364
+51199,"Virginia","York County",89.5,324800,92069
+51510,"Virginia","Alexandria city",88.5,486800,100939
+51520,"Virginia","Bristol city",71.7,94100,37500
+51530,"Virginia","Buena Vista city",61.4,126000,32455
+51540,"Virginia","Charlottesville city",78.2,279700,59471
+51550,"Virginia","Chesapeake city",86.2,272800,78640
+51570,"Virginia","Colonial Heights city",71.6,187700,54550
+51580,"Virginia","Covington city",59.8,65900,40655
+51590,"Virginia","Danville city",63.7,89100,37203
+51595,"Virginia","Emporia city",56,97700,27063
+51600,"Virginia","Fairfax city",92.6,488900,116979
+51610,"Virginia","Falls Church city",91.7,641900,127610
+51620,"Virginia","Franklin city",66.1,184900,40417
+51630,"Virginia","Fredericksburg city",80.1,335800,65641
+51640,"Virginia","Galax city",63.1,90600,33575
+51650,"Virginia","Hampton city",79.1,191500,56287
+51660,"Virginia","Harrisonburg city",72.3,213400,46679
+51670,"Virginia","Hopewell city",62.2,130700,39030
+51678,"Virginia","Lexington city",65.8,244300,42632
+51680,"Virginia","Lynchburg city",70.5,139100,46409
+51683,"Virginia","Manassas city",86.9,325800,81493
+51685,"Virginia","Manassas Park city",88.7,303400,88046
+51690,"Virginia","Martinsville city",63.4,89200,34371
+51700,"Virginia","Newport News city",77.4,198500,53215
+51710,"Virginia","Norfolk city",78.9,208400,51590
+51720,"Virginia","Norton city",63.1,75200,29000
+51730,"Virginia","Petersburg city",61.6,115900,38679
+51735,"Virginia","Poquoson city",87,326200,97118
+51740,"Virginia","Portsmouth city",73.6,180400,52175
+51750,"Virginia","Radford city",75.7,154700,36297
+51760,"Virginia","Richmond city",70.6,201800,47250
+51770,"Virginia","Roanoke city",69.8,128700,44230
+51775,"Virginia","Salem city",76.1,165700,57165
+51790,"Virginia","Staunton city",72.1,164400,52611
+51800,"Virginia","Suffolk city",76.9,252200,74884
+51810,"Virginia","Virginia Beach city",86.6,277400,76610
+51820,"Virginia","Waynesboro city",67.3,169700,45011
+51830,"Virginia","Williamsburg city",82.1,344800,57463
+51840,"Virginia","Winchester city",71.1,267000,58818
+53001,"Washington","Adams County",63.1,131100,48294
+53003,"Washington","Asotin County",76.3,157600,53715
+53005,"Washington","Benton County",80.2,169500,69023
+53007,"Washington","Chelan County",73.7,245500,58795
+53009,"Washington","Clallam County",80,241500,52192
+53011,"Washington","Clark County",86.9,260800,75253
+53013,"Washington","Columbia County",75.8,146800,53423
+53015,"Washington","Cowlitz County",77.7,191500,54506
+53017,"Washington","Douglas County",77.5,204800,62951
+53019,"Washington","Ferry County",60.8,146100,41939
+53021,"Washington","Franklin County",73.3,147000,63584
+53023,"Washington","Garfield County",72.2,115700,55900
+53025,"Washington","Grant County",74.8,141100,55556
+53027,"Washington","Grays Harbor County",78.1,158200,51240
+53029,"Washington","Island County",87.1,307100,68604
+53031,"Washington","Jefferson County",84,308500,55127
+53033,"Washington","King County",88.5,407700,94974
+53035,"Washington","Kitsap County",88,284700,75411
+53037,"Washington","Kittitas County",81.5,265600,56004
+53039,"Washington","Klickitat County",73.3,200200,55773
+53041,"Washington","Lewis County",73.8,188600,53484
+53043,"Washington","Lincoln County",75.4,145000,54631
+53045,"Washington","Mason County",78.8,216000,57634
+53047,"Washington","Okanogan County",68.8,161600,47240
+53049,"Washington","Pacific County",75,165400,46733
+53051,"Washington","Pend Oreille County",66.6,200400,50591
+53053,"Washington","Pierce County",83.5,269300,72113
+53055,"Washington","San Juan County",83.5,495600,63622
+53057,"Washington","Skagit County",83.1,278300,67028
+53059,"Washington","Skamania County",71.4,244600,65181
+53061,"Washington","Snohomish County",87,338600,86691
+53063,"Washington","Spokane County",82.4,187900,56904
+53065,"Washington","Stevens County",69.7,174800,51775
+53067,"Washington","Thurston County",85,257800,72003
+53069,"Washington","Wahkiakum County",77.1,206800,53227
+53071,"Washington","Walla Walla County",79.6,195200,57858
+53073,"Washington","Whatcom County",84.8,293500,62984
+53075,"Washington","Whitman County",82.3,182500,42745
+53077,"Washington","Yakima County",72.4,149700,51637
+54001,"West Virginia","Barbour County",66,80300,38459
+54003,"West Virginia","Berkeley County",78.3,193700,62515
+54005,"West Virginia","Boone County",70.4,76400,40739
+54007,"West Virginia","Braxton County",59.6,76200,41466
+54009,"West Virginia","Brooke County",67.2,85300,51496
+54011,"West Virginia","Cabell County",67.5,97500,40028
+54013,"West Virginia","Calhoun County",64.5,71200,38382
+54015,"West Virginia","Clay County",65.9,76400,35024
+54017,"West Virginia","Doddridge County",62.4,75900,45545
+54019,"West Virginia","Fayette County",69.8,67800,41394
+54021,"West Virginia","Gilmer County",59.3,69000,42636
+54023,"West Virginia","Grant County",64.8,105300,42216
+54025,"West Virginia","Greenbrier County",68.1,93900,40200
+54027,"West Virginia","Hampshire County",54.3,134100,47857
+54029,"West Virginia","Hancock County",69.3,85300,45763
+54031,"West Virginia","Hardy County",69.3,130600,47438
+54033,"West Virginia","Harrison County",72.7,95500,53022
+54035,"West Virginia","Jackson County",63.8,102100,47837
+54037,"West Virginia","Jefferson County",79,255800,80430
+54039,"West Virginia","Kanawha County",74.3,98500,46639
+54041,"West Virginia","Lewis County",67.1,87400,39908
+54043,"West Virginia","Lincoln County",69,65100,42345
+54045,"West Virginia","Logan County",72.9,79700,36168
+54047,"West Virginia","McDowell County",59.4,32800,27682
+54049,"West Virginia","Marion County",75,87500,50305
+54051,"West Virginia","Marshall County",68.2,77900,48557
+54053,"West Virginia","Mason County",62.8,79400,46078
+54055,"West Virginia","Mercer County",64.1,73500,40784
+54057,"West Virginia","Mineral County",61.5,114700,49936
+54059,"West Virginia","Mingo County",66.7,63900,32764
+54061,"West Virginia","Monongalia County",81.8,145400,52455
+54063,"West Virginia","Monroe County",57.9,95200,38540
+54065,"West Virginia","Morgan County",72.6,167100,51745
+54067,"West Virginia","Nicholas County",67.7,73400,40086
+54069,"West Virginia","Ohio County",66.4,94800,50584
+54071,"West Virginia","Pendleton County",55.9,95300,42312
+54073,"West Virginia","Pleasants County",72.4,89400,56838
+54075,"West Virginia","Pocahontas County",67.4,100000,41882
+54077,"West Virginia","Preston County",71.8,87700,51888
+54079,"West Virginia","Putnam County",72,135200,60097
+54081,"West Virginia","Raleigh County",73.4,88000,43748
+54083,"West Virginia","Randolph County",65.3,94100,43320
+54085,"West Virginia","Ritchie County",66,70000,43577
+54087,"West Virginia","Roane County",59.2,75000,37373
+54089,"West Virginia","Summers County",54.4,74100,38187
+54091,"West Virginia","Taylor County",70.7,77000,48578
+54093,"West Virginia","Tucker County",70.5,87900,49118
+54095,"West Virginia","Tyler County",64.2,77700,43087
+54097,"West Virginia","Upshur County",69.3,99700,40322
+54099,"West Virginia","Wayne County",62.8,85500,37988
+54101,"West Virginia","Webster County",64.4,58500,34927
+54103,"West Virginia","Wetzel County",64.4,82200,43107
+54105,"West Virginia","Wirt County",65.3,61800,46048
+54107,"West Virginia","Wood County",76.2,102500,47321
+54109,"West Virginia","Wyoming County",63.6,59300,42332
+55001,"Wisconsin","Adams County",68.8,130700,46369
+55003,"Wisconsin","Ashland County",68.7,103000,42510
+55005,"Wisconsin","Barron County",74,134500,52703
+55007,"Wisconsin","Bayfield County",76.1,157300,56096
+55009,"Wisconsin","Brown County",81.1,159100,62340
+55011,"Wisconsin","Buffalo County",74.2,130600,57829
+55013,"Wisconsin","Burnett County",70.1,156100,52672
+55015,"Wisconsin","Calumet County",84.3,158700,75814
+55017,"Wisconsin","Chippewa County",77.6,146300,59742
+55019,"Wisconsin","Clark County",64.1,110900,54012
+55021,"Wisconsin","Columbia County",76.8,177500,68005
+55023,"Wisconsin","Crawford County",68.9,113900,50595
+55025,"Wisconsin","Dane County",85.5,230800,73893
+55027,"Wisconsin","Dodge County",75.5,155900,60652
+55029,"Wisconsin","Door County",75.8,189500,61560
+55031,"Wisconsin","Douglas County",73.4,130200,53986
+55033,"Wisconsin","Dunn County",78.6,152700,58783
+55035,"Wisconsin","Eau Claire County",81.1,147200,59476
+55037,"Wisconsin","Florence County",68.1,123700,52181
+55039,"Wisconsin","Fond du Lac County",77.6,143000,62391
+55041,"Wisconsin","Forest County",62.6,117900,45536
+55043,"Wisconsin","Grant County",73.4,118300,54800
+55045,"Wisconsin","Green County",74.6,150300,64502
+55047,"Wisconsin","Green Lake County",69.3,137500,55075
+55049,"Wisconsin","Iowa County",76.4,155500,64124
+55051,"Wisconsin","Iron County",69.3,106700,43798
+55053,"Wisconsin","Jackson County",70.6,121400,53650
+55055,"Wisconsin","Jefferson County",77.9,182500,66291
+55057,"Wisconsin","Juneau County",70.5,115500,53490
+55059,"Wisconsin","Kenosha County",79.9,182400,63733
+55061,"Wisconsin","Kewaunee County",71.9,144400,66192
+55063,"Wisconsin","La Crosse County",81.2,148700,57882
+55065,"Wisconsin","Lafayette County",70.7,117700,60691
+55067,"Wisconsin","Langlade County",70,107500,49491
+55069,"Wisconsin","Lincoln County",71.1,131300,58541
+55071,"Wisconsin","Manitowoc County",73.7,124000,56612
+55073,"Wisconsin","Marathon County",78.5,139500,62633
+55075,"Wisconsin","Marinette County",72.5,109700,50330
+55077,"Wisconsin","Marquette County",71.1,141000,52288
+55078,"Wisconsin","Menominee County",64.9,92600,40921
+55079,"Wisconsin","Milwaukee County",73.7,165700,50606
+55081,"Wisconsin","Monroe County",73.7,126800,59587
+55083,"Wisconsin","Oconto County",75.2,146300,60908
+55085,"Wisconsin","Oneida County",77.3,172800,56852
+55087,"Wisconsin","Outagamie County",82.5,153500,65572
+55089,"Wisconsin","Ozaukee County",85.4,255600,85215
+55091,"Wisconsin","Pepin County",77.2,138500,54583
+55093,"Wisconsin","Pierce County",77.5,200200,72323
+55095,"Wisconsin","Polk County",72.2,170300,59994
+55097,"Wisconsin","Portage County",81.2,143100,58853
+55099,"Wisconsin","Price County",70,111500,47956
+55101,"Wisconsin","Racine County",78.1,175700,61336
+55103,"Wisconsin","Richland County",68.2,123000,51947
+55105,"Wisconsin","Rock County",74.4,138000,57875
+55107,"Wisconsin","Rusk County",66,110200,47532
+55109,"Wisconsin","St. Croix County",83.3,225700,84756
+55111,"Wisconsin","Sauk County",76.3,166400,59943
+55113,"Wisconsin","Sawyer County",72.1,168200,47714
+55115,"Wisconsin","Shawano County",72.8,125100,56531
+55117,"Wisconsin","Sheboygan County",79.7,151100,60696
+55119,"Wisconsin","Taylor County",67.5,120100,53020
+55121,"Wisconsin","Trempealeau County",71.8,132800,58548
+55123,"Wisconsin","Vernon County",66.8,131700,52459
+55125,"Wisconsin","Vilas County",68.8,194900,47072
+55127,"Wisconsin","Walworth County",79.5,198000,63776
+55129,"Wisconsin","Washburn County",71.9,148400,50280
+55131,"Wisconsin","Washington County",83.7,228000,77663
+55133,"Wisconsin","Waukesha County",87.5,262200,87277
+55135,"Wisconsin","Waupaca County",73.5,137100,58693
+55137,"Wisconsin","Waushara County",68.9,136600,52810
+55139,"Wisconsin","Winnebago County",78.8,140500,58543
+55141,"Wisconsin","Wood County",75.8,116500,54913
+56001,"Wyoming","Albany County",81,189500,49322
+56003,"Wyoming","Big Horn County",72,116100,52804
+56005,"Wyoming","Campbell County",86.4,197700,82659
+56007,"Wyoming","Carbon County",72.5,129100,60161
+56009,"Wyoming","Converse County",76.2,167500,69647
+56011,"Wyoming","Crook County",70,151100,65132
+56013,"Wyoming","Fremont County",71.9,154400,55896
+56015,"Wyoming","Goshen County",71.3,123100,54289
+56017,"Wyoming","Hot Springs County",74.4,117800,51413
+56019,"Wyoming","Johnson County",69.2,208400,58132
+56021,"Wyoming","Laramie County",82.4,169900,66910
+56023,"Wyoming","Lincoln County",76.2,196400,66964
+56025,"Wyoming","Natrona County",78.5,173300,62772
+56027,"Wyoming","Niobrara County",67.8,107500,39150
+56029,"Wyoming","Park County",80.4,191500,63582
+56031,"Wyoming","Platte County",68.4,127600,50903
+56033,"Wyoming","Sheridan County",80.9,211900,60807
+56035,"Wyoming","Sublette County",82.9,278300,77403
+56037,"Wyoming","Sweetwater County",82.2,169500,74843
+56039,"Wyoming","Teton County",83.5,723700,84678
+56041,"Wyoming","Uinta County",83.8,171600,63403
+56043,"Wyoming","Washakie County",76.4,130000,54158
+56045,"Wyoming","Weston County",71.1,115200,57031

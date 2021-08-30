@@ -1,0 +1,163 @@
+---
+title: "US Population Change by County"
+output: rmarkdown::html_document
+vignette: >
+  %\VignetteIndexEntry{US Population Change by County}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  echo=F,
+  warning=F,
+  error=F,
+  fig.width = 6,
+  fig.height = 4,
+  fig.align = "center"
+)
+```
+
+
+```{r setup, include=F}
+library(retirementLoc)
+library(magrittr)
+library(kableExtra)
+library(scales)
+library(readr)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r load-data}
+data("retirementLoc")
+```
+
+# Population 2020 Summary 
+
+```{r summarize-population, out.width="75%"}
+retirementLoc %>% 
+  select(pop_2020) %>% 
+  summarize(min = min(pop_2020),
+                   ptile_25 = quantile(pop_2020, .25), 
+                   mean = mean(pop_2020),
+                   median = median(pop_2020),
+                   ptile_75 = quantile(pop_2020, .75), 
+                   max = max(pop_2020)) %>% 
+  slice(n = 1) %>% 
+  kbl(format.args = list(big.mark = ",")) %>% 
+  kable_styling()
+```
+
+```{r plot-2020-population}
+library(scales)
+retirementLoc %>% 
+  ggplot() +
+  aes(pop_2020) +
+  geom_density() +
+  scale_x_continuous(name = "", labels = comma) +
+  labs(title = "U.S. Population by County 2020") +
+  theme_minimal()
+```
+
+# Population Change 2010 - 2020 Summary 
+
+```{r summarize-population-change}
+retirementLoc %>% 
+  select(pct_pop_change) %>% 
+  summarize(min = min(pct_pop_change, na.rm = T),
+                   ptile_25 = quantile(pct_pop_change, .25), 
+                   mean = mean(pct_pop_change, na.rm = T),
+                   median = median(pct_pop_change, na.rm = T),
+                   ptile_75 = quantile(pct_pop_change, .75), 
+                   max = max(pct_pop_change, na.rm = T)) %>% 
+  slice(n = 1) %>% 
+  kbl(format.args = list(big.mark = ",")) %>% 
+  kable_styling(full_width = T, bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+```{r plot-pop-change}
+retirementLoc %>% 
+  ggplot() +
+  aes(pct_pop_change) +
+  geom_density() +
+  labs(title = "U.S. Population Change by County 2010 - 2020") +
+  theme_minimal()
+
+```
+
+
+# 10 Largest Counties by Population
+
+```{r 10-largest}
+retirementLoc %>% 
+  arrange(desc(pop_2020)) %>% 
+  slice_head(n = 10) %>% 
+  select(fips:pct_pop_change) %>% 
+  kbl(format.args = list(big.mark = ",")) %>% 
+  kable_styling(full_width = T, bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+# 10 Smallest by Population
+
+```{r 10-smallest}
+retirementLoc %>% 
+  arrange(desc(pop_2020)) %>% 
+  slice_tail(n = 10) %>% 
+  select(fips:pct_pop_change) %>% 
+  kbl(format.args = list(big.mark = ",")) %>% 
+  kable_styling(full_width = T, bootstrap_options = c("striped", "hover", "condensed"))
+
+```
+
+# Top 10 Counties by Population Change
+
+```{r 10-by-pop-change}
+retirementLoc %>% 
+  arrange(desc(pct_pop_change)) %>% 
+  slice_head(n = 10) %>% 
+  select(fips:pct_pop_change) %>% 
+  kbl(format.args = list(big.mark = ",")) %>% 
+  kable_styling(full_width = T, bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+# Bottom 10 by Population Change
+
+```{r bottom-10-pop-change}
+retirementLoc %>% 
+  arrange(pct_pop_change) %>% 
+  slice_head(n = 10) %>% 
+   select(fips:pct_pop_change) %>% 
+  kbl(format.args = list(big.mark = ",")) %>% 
+  kable_styling(full_width = T, bootstrap_options = c("striped", "hover", "condensed"))
+
+```
+
+# Top 10 Counties Population Change Greater than 100,000
+
+```{r top-10-over-100k-pop}
+retirementLoc %>% 
+  dplyr::filter(pop_2020 > 1e5) %>% 
+  select(fips:pct_pop_change) %>% 
+  arrange(desc(pct_pop_change)) %>% 
+  slice_head(n = 10) %>% 
+  kbl(format.args = list(big.mark = ",")) %>% 
+  kable_styling(full_width = T, bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+# Bottom 10 Counties Population Change Greater than 100,000
+
+```{r bottom-10-over-100k-pop}
+retirementLoc %>% 
+  dplyr::filter(pop_2020 > 1e5) %>% 
+  select(fips:pct_pop_change) %>% 
+  arrange(pct_pop_change) %>% 
+  slice_head(n = 10) %>% 
+  kbl(format.args = list(big.mark = ",")) %>% 
+  kable_styling(full_width = T, bootstrap_options = c("striped", "hover", "condensed"))
+```
+
+
+

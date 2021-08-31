@@ -20,7 +20,7 @@ df <- janitor::clean_names(df)
 # tidy data
 uscb_county_pop <-
         df %>%
-        filter(county != "000") %>%
+        dplyr::filter(county != "000") %>%
         unite(fips, state:county, sep = "") %>%
         mutate(ctyname = gsub(" County", "", ctyname)) %>%
         select(fips, stname, ctyname, census2010pop, popestimate2020) %>%
@@ -46,9 +46,9 @@ df <- janitor::clean_names(df)
 
 us_part_lean <-
         df %>%
-        filter(year == "2020") %>%
+        dplyr::filter(year == "2020") %>%
         #filter(county_fips == "37001") %>%
-        filter(party == "DEMOCRAT") %>%
+        dplyr::filter(party == "DEMOCRAT") %>%
         mutate(across(candidatevotes:totalvotes, as.integer)) %>%
         group_by(county_fips, totalvotes) %>%
         summarize(cast = sum(candidatevotes)) %>%
@@ -80,7 +80,7 @@ life_exp <-
                  into = c("life_exp", NA), extra = "drop") %>%
         drop_na() %>%
         mutate(fips = stringr::str_trim(fips, side = "both")) %>%
-        filter(nchar(fips) %in% c(4, 5)) %>%
+        dplyr::filter(nchar(fips) %in% c(4, 5)) %>%
         mutate(life_exp = life_exp %>% as.numeric) %>%
         mutate(fips = stringr::str_pad(fips, width = 5, side = "left", pad = "0"))
 
@@ -92,7 +92,8 @@ file.path <- system.file(
 )
 #read in data
 df <- readr::read_csv(file = file.path,
-                      skip = 3)
+                      skip = 3,
+                      show_col_types = FALSE)
 #
 df <- janitor::clean_names(df)
 avg_temp <-
@@ -107,7 +108,8 @@ file.path <- system.file(
 )
 df <- readr::read_csv(file = file.path,
                       skip = 0,
-                      col_select = c(state_abbr, fips))
+                      col_select = c(state_abbr, fips),
+                      show_col_types = FALSE)
 #
 df <- janitor::clean_names(df)
 
@@ -132,7 +134,8 @@ file.path <- system.file(
 )
 #read in data
 df <- readr::read_csv(file = file.path,
-                      skip = 0)
+                      skip = 0,
+                      show_col_types = FALSE)
 # clean
 df <- janitor::clean_names(df)
 county_lat_lon <-
@@ -173,7 +176,7 @@ retirementLoc <-
         left_join(uscb_county_pop,
                          us_part_lean,
                          by = "fips") %>%
-        filter(partisan_lean > 0) %>%
+        dplyr::filter(partisan_lean > 0) %>%
         distinct() %>%
         drop_na()
 retirementLoc <-
@@ -196,8 +199,16 @@ retirementLoc <-
 #order the variables
 retirementLoc <-
         retirementLoc %>%
-        select(lat, lon, fips:years_to_payoff)
+        select(lat, lon, fips:years_to_payoff) %>%
+        drop_na()
 
+# funky import issue on '~' in Dona Ana
+retirementLoc[which(retirementLoc$fips == "35013"), grep("ctyname", colnames(retirementLoc))] <- "Dona Ana"
+#omit Hawaii and Alaska
+retirementLoc <-
+        retirementLoc %>%
+        dplyr::filter(!stname %in% c("Hawaii", "Alaska"))
+#Amelia::missmap(retirementLoc)
 
 # save
 usethis::use_data(retirementLoc, overwrite = TRUE)

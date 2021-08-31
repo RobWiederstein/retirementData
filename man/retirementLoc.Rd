@@ -22,7 +22,7 @@ A data frame with 3112 rows and 12 variables:
 }
 }
 \usage{
-retirementLoc
+data("retirementLoc")
 }
 \description{
 A dataset containing criteria for relocation in retirement.
@@ -40,14 +40,16 @@ and Evaluation (IHME). The webpage was entitled, "\href{http://ghdx.healthdata.o
 
 Average annual temperature was downloaded from \href{https://www.ncdc.noaa.gov/cag/county/mapping}{NOAA National Center for Environmental Information}.
 
-The regional price parity index by MSA was downloaded from the Bureau of
-Economic Analysis \href{https://apps.bea.gov/itable/drilldown.cfm?reqid=70&stepnum=40&Major_Area=5&State=00000&Area=XX&TableId=104&Statistic=1&Year=2019&YearBegin=-1&Year_End=-1&Unit_Of_Measure=Levels&Rank=0&Drill=1}{webpage}.
-
 Broadband coverage is from the US Census Bureau and represents the percentage
  of households having access to broadband in 2017.
 
 Years to payoff is computed from US Census Bureau data.  It represents the median
 value of owner occupied housing in 2010 adjusted for inflation to 2020 divided by the
 annual median household income.
+}
+\examples{
+#load
+data("retirementLoc")
+sum(retirementLoc$pop_2020)
 }
 \keyword{datasets}

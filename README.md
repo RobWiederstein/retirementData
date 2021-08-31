@@ -14,7 +14,7 @@ status](https://travis-ci.com/RobWiederstein/retirement.svg?branch=main)](https:
 coverage](https://codecov.io/gh/RobWiederstein/retirement/branch/main/graph/badge.svg)](https://codecov.io/gh/RobWiederstein/retirement?branch=main)
 <!-- badges: end -->
 
-<img src='man/figures/README-retirement-dashboard.png' align="right" height="138.5" />
+<img src='man/figures/retirement-dashboard.png' align="right" height="138.5" />
 
 # Introduction
 
@@ -79,9 +79,7 @@ use GitHub Actions to re-render `README.Rmd` every time you push. An
 example workflow can be found here:
 <https://github.com/r-lib/actions/tree/master/examples>.
 
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
+# Displaying Code Blocks
 
 In that case, don’t forget to commit and push the resulting figure
 files, so they display on GitHub and CRAN.

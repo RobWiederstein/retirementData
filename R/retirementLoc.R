@@ -19,6 +19,7 @@
 #'   \item{broadband_2017}{percent households with broadband access}
 #'   \item{years_to_payoff}{years to payoff home}
 #' }
+#'
 #' @details
 #'
 #' The latitude and longitude, or county centroids, were downloaded from the \href{https://github.com/btskinner/spatial}{btskinner/spatial} repo maintained by Professor Benjamin Skinner.

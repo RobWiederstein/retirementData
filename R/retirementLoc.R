@@ -4,7 +4,7 @@
 #'
 #' @usage data("retirementLoc")
 #'
-#' @format A data frame with 3112 rows and 12 variables:
+#' @format A data frame with 3104 rows and 15 variables:
 #' \describe{
 #'   \item{lat}{latitude of county center in degrees}
 #'   \item{lon}{longitude of county center in degrees}
@@ -18,6 +18,9 @@
 #'   \item{avg_ann_temp}{average annual temperature in fahrenheit}
 #'   \item{broadband_2017}{percent households with broadband access}
 #'   \item{years_to_payoff}{years to payoff home}
+#'   \item{violent_crime_rate}{violent crimes per 100,000}
+#'   \item{avg_daily_pm_2_5}{Average daily amount of fine particulate matter in micrograms per cubic meter}
+#'   \item{prim_care_dr_rate}{primary care physicians per 100,000 population}
 #' }
 #'
 #' @details
@@ -40,6 +43,20 @@
 #' Years to payoff is computed from US Census Bureau data.  It represents the median
 #' value of owner occupied housing in 2010 adjusted for inflation to 2020 divided by the
 #' annual median household income.
+#'
+#' The average daily particulate matter 2.5 microns was downloaded from \href{https://www.countyhealthrankings.org}{County Health Rankings},
+#' although it is available from the Environmental Protection Agency as well.  Particulate Matter (PM). PM2.5 describes fine inhalable
+#' particles, with diameters that are generally 2.5 micrometers and smaller. While the levels have been
+#' decreasing over time, they cause serious health problems.
+#'
+#' The violent crime rate was downloaded from \href{https://www.countyhealthrankings.org}{County Health Rankings}.
+#' The data is derived from The Uniform Crime Reporting (UCR) Program. 17,000 law enforcement
+#' agencies across the United States submit the data to the FBI which is charged with collecting and
+#' publishing it.
+#'
+#' The primary care physician rate is important to insure that the public can access preventive and primary care. The information is
+#' collected by \href{https://www.countyhealthrankings.org}{County Health Rankings} from over 50 sources.
+#'
 #' @examples
 #' #load
 #' data("retirementLoc")

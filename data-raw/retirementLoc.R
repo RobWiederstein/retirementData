@@ -169,7 +169,28 @@ home_values <-
                years_to_payoff = years_to_payoff %>% round(1)) %>%
         select(fips, broadband_2017, years_to_payoff) %>%
         mutate(fips = stringr::str_pad(fips, width = 5, side = "left", pad = "0"))
+# health and environmental data from county health rankings ----
+file <- system.file(
+        "extdata",
+        "2020 County Health Rankings Data - v2.xlsx",
+        package = "retirementLoc"
+)
+df <- readxl::read_xlsx(path = file,
+                        sheet = 4,
+                        skip = 1,
+                        n_max = 3195)
 
+keep.cols <- c("FIPS", "State", "County", "Violent Crime Rate", "Average Daily PM2.5",
+               "Primary Care Physicians Rate")
+health_rankings <-
+        df %>%
+        select(all_of(keep.cols)) %>%
+        janitor::clean_names() %>%
+        tidyr::drop_na(county) %>%
+        select(!c(state, county)) %>%
+        rename(prim_care_dr_rate = primary_care_physicians_rate,
+               avg_daily_pm_2_5 = average_daily_pm2_5) %>%
+        mutate(prim_care_dr_rate = prim_care_dr_rate %>% round(1))
 
 # merge data sources ----
 retirementLoc <-
@@ -195,12 +216,16 @@ retirementLoc <-
         left_join(retirementLoc,
                                   home_values,
                                   by = "fips")
+retirementLoc <-
+        left_join(retirementLoc,
+                  health_rankings,
+                  by = "fips")
 
-#order the variables
+#order the variables  !!!!!!
 retirementLoc <-
         retirementLoc %>%
-        select(lat, lon, fips:years_to_payoff) %>%
-        drop_na()
+        select(lat, lon, fips:prim_care_dr_rate) %>%
+        drop_na(lat, lon)
 
 # funky import issue on '~' in Dona Ana
 retirementLoc[which(retirementLoc$fips == "35013"), grep("ctyname", colnames(retirementLoc))] <- "Dona Ana"
@@ -209,6 +234,7 @@ retirementLoc <-
         retirementLoc %>%
         dplyr::filter(!stname %in% c("Hawaii", "Alaska"))
 #Amelia::missmap(retirementLoc)
-
+file <- "~/Dropbox/public/datasets/2021-08-30-retirement_location.csv"
+write.csv(retirementLoc, file = file, row.names = F)
 # save
 usethis::use_data(retirementLoc, overwrite = TRUE)

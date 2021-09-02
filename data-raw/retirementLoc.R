@@ -2,6 +2,7 @@
 library(magrittr)
 library(dplyr)
 library(tidyr)
+library(janitor)
 
 # population ----
 file.path <- system.file(
@@ -190,7 +191,27 @@ health_rankings <-
         select(!c(state, county)) %>%
         rename(prim_care_dr_rate = primary_care_physicians_rate,
                avg_daily_pm_2_5 = average_daily_pm2_5) %>%
-        mutate(prim_care_dr_rate = prim_care_dr_rate %>% round(1))
+        mutate(prim_care_dr_rate = prim_care_dr_rate %>% round(1),
+               violent_crime_rate = violent_crime_rate %>% round(1))
+# cbsa metro/micro designations  ----
+#https://www.census.gov/programs-surveys/metro-micro.html
+file <- "https://data.nber.org/cbsa-csa-fips-county-crosswalk/cbsa2fipsxw.csv"
+df <- readr::read_csv(file = file, col_types = cols(.default = "c"))
+
+cbsa_codes <-
+        df %>%
+        janitor::remove_empty() %>%
+        select(fipsstatecode,fipscountycode, centraloutlyingcounty,
+               metropolitanmicropolitanstatis) %>%
+        rename(state = fipsstatecode,
+               county = fipscountycode,
+               class = centraloutlyingcounty,
+               status = metropolitanmicropolitanstatis) %>%
+        tidyr::unite("fips", state:county, sep = "") %>%
+        tidyr::unite("cbsa_desig", c(status, class), sep = "-") %>%
+        dplyr::mutate(cbsa_desig = cbsa_desig %>%  tolower) %>%
+        dplyr::mutate(cbsa_desig = gsub("politan statistical area", "", cbsa_desig))
+
 
 # merge data sources ----
 retirementLoc <-
@@ -221,10 +242,16 @@ retirementLoc <-
                   health_rankings,
                   by = "fips")
 
+retirementLoc <-
+        left_join(retirementLoc,
+                  cbsa_codes,
+                  by = "fips")
+retirementLoc$cbsa_desig[which(is.na(retirementLoc$cbsa_desig)== T)] <- "rural-faraway"
 #order the variables  !!!!!!
 retirementLoc <-
         retirementLoc %>%
-        select(lat, lon, fips:prim_care_dr_rate) %>%
+        select(lat, lon, fips:ctyname, cbsa_desig,
+               pop_2020:prim_care_dr_rate) %>%
         drop_na(lat, lon)
 
 # funky import issue on '~' in Dona Ana

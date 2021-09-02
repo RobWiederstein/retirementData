@@ -5,13 +5,14 @@
 \alias{retirementLoc}
 \title{Criteria for Retirement Location}
 \format{
-A data frame with 3104 rows and 15 variables:
+A data frame with 3104 rows and 16 variables:
 \describe{
   \item{lat}{latitude of county center in degrees}
   \item{lon}{longitude of county center in degrees}
   \item{fips}{a five digit unique identifier of US counties}
   \item{stname}{state}
   \item{ctyname}{county name}
+  \item{cbsa_desig}{a classification based on population density}
   \item{pop_2020}{population estimate in 2020}
   \item{pct_pop_change}{percent population change from 2010 to 2020}
   \item{partisan_lean}{percent voting Democrat in 2020 presidential race}
@@ -34,6 +35,12 @@ A dataset containing criteria for relocation in retirement.
 The latitude and longitude, or county centroids, were downloaded from the \href{https://github.com/btskinner/spatial}{btskinner/spatial} repo maintained by Professor Benjamin Skinner.
 
 The population data is from the \href{https://www2.census.gov/programs-surveys/popest/datasets/2010-2020/counties/totals/co-est2020.csv}{U.S. Census Bureau}.
+
+The Office of Management and Budget ("OMB") assigns some counties to metropolitan
+or micropolitan areas.  The two classifications are further subdivided into central
+and outlying areas.  The value "rural-faraway" is a construct and was used to replace
+"NA" values. For more information, see the US Census Bureau
+\href{#https://www.census.gov/programs-surveys/metro-micro.html}{website}.
 
 The partisan lean was computed from the 2020 US presidential election results
 furnished by the \href{https://electionlab.mit.edu/data}{Election Lab at MIT}.

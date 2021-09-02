@@ -31,22 +31,26 @@ The goal of the 'retirementLoc' package was to consolidate some diverse and, for
 
 - the state name;
 - the county name;
+- a classification based on population density;
 - population (estimate) in 2020;
 - percent change of population since 2010;
 - partisan lean or percent of population voting Democrat in the 2020 presidential race;
 - life expectancy;
 - average annual temperature;
 - broadband penetration as of 2017;
-- median value of owner occupied housing from 2009 adjusted for inflation and divided by average annual household income.
-
-
+- median value of owner occupied housing from 2009 adjusted for inflation and divided by average annual household income;
+- rate of violent crimes;
+- air quality and
+- access to a primary care physician.
 
 ## Installation
 
-You can install the released version of retirement from [CRAN](https://CRAN.R-project.org) with:
+You can install the development and experimental version of `retirementLoc` from its [repository](https://github.com/RobWiederstein/retirementLoc) with:
 
 ``` r
-install.packages("retirementLoc")
+# Or the development version from GitHub:
+# install.packages("devtools")
+install_github("RobWiederstein/retirementLoc")
 ```
 
 ## Load Data
@@ -59,7 +63,7 @@ library(retirementLoc)
 
 ## Common Questions
 
-The data can provide some general guidance as to what parts of the county have reasonable housing prices relative to wages.  For example, the code below might be used to answer that question.
+The data can provide some practical guidance as to candidate locations by identifying high growth counties, reasonable housing costs, air quality and life expectancy. For example, the code below might be used to answer where housing costs are reasonable:
 
 ```{r example}
 retirementLoc |>

@@ -13,8 +13,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-# retirement
-
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/RobWiederstein/retirement/workflows/R-CMD-check/badge.svg)](https://github.com/RobWiederstein/retirement/actions)
@@ -22,12 +20,14 @@ knitr::opts_chunk$set(
 [![Codecov test coverage](https://codecov.io/gh/RobWiederstein/retirement/branch/main/graph/badge.svg)](https://codecov.io/gh/RobWiederstein/retirement?branch=main)
 <!-- badges: end -->
 
-<img src='man/figures/retirement-dashboard.png' align="center" height="600"/>
-
+<h4 align= "center">
+<a href="https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115"><img src='man/figures/retirement-dashboard.png' align="center" height="400"/><br/></a>
+<a href="https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115">Retirement Locator</a>
+</h4>
 
 # Introduction
 
-The goal of the 'retirementLoc' package was to consolidate some diverse and, for some, pertinent factors on where to locate in retirement.  The data is located in the `retirementLoc` package but displayed on a separate dashboard [here](https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115).  Criteria were included in the following order:
+The goal of the `retirementLoc` package was to consolidate some diverse and relevant factors on where to locate for retirement.  The data is located in the `retirementLoc` package but displayed on a separate dashboard [here](https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115).  Criteria were included in the following order:
 
 - the state name;
 - the county name;
@@ -55,7 +55,7 @@ install_github("RobWiederstein/retirementLoc")
 
 ## Load Data
 
-This is a basic example which shows you how to solve a common problem:
+Once the development package is installed, it can be loaded via:
 
 ```{r load-data}
 library(retirementLoc)
@@ -72,9 +72,15 @@ retirementLoc |>
         dplyr::slice(1:5)
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/master/examples>.
+<!--You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/master/examples>.
 
 
 # Displaying Code Blocks
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+-->
+
+## Code of Conduct
+
+Please note that the retirementLoc project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+

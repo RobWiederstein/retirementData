@@ -28,7 +28,7 @@ The data may be grouped  using the variable `cbsa_desig`.   "CBSA" is an abbrevi
 
 # Missing Values
 
-When these were merged with the `retirementLoc` dataset, a number of "NA"s were generated.  The missing values were assigned the charachter string `rural-faraway`.  The different areas often have different characteristics and outcomes.  For that reason, this vignette was written to draw readers' attention to this important and useful variable.
+When these were merged with the `retirementLoc` dataset, a number of "NA"s were generated.  The missing values were assigned the character string `rural-faraway`.  The different areas often have different characteristics and outcomes.  For that reason, this vignette was written to draw readers' attention to this important and useful variable.
 
 # Univariate Plots
 

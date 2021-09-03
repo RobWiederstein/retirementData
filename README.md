@@ -11,11 +11,11 @@ status](https://travis-ci.com/RobWiederstein/retirement.svg?branch=main)](https:
 coverage](https://codecov.io/gh/RobWiederstein/retirement/branch/main/graph/badge.svg)](https://codecov.io/gh/RobWiederstein/retirement?branch=main)
 <!-- badges: end -->
 
-<h5 align="center">
+<h4 align="center">
 <a href="https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115"><img src='man/figures/retirement-dashboard.png' align="center" height="400"/><br/></a>
 <a href="https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115">Retirement
 Locator</a>
-</h5>
+</h4>
 
 # Introduction
 

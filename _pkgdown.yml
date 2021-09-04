@@ -1,0 +1,15 @@
+articles:
+- title: Dashboard
+  navbar: Dashboard
+  desc: An interactive dashboard to assist in retirement location.
+  contents:
+  - '`retirement_dashboard`'
+- text: "------------------"
+- title: Vignettes
+  navbar: Vignettes
+  desc: Some insights into the retirement data.
+  contents:
+  - '`cbsa_designations`'
+  - '`county_pop_change`'
+  - '`outliers`'
+

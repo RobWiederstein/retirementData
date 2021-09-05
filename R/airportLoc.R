@@ -1,0 +1,33 @@
+#' US Airport Locations
+#'
+#' A dataset containing airport locations for commercial flights.
+#'
+#' @usage data("airportLoc")
+#'
+#' @format A data frame with 445 rows and 13 variables:
+#' \describe{
+#'   \item{lat}{latitude of airport}
+#'   \item{lon}{longitude of airport}
+#'   \item{locid}{a three character unique identifier of US airports}
+#'   \item{rank}{an integer that ranks airport by passenger volume}
+#'   \item{ro}{regional office}
+#'   \item{st}{state}
+#'   \item{city}{city}
+#'   \item{airport}{airport name}
+#'   \item{s_l}{a classification of either 'CS' or 'P'}
+#'   \item{hub}{a classificatoin of either 'L', 'M', 'N' 'None' or 'S'}
+#'   \item{cy_20_enplanements}{number of passengers carried in 2020}
+#'   \item{cy_19_enplanements}{number of passengers carried in 2019}
+#'   \item{percent_change}{percent increase from 2019 to 2020}
+#' }
+#'
+#' @details
+#'
+#' \href{https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger/}{Passenger Boarding (Enplanement) and All-Cargo Data for U.S. Airports}
+#'
+#' \href{https://www.faa.gov/airports/airport_safety/airportdata_5010/}{Airport Data & Contact Information}
+#' @examples
+#' #load
+#' data("airportLoc")
+"airportLoc"
+

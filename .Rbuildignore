@@ -14,3 +14,5 @@ $run_dev.*
 ^\.travis\.yml$
 ^codecov\.yml$
 ^inst/extdata$
+^_pkgdown\.yml$
+^pkgdown$

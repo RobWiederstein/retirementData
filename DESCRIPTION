@@ -40,6 +40,7 @@ Suggests:
     testthat (>= 3.0.0),
     covr
 Config/testthat/edition: 3
+StagedInstall: no
 Language: en-US
 VignetteBuilder: knitr
 URL: https://github.com/RobWiederstein/retirement

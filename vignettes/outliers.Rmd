@@ -17,7 +17,6 @@ knitr::opts_chunk$set(
 ```{r setup, include=F}
 library(retirementLoc)
 library(ggplot2)
-library(plotly)
 library(dplyr)
 library(tidyr)
 ```

@@ -9,8 +9,8 @@
 #'   \item{lat}{latitude of county center in degrees}
 #'   \item{lon}{longitude of county center in degrees}
 #'   \item{fips}{a five digit unique identifier of US counties}
-#'   \item{stname}{state}
-#'   \item{ctyname}{county name}
+#'   \item{state}{state name}
+#'   \item{county}{county name}
 #'   \item{cbsa_desig}{a classification based on population density}
 #'   \item{pop_2020}{population estimate in 2020}
 #'   \item{pct_pop_change}{percent population change from 2010 to 2020}

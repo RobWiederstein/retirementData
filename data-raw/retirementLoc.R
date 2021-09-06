@@ -260,6 +260,13 @@ retirementLoc[which(retirementLoc$fips == "35013"), grep("ctyname", colnames(ret
 retirementLoc <-
         retirementLoc %>%
         dplyr::filter(!stname %in% c("Hawaii", "Alaska"))
+#rename variables
+retirementLoc <-
+        retirementLoc %>%
+        rename(state = stname,
+               county = ctyname)
+
+
 #Amelia::missmap(retirementLoc)
 file <- "~/Dropbox/public/datasets/2021-08-30-retirement_location.csv"
 write.csv(retirementLoc, file = file, row.names = F)

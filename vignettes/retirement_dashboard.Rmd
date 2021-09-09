@@ -2,7 +2,7 @@
 title: "Retirement Locator"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{retirement_dashboard}
+  %\VignetteIndexEntry{Retirement Locator}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

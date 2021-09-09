@@ -20,8 +20,9 @@
 #'
 #' Data was downloaded from the Integerated Postsecondary Education Data
 #' System ("IPEDS") \href{https://nces.ed.gov/ipeds/datacenter/InstitutionList.aspx?goToReportId=1}{website}.
-#' #load
 #'
+#' @example
+#' #load
 #' data("collegeLoc")
 "collegeLoc"
 

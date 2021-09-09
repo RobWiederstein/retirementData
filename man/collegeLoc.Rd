@@ -26,7 +26,6 @@ greater than 5,000.
 \details{
 Data was downloaded from the Integerated Postsecondary Education Data
 System ("IPEDS") \href{https://nces.ed.gov/ipeds/datacenter/InstitutionList.aspx?goToReportId=1}{website}.
-Hello
 #load
 
 data("collegeLoc")

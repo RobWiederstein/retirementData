@@ -1,0 +1,57 @@
+#' US Military Bases
+#'
+#' A dataset containing published US military bases.
+#'
+#' @usage data("militaryBases")
+#'
+#' @format A data frame with 721 rows and 6 variables:
+#' \describe{
+#'   \item{lat}{latitude of military base}
+#'   \item{lon}{longitude of military base}
+#'   \item{objectid}{a unique identifier of US military bases}
+#'   \item{base}{name of military base or site}
+#'   \item{perimeter}{perimeter in miles}
+#'   \item{area}{area in square miles}
+#' }
+#'
+#' @details
+#'
+#' According to the opendatasoft \href{https://bit.ly/3yVXhMn}{website}:
+#' "The Military Bases dataset is as of May 21, 2019, and is part of the U.S.
+#' Department of Transportation (USDOT)/Bureau of Transportation Statistics's
+#' (BTS's) National Transportation Atlas Database (NTAD). The dataset depicts
+#' the authoritative boundaries of the most commonly known Department of Defense
+#' (DoD) sites, installations, ranges, and training areas in the United States
+#' and Territories. These sites encompass land which is federally owned or
+#' otherwise managed.
+#'
+#' This dataset was created from source data provided by
+#' the four Military Service Component headquarters and was compiled by the
+#' Defense Installation Spatial Data Infrastructure (DISDI) Program within
+#' the Office of the Deputy Under Secretary of Defense for Installations and
+#' Environment, Business Enterprise Integration Directorate. Sites were selected
+#' from the 2010 Base Structure Report (BSR), a summary of the DoD Real Property
+#' Inventory. This list does not necessarily represent a comprehensive collection
+#'  of all Department of Defense facilities, and only those in the fifty United
+#'  States . . .  were considered for inclusion.
+#'
+#'  For inventory purposes, installations are comprised of sites, where a
+#'  site is defined as
+#'  a specific geographic location of federally owned or managed land and is
+#'  assigned to military installation. DoD installations are commonly referred
+#'  to as a base, camp, post, station, yard, center, homeport facility for any
+#'  ship, or other activity under the jurisdiction, custody, control of the DoD."
+#'
+#'  The accompanying release notes excluded some sites because (1) national
+#'  security concerns,  (2) geospatial data was unavailable or (3) the site was
+#'  leased. Sites were included if it
+#'  (1) is a DoD site located in the United States, Puerto Rico, or Guam; (2) is larger
+#'  than 10 acres and (3) is valued greater than $10 million.
+#'
+#'  U.S. territories were excluded.
+#'
+#' @examples
+#' #load
+#' data("militaryBases")
+"militaryBases"
+

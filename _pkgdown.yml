@@ -1,3 +1,13 @@
+reference:
+- title: Datasets
+  contents:
+  - '`airportLoc`'
+  - '`collegeLoc`'
+  - '`hospitalLoc`'
+  - '`irsMigration`'
+  - '`militaryBases`'
+  - '`retirementLoc`'
+
 articles:
 - title: Dashboard
   navbar: Dashboard

@@ -141,8 +141,8 @@ df <- readr::read_csv(file = file.path,
 df <- janitor::clean_names(df)
 county_lat_lon <-
         df %>%
-        select(fips, clon00, clat00) %>%
-        rename(lat = clat00, lon = clon00)
+        select(fips, pclon10, pclat10) %>%
+        rename(lat = pclat10, lon = pclon10)
 
 # housing and broadband from uscb ----
 file <- system.file(
@@ -211,8 +211,19 @@ cbsa_codes <-
         tidyr::unite("cbsa_desig", c(status, class), sep = "-") %>%
         dplyr::mutate(cbsa_desig = cbsa_desig %>%  tolower) %>%
         dplyr::mutate(cbsa_desig = gsub("politan statistical area", "", cbsa_desig))
-
-
+# housing price index "HPI" from Federal Housing Finance ----
+path <- system.file("extdata", "HPI_AT_BDL_county.xlsx", package = "retirementLoc")
+housing_price_index <- readxl::read_xlsx(path = path,
+                                         range = "A7:H91542",
+                                         na = ".")
+hpi <-
+        housing_price_index %>%
+        janitor::clean_names() %>%
+        dplyr::filter(year == "2020") %>%
+        mutate(annual_change_percent = annual_change_percent %>% as.numeric %>% round(1)) %>%
+        select(fips_code, annual_change_percent) %>%
+        rename(hpi_ann_chg_pct_2020 = annual_change_percent,
+               fips = fips_code)
 # merge data sources ----
 retirementLoc <-
         left_join(uscb_county_pop,
@@ -247,11 +258,16 @@ retirementLoc <-
                   cbsa_codes,
                   by = "fips")
 retirementLoc$cbsa_desig[which(is.na(retirementLoc$cbsa_desig)== T)] <- "rural-faraway"
+
+retirementLoc <-
+        left_join(retirementLoc,
+                  hpi,
+                  by = "fips")
 #order the variables  !!!!!!
 retirementLoc <-
         retirementLoc %>%
         select(lat, lon, fips:ctyname, cbsa_desig,
-               pop_2020:prim_care_dr_rate) %>%
+               pop_2020:hpi_ann_chg_pct_2020) %>%
         drop_na(lat, lon)
 
 # funky import issue on '~' in Dona Ana

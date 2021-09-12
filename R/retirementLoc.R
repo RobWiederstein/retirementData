@@ -4,7 +4,7 @@
 #'
 #' @usage data("retirementLoc")
 #'
-#' @format A data frame with 3104 rows and 16 variables:
+#' @format A data frame with 3104 rows and 17 variables:
 #' \describe{
 #'   \item{lat}{latitude of county center in degrees}
 #'   \item{lon}{longitude of county center in degrees}
@@ -22,6 +22,7 @@
 #'   \item{violent_crime_rate}{violent crimes per 100,000}
 #'   \item{avg_daily_pm_2_5}{Average daily amount of fine particulate matter in micrograms per cubic meter}
 #'   \item{prim_care_dr_rate}{primary care physicians per 100,000 population}
+#'   \item{hpi_ann_pct_chg_2020}{annual percentage change in the housing price index in 2020}
 #' }
 #'
 #' @details
@@ -61,8 +62,12 @@
 #' agencies across the United States submit the data to the FBI which is charged with collecting and
 #' publishing it.
 #'
-#' The primary care physician rate is important to insure that the public can access preventive and primary care. The information is
-#' collected by \href{https://www.countyhealthrankings.org}{County Health Rankings} from over 50 sources.
+#' The primary care physician rate is important to insure that the public can access
+#' preventive and primary care. The information is collected by
+#' \href{https://www.countyhealthrankings.org}{County Health Rankings} from over 50 sources.
+#'
+#' The annual percentage change in the housing price index was computed by and downloaded from the
+#' \href{https://bit.ly/3C4Bpkc}{Federal Housing Finance Agency}.
 #'
 #' @examples
 #' #load

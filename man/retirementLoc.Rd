@@ -23,7 +23,7 @@ A data frame with 3104 rows and 17 variables:
   \item{violent_crime_rate}{violent crimes per 100,000}
   \item{avg_daily_pm_2_5}{Average daily amount of fine particulate matter in micrograms per cubic meter}
   \item{prim_care_dr_rate}{primary care physicians per 100,000 population}
-  \item{hpi_ann_pct_chg_2020}{annual percentage change in the housing price index in 2020}
+  \item{hpi_ann_chg_pct_2020}{annual percentage change in the housing price index in 2020}
 }
 }
 \usage{

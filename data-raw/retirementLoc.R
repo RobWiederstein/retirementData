@@ -224,6 +224,22 @@ hpi <-
         select(fips_code, annual_change_percent) %>%
         rename(hpi_ann_chg_pct_2020 = annual_change_percent,
                fips = fips_code)
+# educational level by county from usda & census ----
+path <- system.file("extdata", "usda_education_level_by_county.xls", package = "retirementLoc")
+education_level <- readxl::read_xls(path = path,
+                                    range = 'A5:AU3288',
+                                    sheet = 1)
+education_level <-
+        education_level %>%
+        janitor::clean_names() %>%
+        select(fips_code, percent_of_adults_with_a_bachelors_degree_or_higher_2015_19) %>%
+        rename(fips = fips_code,
+               pct_bachelor = percent_of_adults_with_a_bachelors_degree_or_higher_2015_19) %>%
+        separate(fips, into = c('state', 'county'), sep = 2) %>%
+        dplyr::filter(county!= "000") %>%
+        unite(fips, state:county, sep = "") %>%
+        mutate(pct_bachelor = pct_bachelor %>% round(1))
+
 # merge data sources ----
 retirementLoc <-
         left_join(uscb_county_pop,
@@ -263,11 +279,15 @@ retirementLoc <-
         left_join(retirementLoc,
                   hpi,
                   by = "fips")
+retirementLoc <-
+        left_join(retirementLoc,
+                  education_level,
+                  by = "fips")
 #order the variables  !!!!!!
 retirementLoc <-
         retirementLoc %>%
         select(lat, lon, fips:ctyname, cbsa_desig,
-               pop_2020:hpi_ann_chg_pct_2020) %>%
+               pop_2020:pct_bachelor) %>%
         drop_na(lat, lon)
 
 # funky import issue on '~' in Dona Ana

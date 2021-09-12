@@ -5,7 +5,7 @@
 \alias{retirementLoc}
 \title{Criteria for Retirement Location}
 \format{
-A data frame with 3104 rows and 17 variables:
+A data frame with 3104 rows and 18 variables:
 \describe{
   \item{lat}{latitude of county center in degrees}
   \item{lon}{longitude of county center in degrees}
@@ -24,6 +24,7 @@ A data frame with 3104 rows and 17 variables:
   \item{avg_daily_pm_2_5}{Average daily amount of fine particulate matter in micrograms per cubic meter}
   \item{prim_care_dr_rate}{primary care physicians per 100,000 population}
   \item{hpi_ann_chg_pct_2020}{annual percentage change in the housing price index in 2020}
+  \item{pct_bachelor}{percent of county residents holding a bacherlor degree or higher}
 }
 }
 \usage{
@@ -59,7 +60,7 @@ value of owner occupied housing in 2010 adjusted for inflation to 2020 divided b
 annual median household income.
 
 The average daily particulate matter 2.5 microns was downloaded from \href{https://www.countyhealthrankings.org}{County Health Rankings},
-although it is available from the Environmental Protection Agency as well.  Particulate Matter (PM). PM2.5 describes fine inhalable
+although it is available from the Environmental Protection Agency as well. PM2.5 describes fine inhalable
 particles, with diameters that are generally 2.5 micrometers and smaller. While the levels have been
 decreasing over time, they cause serious health problems.
 
@@ -74,6 +75,9 @@ preventive and primary care. The information is collected by
 
 The annual percentage change in the housing price index was computed by and downloaded from the
 \href{https://bit.ly/3C4Bpkc}{Federal Housing Finance Agency}.
+
+The percentage of county residents holding a bacherlors degree or higher was downloaded from
+the \href{https://bit.ly/2X9UDpP}{USDA}.
 }
 \examples{
 #load

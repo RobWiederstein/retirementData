@@ -40,12 +40,12 @@ data("retirementLoc")
 ```{r summarize-population, out.width="75%"}
 retirementLoc %>% 
   select(pop_2020) %>% 
-  summarize(min = min(pop_2020),
-                   ptile_25 = quantile(pop_2020, .25), 
-                   mean = mean(pop_2020),
-                   median = median(pop_2020),
-                   ptile_75 = quantile(pop_2020, .75), 
-                   max = max(pop_2020)) %>% 
+  summarize(min = min(pop_2020, na.rm = T),
+                   ptile_25 = quantile(pop_2020, .25, na.rm = T), 
+                   mean = mean(pop_2020, na.rm = T),
+                   median = median(pop_2020, na.rm = T),
+                   ptile_75 = quantile(pop_2020, .75, na.rm = T), 
+                   max = max(pop_2020, na.rm = T)) %>% 
   slice(n = 1) %>% 
   kbl(format.args = list(big.mark = ",")) %>% 
   kable_styling()
@@ -68,10 +68,10 @@ retirementLoc %>%
 retirementLoc %>% 
   select(pct_pop_change) %>% 
   summarize(min = min(pct_pop_change, na.rm = T),
-                   ptile_25 = quantile(pct_pop_change, .25), 
+                   ptile_25 = quantile(pct_pop_change, .25, na.rm = T), 
                    mean = mean(pct_pop_change, na.rm = T),
                    median = median(pct_pop_change, na.rm = T),
-                   ptile_75 = quantile(pct_pop_change, .75), 
+                   ptile_75 = quantile(pct_pop_change, .75, na.rm = T), 
                    max = max(pct_pop_change, na.rm = T)) %>% 
   slice(n = 1) %>% 
   kbl(format.args = list(big.mark = ",")) %>% 
@@ -85,7 +85,6 @@ retirementLoc %>%
   geom_density() +
   labs(title = "U.S. Population Change by County 2010 - 2020") +
   theme_minimal()
-
 ```
 
 
@@ -95,7 +94,7 @@ retirementLoc %>%
 retirementLoc %>% 
   arrange(desc(pop_2020)) %>% 
   slice_head(n = 10) %>% 
-  select(fips:pct_pop_change) %>% 
+  select(fips, state, county, pop_2020, pct_pop_change) %>% 
   kbl(format.args = list(big.mark = ",")) %>% 
   kable_styling(full_width = T, bootstrap_options = c("striped", "hover", "condensed"))
 ```
@@ -106,7 +105,7 @@ retirementLoc %>%
 retirementLoc %>% 
   arrange(desc(pop_2020)) %>% 
   slice_tail(n = 10) %>% 
-  select(fips:pct_pop_change) %>% 
+  select(fips, state, county, pop_2020, pct_pop_change) %>% 
   kbl(format.args = list(big.mark = ",")) %>% 
   kable_styling(full_width = T, bootstrap_options = c("striped", "hover", "condensed"))
 
@@ -118,7 +117,7 @@ retirementLoc %>%
 retirementLoc %>% 
   arrange(desc(pct_pop_change)) %>% 
   slice_head(n = 10) %>% 
-  select(fips:pct_pop_change) %>% 
+  select(fips, state, county, pop_2020, pct_pop_change) %>% 
   kbl(format.args = list(big.mark = ",")) %>% 
   kable_styling(full_width = T, bootstrap_options = c("striped", "hover", "condensed"))
 ```
@@ -129,7 +128,7 @@ retirementLoc %>%
 retirementLoc %>% 
   arrange(pct_pop_change) %>% 
   slice_head(n = 10) %>% 
-   select(fips:pct_pop_change) %>% 
+   select(fips, state, county, pop_2020, pct_pop_change) %>% 
   kbl(format.args = list(big.mark = ",")) %>% 
   kable_styling(full_width = T, bootstrap_options = c("striped", "hover", "condensed"))
 
@@ -140,7 +139,7 @@ retirementLoc %>%
 ```{r top-10-over-100k-pop}
 retirementLoc %>% 
   dplyr::filter(pop_2020 > 1e5) %>% 
-  select(fips:pct_pop_change) %>% 
+  select(fips, state, county, pop_2020, pct_pop_change) %>% 
   arrange(desc(pct_pop_change)) %>% 
   slice_head(n = 10) %>% 
   kbl(format.args = list(big.mark = ",")) %>% 
@@ -152,7 +151,7 @@ retirementLoc %>%
 ```{r bottom-10-over-100k-pop}
 retirementLoc %>% 
   dplyr::filter(pop_2020 > 1e5) %>% 
-  select(fips:pct_pop_change) %>% 
+  select(fips, state, county, pop_2020, pct_pop_change) %>% 
   arrange(pct_pop_change) %>% 
   slice_head(n = 10) %>% 
   kbl(format.args = list(big.mark = ",")) %>% 

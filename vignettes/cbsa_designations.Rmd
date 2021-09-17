@@ -35,8 +35,9 @@ When these were merged with the `retirementLoc` dataset, a number of "NA"s were 
 ```{r fig.height=12, out.width="100%", include=T}
   df <- retirementLoc %>% 
         dplyr::filter(cbsa_desig %in% c("metro-central", "rural-faraway")) %>% 
-        select(fips:prim_care_dr_rate) %>% 
-        pivot_longer(pop_2020:prim_care_dr_rate, 
+        select(fips, cbsa_desig, pop_2020, pct_pop_change, 
+               partisan_lean:prim_care_dr_rate) %>% 
+        pivot_longer(!c(fips, cbsa_desig), 
                      names_to = "key", 
                      values_to = "value",
                      values_drop_na = TRUE)

@@ -154,65 +154,41 @@
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data frame with 3104 rows and 17 variables:</p><dl>
+    <p>A data frame with 3146 rows and 21 variables:</p><dl>
+ <dt>fips</dt><dd><p>a five digit unique identifier of US counties</p></dd>
   <dt>lat</dt><dd><p>latitude of county center in degrees</p></dd>
   <dt>lon</dt><dd><p>longitude of county center in degrees</p></dd>
-  <dt>fips</dt><dd><p>a five digit unique identifier of US counties</p></dd>
   <dt>state</dt><dd><p>state name</p></dd>
   <dt>county</dt><dd><p>county name</p></dd>
-  <dt>cbsa_desig</dt><dd><p>a classification based on population density</p></dd>
   <dt>pop_2020</dt><dd><p>population estimate in 2020</p></dd>
   <dt>pct_pop_change</dt><dd><p>percent population change from 2010 to 2020</p></dd>
+  <dt>cbsa_desig</dt><dd><p>a classification based on population density</p></dd>
+  <dt>rucc_2013</dt><dd><p>a classification of 1 through 9 on a rural-urban continuum</p></dd>
   <dt>partisan_lean</dt><dd><p>percent voting Democrat in 2020 presidential race</p></dd>
-  <dt>life_exp</dt><dd><p>life expectancy in years</p></dd>
-  <dt>avg_ann_temp</dt><dd><p>average annual temperature in fahrenheit</p></dd>
+  <dt>med_hh_inc_2019</dt><dd><p>median household income for 2019</p></dd>
+  <dt>pct_bachelor</dt><dd><p>percent of county residents holding a bacherlor degree or higher</p></dd>
   <dt>broadband_2017</dt><dd><p>percent households with broadband access</p></dd>
-  <dt>years_to_payoff</dt><dd><p>years to payoff home</p></dd>
+  <dt>life_exp</dt><dd><p>life expectancy in years</p></dd>
   <dt>violent_crime_rate</dt><dd><p>violent crimes per 100,000</p></dd>
   <dt>avg_daily_pm_2_5</dt><dd><p>Average daily amount of fine particulate matter in micrograms per cubic meter</p></dd>
   <dt>prim_care_dr_rate</dt><dd><p>primary care physicians per 100,000 population</p></dd>
-  <dt>hpi_ann_pct_chg_2020</dt><dd><p>annual percentage change in the housing price index in 2020</p></dd>
+  <dt>avg_ann_temp</dt><dd><p>average annual temperature in fahrenheit</p></dd>
+  <dt>median_home_price</dt><dd><p>median home price</p></dd>
+  <dt>yoy_price_chg_pct</dt><dd><p>year-over-year percentage increase (-decrease) in home price</p></dd>
+  <dt>years_to_payoff</dt><dd><p>quotient of household income divided by median home price</p></dd>
 
 </dl>
 
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>The latitude and longitude, or county centroids, were downloaded from the <a href='https://github.com/btskinner/spatial'>btskinner/spatial</a> repo maintained by Professor Benjamin Skinner.</p>
-<p>The population data is from the <a href='https://www2.census.gov/programs-surveys/popest/datasets/2010-2020/counties/totals/co-est2020.csv'>U.S. Census Bureau</a>.</p>
-<p>The Office of Management and Budget ("OMB") assigns some counties to metropolitan
-or micropolitan areas.  The two classifications are further subdivided into central
-and outlying areas.  The value "rural-faraway" is a construct and was used to replace
-"NA" values. For more information, see the US Census Bureau
-<a href='#https://www.census.gov/programs-surveys/metro-micro.html'>website</a>.</p>
-<p>The partisan lean was computed from the 2020 US presidential election results
-furnished by the <a href='https://electionlab.mit.edu/data'>Election Lab at MIT</a>.</p>
-<p>The life expectancy data was downloaded from The Institute for Health Metrics
-and Evaluation (IHME). The webpage was entitled, "<a href='http://ghdx.healthdata.org/record/ihme-data/united-states-life-expectancy-and-age-specific-mortality-risk-county-1980-2014'>United States Life Expectancy and Age-specific Mortality Risk by County 1980-2014</a></p>
-<p>Average annual temperature was downloaded from <a href='https://www.ncdc.noaa.gov/cag/county/mapping'>NOAA National Center for Environmental Information</a>.</p>
-<p>Broadband coverage is from the US Census Bureau and represents the percentage
- of households having access to broadband in 2017.</p>
-<p>Years to payoff is computed from US Census Bureau data.  It represents the median
-value of owner occupied housing in 2010 adjusted for inflation to 2020 divided by the
-annual median household income.</p>
-<p>The average daily particulate matter 2.5 microns was downloaded from <a href='https://www.countyhealthrankings.org'>County Health Rankings</a>,
-although it is available from the Environmental Protection Agency as well.  Particulate Matter (PM). PM2.5 describes fine inhalable
-particles, with diameters that are generally 2.5 micrometers and smaller. While the levels have been
-decreasing over time, they cause serious health problems.</p>
-<p>The violent crime rate was downloaded from <a href='https://www.countyhealthrankings.org'>County Health Rankings</a>.
-The data is derived from The Uniform Crime Reporting (UCR) Program. 17,000 law enforcement
-agencies across the United States submit the data to the FBI which is charged with collecting and
-publishing it.</p>
-<p>The primary care physician rate is important to insure that the public can access
-preventive and primary care. The information is collected by
-<a href='https://www.countyhealthrankings.org'>County Health Rankings</a> from over 50 sources.</p>
-<p>The annual percentage change in the housing price index was computed by and downloaded from the
-<a href='https://bit.ly/3C4Bpkc'>Federal Housing Finance Agency</a>.</p>
+    <p>The dataset includes the 50 US states and Washington D.C. disaggregated at the county
+level.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='co'>#load</span>
 <span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>"retirementLoc"</span><span class='op'>)</span>
 <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>retirementLoc</span><span class='op'>$</span><span class='va'>pop_2020</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; [1] 325851106</div></pre>
+</div><div class='output co'>#&gt; [1] NA</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

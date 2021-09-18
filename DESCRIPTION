@@ -1,6 +1,6 @@
 Package: retirementLoc
-Title: An Amazing Shiny App
-Version: 0.0.0.9000
+Title: US Retirement Location Dashboard
+Version: 1.0.0
 Authors@R: 
     person(given = "Rob",
            family = "Wiederstein",

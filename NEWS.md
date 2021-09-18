@@ -1,3 +1,3 @@
-# retirement 0.0.0.9000
+# retirementLoc 1.0.0
 
-* Added a `NEWS.md` file to track changes to the package.
+Grouped `R` scripts into different `roxygen` files.

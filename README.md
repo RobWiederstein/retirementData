@@ -72,16 +72,16 @@ to answer where housing costs are reasonable:
 ``` r
 retirementLoc |>
         dplyr::arrange(years_to_payoff) |>
-        dplyr::select(stname, ctyname, pop_2020, years_to_payoff) |>
+        dplyr::select(state, county, pop_2020, years_to_payoff) |>
         dplyr::slice(1:5)
 #> # A tibble: 5 × 4
-#>   stname       ctyname pop_2020 years_to_payoff
-#>   <chr>        <chr>      <dbl>           <dbl>
-#> 1 North Dakota Burke       2118             0.7
-#> 2 Texas        Reeves     15949             0.7
-#> 3 Texas        Foard       1135             0.8
-#> 4 Texas        Ward       12097             0.8
-#> 5 Texas        Winkler     7887             0.8
+#>   state county   pop_2020 years_to_payoff
+#>   <chr> <chr>       <dbl>           <dbl>
+#> 1 OK    Harmon       2557             0.9
+#> 2 OK    Tillman      7229             0.9
+#> 3 WV    Wyoming     20123             0.9
+#> 4 AR    Phillips    17299             1  
+#> 5 MN    Traverse     3218             1
 ```
 
 <!--You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/master/examples>.

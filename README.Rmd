@@ -68,7 +68,7 @@ The data can provide some practical guidance as to candidate locations by identi
 ```{r example}
 retirementLoc |>
         dplyr::arrange(years_to_payoff) |>
-        dplyr::select(stname, ctyname, pop_2020, years_to_payoff) |>
+        dplyr::select(state, county, pop_2020, years_to_payoff) |>
         dplyr::slice(1:5)
 ```
 

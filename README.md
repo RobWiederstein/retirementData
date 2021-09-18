@@ -24,23 +24,89 @@ and relevant factors on where to locate for retirement. The data is
 located in the `retirementLoc` package but displayed on a separate
 dashboard
 [here](https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115).
-Criteria were included in the following order:
+The variables in the `retirementLoc` dataset are:
 
--   the state name;
--   the county name;
--   a classification based on population density;
--   population (estimate) in 2020;
--   percent change of population since 2010;
--   partisan lean or percent of population voting Democrat in the 2020
-    presidential race;
--   life expectancy;
--   average annual temperature;
--   broadband penetration as of 2017;
--   median value of owner occupied housing from 2009 adjusted for
-    inflation and divided by average annual household income;
--   rate of violent crimes;
--   air quality and
--   access to a primary care physician.
+<table class="table table-striped" style="margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+fips
+</td>
+<td style="text-align:left;">
+cbsa_desig
+</td>
+<td style="text-align:left;">
+violent_crime_rate
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+lon
+</td>
+<td style="text-align:left;">
+rucc_2013
+</td>
+<td style="text-align:left;">
+average_daily_pm2_5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+lat
+</td>
+<td style="text-align:left;">
+partisan_lean
+</td>
+<td style="text-align:left;">
+prim_care_dr_rate
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+state
+</td>
+<td style="text-align:left;">
+med_hh_inc_2019
+</td>
+<td style="text-align:left;">
+avg_annual_temp
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+county
+</td>
+<td style="text-align:left;">
+pct_bachelor
+</td>
+<td style="text-align:left;">
+median_home_price
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+pop_2020
+</td>
+<td style="text-align:left;">
+broadband_2017
+</td>
+<td style="text-align:left;">
+yoy_price_chg_pct
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+pct_pop_change
+</td>
+<td style="text-align:left;">
+life_exp
+</td>
+<td style="text-align:left;">
+years_to_payoff
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Installation
 
@@ -57,10 +123,6 @@ install_github("RobWiederstein/retirementLoc")
 ## Load Data
 
 Once the development package is installed, it can be loaded via:
-
-``` r
-library(retirementLoc)
-```
 
 ## Common Questions
 

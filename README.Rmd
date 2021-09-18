@@ -1,10 +1,11 @@
 ---
 output: github_document
+always_allow_html: true
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, include = FALSE}
+```{r options, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -12,6 +13,12 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
+
+```{r load-data, include = F}
+library(retirementLoc)
+library(kableExtra)
+```
+
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
@@ -27,21 +34,16 @@ knitr::opts_chunk$set(
 
 # Introduction
 
-The goal of the `retirementLoc` package was to consolidate some diverse and relevant factors on where to locate for retirement.  The data is located in the `retirementLoc` package but displayed on a separate dashboard [here](https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115).  Criteria were included in the following order:
+The goal of the `retirementLoc` package was to consolidate some diverse and relevant factors on where to locate for retirement.  The data is located in the `retirementLoc` package but displayed on a separate dashboard [here](https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115).  The variables in the `retirementLoc` dataset are:
 
-- the state name;
-- the county name;
-- a classification based on population density;
-- population (estimate) in 2020;
-- percent change of population since 2010;
-- partisan lean or percent of population voting Democrat in the 2020 presidential race;
-- life expectancy;
-- average annual temperature;
-- broadband penetration as of 2017;
-- median value of owner occupied housing from 2009 adjusted for inflation and divided by average annual household income;
-- rate of violent crimes;
-- air quality and
-- access to a primary care physician.
+```{r list-variables, echo=F, fig.align='center'}
+names(retirementLoc) |> 
+  matrix(ncol = 3, byrow = T) |>
+  kableExtra::kbl() |>
+  kable_styling(bootstrap_options = "striped", full_width = T, position = 'center')
+```
+
+
 
 ## Installation
 
@@ -56,10 +58,6 @@ install_github("RobWiederstein/retirementLoc")
 ## Load Data
 
 Once the development package is installed, it can be loaded via:
-
-```{r load-data}
-library(retirementLoc)
-```
 
 ## Common Questions
 

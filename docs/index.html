@@ -106,22 +106,86 @@
 <div id="introduction" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#introduction" class="anchor"></a>Introduction</h1></div>
-<p>The goal of the <code>retirementLoc</code> package was to consolidate some diverse and relevant factors on where to locate for retirement. The data is located in the <code>retirementLoc</code> package but displayed on a separate dashboard <a href="https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115">here</a>. Criteria were included in the following order:</p>
-<ul>
-<li>the state name;</li>
-<li>the county name;</li>
-<li>a classification based on population density;</li>
-<li>population (estimate) in 2020;</li>
-<li>percent change of population since 2010;</li>
-<li>partisan lean or percent of population voting Democrat in the 2020 presidential race;</li>
-<li>life expectancy;</li>
-<li>average annual temperature;</li>
-<li>broadband penetration as of 2017;</li>
-<li>median value of owner occupied housing from 2009 adjusted for inflation and divided by average annual household income;</li>
-<li>rate of violent crimes;</li>
-<li>air quality and</li>
-<li>access to a primary care physician.</li>
-</ul>
+<p>The goal of the <code>retirementLoc</code> package was to consolidate some diverse and relevant factors on where to locate for retirement. The data is located in the <code>retirementLoc</code> package but displayed on a separate dashboard <a href="https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115">here</a>. The variables in the <code>retirementLoc</code> dataset are:</p>
+<table class="table table table-striped"><tbody>
+<tr>
+<td style="text-align:left;">
+fips
+</td>
+<td style="text-align:left;">
+cbsa_desig
+</td>
+<td style="text-align:left;">
+violent_crime_rate
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+lon
+</td>
+<td style="text-align:left;">
+rucc_2013
+</td>
+<td style="text-align:left;">
+average_daily_pm2_5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+lat
+</td>
+<td style="text-align:left;">
+partisan_lean
+</td>
+<td style="text-align:left;">
+prim_care_dr_rate
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+state
+</td>
+<td style="text-align:left;">
+med_hh_inc_2019
+</td>
+<td style="text-align:left;">
+avg_annual_temp
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+county
+</td>
+<td style="text-align:left;">
+pct_bachelor
+</td>
+<td style="text-align:left;">
+median_home_price
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+pop_2020
+</td>
+<td style="text-align:left;">
+broadband_2017
+</td>
+<td style="text-align:left;">
+yoy_price_chg_pct
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+pct_pop_change
+</td>
+<td style="text-align:left;">
+life_exp
+</td>
+<td style="text-align:left;">
+years_to_payoff
+</td>
+</tr>
+</tbody></table>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
@@ -135,26 +199,24 @@
 <h2 class="hasAnchor">
 <a href="#load-data" class="anchor"></a>Load Data</h2>
 <p>Once the development package is installed, it can be loaded via:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/RobWiederstein/retirement">retirementLoc</a></span><span class="op">)</span></code></pre></div>
 </div>
 <div id="common-questions" class="section level2">
 <h2 class="hasAnchor">
 <a href="#common-questions" class="anchor"></a>Common Questions</h2>
 <p>The data can provide some practical guidance as to candidate locations by identifying high growth counties, reasonable housing costs, air quality and life expectancy. For example, the code below might be used to answer where housing costs are reasonable:</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">retirementLoc</span> |&gt;
         <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/arrange.html">arrange</a></span><span class="op">(</span><span class="va">years_to_payoff</span><span class="op">)</span> |&gt;
-        <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">stname</span>, <span class="va">ctyname</span>, <span class="va">pop_2020</span>, <span class="va">years_to_payoff</span><span class="op">)</span> |&gt;
+        <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">state</span>, <span class="va">county</span>, <span class="va">pop_2020</span>, <span class="va">years_to_payoff</span><span class="op">)</span> |&gt;
         <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">5</span><span class="op">)</span>
 <span class="co">#&gt; # A tibble: 5 × 4</span>
-<span class="co">#&gt;   stname       ctyname pop_2020 years_to_payoff</span>
-<span class="co">#&gt;   &lt;chr&gt;        &lt;chr&gt;      &lt;dbl&gt;           &lt;dbl&gt;</span>
-<span class="co">#&gt; 1 North Dakota Burke       2118             0.7</span>
-<span class="co">#&gt; 2 Texas        Reeves     15949             0.7</span>
-<span class="co">#&gt; 3 Texas        Foard       1135             0.8</span>
-<span class="co">#&gt; 4 Texas        Ward       12097             0.8</span>
-<span class="co">#&gt; 5 Texas        Winkler     7887             0.8</span></code></pre></div>
+<span class="co">#&gt;   state county   pop_2020 years_to_payoff</span>
+<span class="co">#&gt;   &lt;chr&gt; &lt;chr&gt;       &lt;dbl&gt;           &lt;dbl&gt;</span>
+<span class="co">#&gt; 1 OK    Harmon       2557             0.9</span>
+<span class="co">#&gt; 2 OK    Tillman      7229             0.9</span>
+<span class="co">#&gt; 3 WV    Wyoming     20123             0.9</span>
+<span class="co">#&gt; 4 AR    Phillips    17299             1  </span>
+<span class="co">#&gt; 5 MN    Traverse     3218             1</span></code></pre></div>
 <!--You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/master/examples>.
 
 
@@ -193,6 +255,12 @@ In that case, don't forget to commit and push the resulting figure files, so the
 <h2>Community</h2>
 <ul class="list-unstyled">
 <li><a href="CODE_OF_CONDUCT.html">Code of conduct</a></li>
+</ul>
+</div>
+<div class="citation">
+<h2>Citation</h2>
+<ul class="list-unstyled">
+<li><a href="authors.html">Citing retirementLoc</a></li>
 </ul>
 </div>
 <div class="developers">

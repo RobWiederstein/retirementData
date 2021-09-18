@@ -2,16 +2,17 @@
 % Please edit documentation in R/health.R
 \name{fetch_ihme_life_expectancy}
 \alias{fetch_ihme_life_expectancy}
-\title{Fetch US life expectancy by county
-The `fetch_ihme_life_expectancy` function retrieves the life expectancy by US county}
+\title{Fetch US life expectancy by county}
 \usage{
 fetch_ihme_life_expectancy()
 }
 \description{
-Fetch US life expectancy by county
-The `fetch_ihme_life_expectancy` function retrieves the life expectancy by US county
+The `fetch_ihme_life_expectancy` function retrieves the life expectancy by US
+county
 }
 \details{
-The life expectancy data was downloaded from The Institute for Health Metrics
-and Evaluation (IHME). The webpage was entitled, "\href{http://ghdx.healthdata.org/record/ihme-data/united-states-life-expectancy-and-age-specific-mortality-risk-county-1980-2014}{United States Life Expectancy and Age-specific Mortality Risk by County 1980-2014}
+The life expectancy data was downloaded from The Institute for
+Health Metrics and Evaluation (IHME). The webpage was entitled,
+"\href{http://ghdx.healthdata.org/record/ihme-data/united-states-life-expectancy-and-age-specific-mortality-risk-county-1980-2014}{United
+States Life Expectancy and Age-specific Mortality Risk by County 1980-2014}
 }

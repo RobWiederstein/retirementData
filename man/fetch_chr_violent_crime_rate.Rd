@@ -2,20 +2,18 @@
 % Please edit documentation in R/health.R
 \name{fetch_chr_violent_crime_rate}
 \alias{fetch_chr_violent_crime_rate}
-\title{Fetch violent crime rate by county
-The `fetch_chr_violent_crime_rate` function retrieves violent crime rate from county
-health rankings}
+\title{Fetch violent crime rate by county}
 \usage{
 fetch_chr_violent_crime_rate()
 }
 \description{
-Fetch violent crime rate by county
-The `fetch_chr_violent_crime_rate` function retrieves violent crime rate from county
-health rankings
+The `fetch_chr_violent_crime_rate` function retrieves violent crime rate from
+county health rankings
 }
 \details{
-The violent crime rate was downloaded from \href{https://www.countyhealthrankings.org}{County Health Rankings}.
-The data is derived from The Uniform Crime Reporting (UCR) Program. 17,000 law enforcement
-agencies across the United States submit the data to the FBI which is charged with collecting and
-publishing it.
+The violent crime rate was downloaded from
+  \href{https://www.countyhealthrankings.org}{County Health Rankings}. The
+  data is derived from The Uniform Crime Reporting (UCR) Program. 17,000 law
+  enforcement agencies across the United States submit the data to the FBI
+  which is charged with collecting and publishing it.
 }

@@ -8,9 +8,10 @@ fetch_county_coords()
 }
 \description{
 The `fetch_county_coords` function retrieves population weighted centers for
- 3142 US counties.
- @details
- The latitude and longitude, or county centroids, were downloaded from the
- \href{https://github.com/btskinner/spatial}{btskinner/spatial}
- repo maintained by Professor Benjamin Skinner. Centroids are population weighted.
+3142 US counties.
+}
+\details{
+The latitude and longitude, or county centroids, were downloaded
+from the \href{https://github.com/btskinner/spatial}{btskinner/spatial} repo
+maintained by Professor Benjamin Skinner. Centroids are population weighted.
 }

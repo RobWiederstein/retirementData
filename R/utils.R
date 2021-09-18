@@ -82,11 +82,11 @@ fetch_county_fips_codes <- function() {
 #' Fetch county centroids weighted by population
 #'
 #' The `fetch_county_coords` function retrieves population weighted centers for
-#'  3142 US counties.
-#'  @details
-#'  The latitude and longitude, or county centroids, were downloaded from the
-#'  \href{https://github.com/btskinner/spatial}{btskinner/spatial}
-#'  repo maintained by Professor Benjamin Skinner. Centroids are population weighted.
+#' 3142 US counties.
+#'
+#' @details The latitude and longitude, or county centroids, were downloaded
+#' from the \href{https://github.com/btskinner/spatial}{btskinner/spatial} repo
+#' maintained by Professor Benjamin Skinner. Centroids are population weighted.
 #'
 #' @importFrom dplyr filter rename select left_join mutate
 #' @importFrom tidyr pivot_longer pivot_wider separate unite replace_na

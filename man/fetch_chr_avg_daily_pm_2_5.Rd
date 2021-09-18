@@ -2,21 +2,20 @@
 % Please edit documentation in R/health.R
 \name{fetch_chr_avg_daily_pm_2_5}
 \alias{fetch_chr_avg_daily_pm_2_5}
-\title{Fetch average daily particulate matter 2.5
-The `fetch_chr_avg_daily_pm_2_5` function retrieves violent crime rate from county
-health rankings}
+\title{Fetch average daily particulate matter 2.5}
 \usage{
 fetch_chr_avg_daily_pm_2_5()
 }
 \description{
-Fetch average daily particulate matter 2.5
-The `fetch_chr_avg_daily_pm_2_5` function retrieves violent crime rate from county
-health rankings
+The `fetch_chr_avg_daily_pm_2_5`
+function retrieves violent crime rate from county health rankings
 }
 \details{
-The average daily particulate matter 2.5 microns was downloaded from \href{https://www.countyhealthrankings.org}{County Health Rankings},
-although it is available from the Environmental Protection Agency as well. PM2.5 describes fine inhalable
-particles, with diameters that are generally 2.5 micrometers and smaller. While the levels have been
-decreasing over time, high concentrations of particulate matter are associated
-with serious health problems.
+The average daily particulate matter 2.5 microns was downloaded from
+\href{https://www.countyhealthrankings.org}{County Health Rankings}, although
+it is available from the Environmental Protection Agency as well. PM2.5
+describes fine inhalable particles, with diameters that are generally 2.5
+micrometers and smaller. While the levels have been decreasing over time,
+high concentrations of particulate matter are associated with serious health
+problems.
 }

@@ -28,6 +28,10 @@ df <-
       ) %>%
       reduce(left_join, by = "fips")
 
+#Fix tilde import
+n_tilde <- "\xfc\xbe\x8c\x86\x90\xbc"
+df$county <- gsub(n_tilde, "n", df$county)
+
 #drop missing location data
 retirementLoc <-
       df %>%

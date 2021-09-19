@@ -6,7 +6,7 @@ Authors@R:
            family = "Wiederstein",
            role = c("aut", "cre"),
            email = "rob@robwiederstein.org")
-Description: Filter United States counties by appealing criteria for retirement.
+Description: Filter US counties by appealing criteria for retirement.
 License: MIT + file LICENSE
 Imports: 
     attempt,

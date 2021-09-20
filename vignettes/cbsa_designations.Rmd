@@ -32,7 +32,7 @@ When these were merged with the `retirementLoc` dataset, a number of "NA"s were 
 
 # Univariate Plots
 
-```{r fig.height=12, out.width="100%", include=T}
+```{r fig.height=12, out.width="100%", include=T, dpi=100}
   df <- retirementLoc %>% 
         dplyr::filter(cbsa_desig %in% c("metro-central", "rural-faraway")) %>% 
         select(fips, cbsa_desig, pop_2020, pct_pop_change, 

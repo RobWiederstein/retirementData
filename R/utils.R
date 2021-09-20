@@ -26,6 +26,9 @@ download_dataset <- function(url) {
 #' @importFrom rlang .data
 #' @importFrom readr cols
 #' @importFrom tidyselect all_of
+#' @importFrom Rdpack reprompt
+#' @references
+#' \insertRef{Healy2018}{retirementLoc}
 fetch_state_fips_codes <- function() {
       file.path <- system.file(
             "extdata",
@@ -51,12 +54,16 @@ fetch_state_fips_codes <- function() {
 #'
 #' The `fetch_county_fips_codes` function retrieves FIPS codes for 3142 US counties.
 #'
+#' @references
+#' \insertRef{Healy2018}{retirementLoc}
+#'
 #' @importFrom dplyr filter rename select left_join mutate
 #' @importFrom tidyr pivot_longer pivot_wider separate unite replace_na
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
 #' @importFrom readr cols
 #' @importFrom tidyselect all_of
+#' @importFrom Rdpack reprompt
 fetch_county_fips_codes <- function() {
       file.path <- system.file(
             "extdata",
@@ -94,6 +101,9 @@ fetch_county_fips_codes <- function() {
 #' @importFrom rlang .data
 #' @importFrom readr cols
 #' @importFrom tidyselect all_of
+#' @importFrom Rdpack reprompt
+#' @references
+#' \insertRef{Skinner2018}{retirementLoc}
 fetch_county_coords <- function() {
       file <- system.file(
             "extdata",

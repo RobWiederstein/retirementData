@@ -9,13 +9,10 @@ Authors@R:
 Description: Filter US counties by appealing criteria for retirement.
 License: MIT + file LICENSE
 Imports: 
-    attempt,
     config (>= 0.3.1),
     dplyr,
     DT,
     ggplot2,
-    glue,
-    golem (>= 0.3.1),
     htmltools,
     janitor,
     kableExtra,
@@ -24,6 +21,7 @@ Imports:
     readr,
     readxl,
     rlang,
+    Rdpack,
     scales,
     shiny (>= 1.6.0),
     shinyWidgets,
@@ -34,7 +32,7 @@ Imports:
     usethis
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Suggests: 
     rmarkdown,
     markdown,
@@ -42,8 +40,7 @@ Suggests:
     spelling,
     testthat (>= 3.0.0),
     covr
-Config/testthat/edition: 3
-StagedInstall: no
+RdMacros: Rdpack
 Language: en-US
 VignetteBuilder: knitr
 URL: https://github.com/RobWiederstein/retirement

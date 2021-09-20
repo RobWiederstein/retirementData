@@ -9,3 +9,6 @@ fetch_state_fips_codes()
 \description{
 The `fetch_state_fips_codes` function retrieves FIPS codes for all 50 US states.
 }
+\references{
+\insertRef{Healy2018}{retirementLoc}
+}

@@ -33,32 +33,10 @@ The variables in the `retirementLoc` dataset are:
 fips
 </td>
 <td style="text-align:left;">
-cbsa_desig
-</td>
-<td style="text-align:left;">
-violent_crime_rate
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 lon
 </td>
 <td style="text-align:left;">
-rucc_2013
-</td>
-<td style="text-align:left;">
-average_daily_pm2_5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 lat
-</td>
-<td style="text-align:left;">
-partisan_lean
-</td>
-<td style="text-align:left;">
-prim_care_dr_rate
 </td>
 </tr>
 <tr>
@@ -66,32 +44,10 @@ prim_care_dr_rate
 state
 </td>
 <td style="text-align:left;">
-med_hh_inc_2019
-</td>
-<td style="text-align:left;">
-avg_annual_temp
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 county
 </td>
 <td style="text-align:left;">
-pct_bachelor
-</td>
-<td style="text-align:left;">
-median_home_price
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 pop_2020
-</td>
-<td style="text-align:left;">
-broadband_2017
-</td>
-<td style="text-align:left;">
-yoy_price_chg_pct
 </td>
 </tr>
 <tr>
@@ -99,7 +55,51 @@ yoy_price_chg_pct
 pct_pop_change
 </td>
 <td style="text-align:left;">
+cbsa_desig
+</td>
+<td style="text-align:left;">
+rucc_2013
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+partisan_lean
+</td>
+<td style="text-align:left;">
+med_hh_inc_2019
+</td>
+<td style="text-align:left;">
+pct_bachelor
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+broadband_2017
+</td>
+<td style="text-align:left;">
 life_exp
+</td>
+<td style="text-align:left;">
+violent_crime_rate
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+average_daily_pm2_5
+</td>
+<td style="text-align:left;">
+prim_care_dr_rate
+</td>
+<td style="text-align:left;">
+avg_annual_temp
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+median_home_price
+</td>
+<td style="text-align:left;">
+yoy_price_chg_pct
 </td>
 <td style="text-align:left;">
 years_to_payoff
@@ -123,6 +123,10 @@ install_github("RobWiederstein/retirementLoc")
 ## Load Data
 
 Once the development package is installed, it can be loaded via:
+
+``` r
+data("retirementLoc")
+```
 
 ## Common Questions
 
@@ -159,4 +163,4 @@ In that case, don't forget to commit and push the resulting figure files, so the
 Please note that the retirementLoc project is released with a
 [Contributor Code of
 Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
-By contributing to this project, you agree to abide by the terms.
+By contributing to this project, you agree to abide by its terms.

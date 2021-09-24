@@ -59,6 +59,11 @@ install_github("RobWiederstein/retirementLoc")
 
 Once the development package is installed, it can be loaded via:
 
+```{r}
+data("retirementLoc")
+```
+
+
 ## Common Questions
 
 The data can provide some practical guidance as to candidate locations by identifying high growth counties, reasonable housing costs, air quality and life expectancy. For example, the code below might be used to answer where housing costs are reasonable:

@@ -12,5 +12,15 @@ having access to broadband cable.
 }
 \details{
 Broadband coverage is from the US Census Bureau and represents the percentage
- of households having access to broadband in 2017.
+ of households having access to broadband in 2017. The USCB found that "nationally,
+ 78 percent of households subscribe to the internet, but households in both rural
+ and lower-income counties trail the national average by 13 points."
+  \insertCite{USCBbroadband2021}{retirementLoc} Counties with high broadband
+  subscription rates are concentrated around urban areas and along both coasts.
+  \insertCite{USCBbroadband2021}{retirementLoc} Whereas counties with lower subscription
+  rates are more prominent in the South and the Mississippi River basin.
+  \insertNoCite{USCBacs2018}{retirementLoc}
+}
+\references{
+\insertAllCited{}
 }

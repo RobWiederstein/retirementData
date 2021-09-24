@@ -7,8 +7,11 @@
 fetch_noaa_avg_temp()
 }
 \description{
-The `fetch_noaa_avg_temp` function retrieves the life expectancy by US county
+The `fetch_noaa_avg_temp` function retrieves the average temperature in fahrenheit by county.
 }
 \details{
 Average annual temperature was downloaded from \href{https://www.ncdc.noaa.gov/cag/county/mapping}{NOAA National Center for Environmental Information}.
+}
+\references{
+\insertRef{NOAA2021}{retirementLoc}
 }

@@ -17,10 +17,10 @@
 #'   \item{verify}{a not-so-subtle prompt to users to verify the information}
 #' }
 #'
-#' @details
-#' The data was downloaded from
-#' \href{https://data.cms.gov/provider-data/dataset/xubh-q36u}{The Centers for Medicare & Medicaid Services}.
+#'  \insertNoCite{CMS2021}{retirementLoc}
 #'
+#' @references
+#'     \insertAllCited{}
 #' @examples
 #' #load
 #' data("hospitalLoc")

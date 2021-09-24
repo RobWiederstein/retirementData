@@ -14,3 +14,6 @@ in the United States for 2020 as tablulated by the United States Census Bureau.
 The population data is from the
 \href{https://www2.census.gov/programs-surveys/popest/datasets/2010-2020/counties/totals/co-est2020.csv}{U.S. Census Bureau}.
 }
+\references{
+\insertRef{USCB2021}{retirementLoc}
+}

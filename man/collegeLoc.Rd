@@ -15,6 +15,7 @@ A data frame with 1254 rows and 7 variables:
   \item{name}{school name}
   \item{students_2020}{total student enrollments in 2020}
 }
+\insertNoCite{IPEDS2021}{retirementLoc}
 }
 \usage{
 data("collegeLoc")
@@ -23,12 +24,11 @@ data("collegeLoc")
 A dataset containing US college locations with total student enrollments
 greater than 5,000.
 }
-\details{
-Data was downloaded from the Integerated Postsecondary Education Data
-System ("IPEDS") \href{https://nces.ed.gov/ipeds/datacenter/InstitutionList.aspx?goToReportId=1}{website}.
-}
 \examples{
-#load
+# load
 data("collegeLoc")
+}
+\references{
+\insertAllCited{}
 }
 \keyword{datasets}

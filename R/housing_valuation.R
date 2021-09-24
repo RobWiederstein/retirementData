@@ -1,15 +1,23 @@
 #' Fetch Zillow Median Housing Price
 #'
+#' The `fetch_zillow_median_price` function retrieves the typical value for homes
+#' in dollars by county.
+#'
 #' @details
 #' Background can be found on Zillow's data \href{https://www.zillow.com/research/data/}{tab}.
 #' According to the Zillow website, it is "a smoothed, seasonally adjusted measure of the typical
 #' home value and market changes across a given region and housing type. It reflects the
-#' typical value for homes in the 35th to 65th percentile range.
+#' typical value for homes in the 35th to 65th percentile range. \insertCite{Zillow2021}{retirementLoc}
 #'
 #' @importFrom dplyr  filter rename select
 #' @importFrom tidyr pivot_longer pivot_wider separate unite
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
+#' @importFrom Rdpack reprompt
+#'
+#' @references
+#' \insertAllCited{}
+
 
 fetch_zillow_median_price <- function() {
       # load
@@ -34,17 +42,25 @@ fetch_zillow_median_price <- function() {
 
 #' Fetch Zillow Year-over-Year Price Change
 #'
+#' The `fetch_zillow_median_price` function retrieves the percentage change in median
+#' housing price over one year.
+#'
 #' @details
 #' Background can be found on Zillow's data \href{https://www.zillow.com/research/data/}{tab}.
 #' According to the Zillow website, it is "a smoothed, seasonally adjusted measure of the typical
 #' home value and market changes across a given region and housing type. It reflects the
 #' typical value for homes in the 35th to 65th percentile range. Data set was filtered to
-#' the latest period available and one year preceding it.  The percentage change was computed.
+#' the latest period available and one year preceding it.  The percentage change was computed from
+#' the most recent month and the month one year previous to the current month.
+#' \insertCite{Zillow2021}{retirementLoc}
 #'
 #' @importFrom dplyr  filter rename select
 #' @importFrom tidyr pivot_longer pivot_wider separate unite
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
+#'
+#' @references
+#' \insertAllCited{}
 fetch_zillow_yoy_price_chg_pct <- function() {
       # load
       file <- system.file("extdata", "zillow_hpi.csv", package = "retirementLoc")
@@ -74,14 +90,16 @@ fetch_zillow_yoy_price_chg_pct <- function() {
 
 #' Fetch USDA Household Income by County
 #'
-#' @details
-#' Data may be downloaded from USDA
-#' \href{https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/page}{webpage}.
+#' The `fetch_usda_household_inc` function retrieves the median household income.
 #'
 #' @importFrom dplyr filter rename select left_join mutate
 #' @importFrom tidyr pivot_longer pivot_wider separate unite
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
+#' @importFrom Rdpack reprompt
+#'
+#' @references
+#'     \insertRef{USDAhhinc2021}{retirementLoc}
 fetch_usda_household_inc <- function() {
       path <- system.file("extdata", "unemployment.xlsx", package = "retirementLoc")
       df <- readxl::read_xlsx(

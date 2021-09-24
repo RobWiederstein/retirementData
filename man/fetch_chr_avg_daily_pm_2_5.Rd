@@ -7,8 +7,8 @@
 fetch_chr_avg_daily_pm_2_5()
 }
 \description{
-The `fetch_chr_avg_daily_pm_2_5`
-function retrieves violent crime rate from county health rankings
+The `fetch_chr_avg_daily_pm_2_5` function retrieves average daily
+particulate matter by county.
 }
 \details{
 The average daily particulate matter 2.5 microns was downloaded from
@@ -18,4 +18,7 @@ describes fine inhalable particles, with diameters that are generally 2.5
 micrometers and smaller. While the levels have been decreasing over time,
 high concentrations of particulate matter are associated with serious health
 problems.
+}
+\references{
+\insertRef{CHR2021}{retirementLoc}
 }

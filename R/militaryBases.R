@@ -50,6 +50,9 @@
 #'
 #'  U.S. territories were excluded.
 #'
+#' @importFrom Rdpack reprompt
+#' @references
+#'   \insertRef{USDOTbases2019}{retirementLoc}
 #' @examples
 #' #load
 #' data("militaryBases")

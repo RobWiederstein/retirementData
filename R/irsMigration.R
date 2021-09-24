@@ -26,16 +26,29 @@
 #' @details
 #'
 #' According to the IRS \href{https://www.irs.gov/statistics/soi-tax-stats-migration-data}{website}:
-#' "Migration data for the United States are based on year-to-year address changes reported on individual income tax returns filed with the IRS. They present migration patterns by State or by county for the entire United States and are available for inflows—the number of new residents who moved to a State or county and where they migrated from, and outflows—the number of residents leaving a State or county and where they went. The data are available for Filing Years 1991 through 2019 and include:
+#' "Migration data for the United States are based on year-to-year address changes reported on
+#' individual income tax returns filed with the IRS. They present migration patterns by State
+#' or by county for the entire United States and are available for inflows—the number of new
+#' residents who moved to a State or county and where they migrated from, and outflows—the n
+#' umber of residents leaving a State or county and where they went.
+#'
+#' The data are available for filing Years 1991 through 2019 and include:
 #' Number of returns filed, which approximates the number of households that migrated
 #' Number of personal exemptions claimed, which approximates the number of individuals
 #' Total adjusted gross income, starting with Filing Year 1995.  Aggregate migration
 #' flows at the State level, by the size of adjusted gross income (AGI) and age of the
 #' primary taxpayer, starting with Filing Year 2011."
 #'
+#' Counts below 20 at the county level were deleted, presumably, to prevent a taxpayer
+#' from being identified. Data do not represent the full U.S. population because many
+#' individuals are not required to file an individual income tax return.
+#'
 #' The IRS also publishes a helpful and comprehensive
 #' \href{https://www.irs.gov/pub/irs-soi/1819inpublicmigdoc.pdf}{"Migration Data Users Guide and Record Layouts"}.
+#'  \insertNoCite{IRS2021}{retirementLoc}
 #'
+#' @references
+#'     \insertAllCited{}
 #' @examples
 #' #load
 #' data("irsMigration")

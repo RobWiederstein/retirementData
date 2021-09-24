@@ -36,14 +36,12 @@
 ##'  \item{Small Hub -- }{Receives 0.05 to 0.25 percent of the annual U.S. commercial enplanements;}
 ##'  \item{Nonhub -- }{Receives less than 0.05 percent but more than 10,000 of the annual U.S.
 ##'  commercial enplanements.}
-##' }
+##' }\insertCite{FAAcategories2020}{retirementLoc}
+#'  \insertNoCite{FAAairports2020}{retirementLoc}
+#'  \insertNoCite{FAAcontact2021}{retirementLoc}
 #'
-#'
-#' \href{https://www.faa.gov/airports/planning_capacity/categories/}{Airport Categories}
-#'
-#' \href{https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger/}{Passenger Boarding (Enplanement) and All-Cargo Data for U.S. Airports}
-#'
-#' \href{https://www.faa.gov/airports/airport_safety/airportdata_5010/}{Airport Data & Contact Information}
+#' @references
+#'     \insertAllCited{}
 #' @examples
 #' #load
 #' data("airportLoc")

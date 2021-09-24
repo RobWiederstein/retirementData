@@ -7,12 +7,18 @@
 fetch_zillow_yoy_price_chg_pct()
 }
 \description{
-Fetch Zillow Year-over-Year Price Change
+The `fetch_zillow_median_price` function retrieves the percentage change in median
+housing price over one year.
 }
 \details{
 Background can be found on Zillow's data \href{https://www.zillow.com/research/data/}{tab}.
 According to the Zillow website, it is "a smoothed, seasonally adjusted measure of the typical
 home value and market changes across a given region and housing type. It reflects the
 typical value for homes in the 35th to 65th percentile range. Data set was filtered to
-the latest period available and one year preceding it.  The percentage change was computed.
+the latest period available and one year preceding it.  The percentage change was computed from
+the most recent month and the month one year previous to the current month.
+\insertCite{Zillow2021}{retirementLoc}
+}
+\references{
+\insertAllCited{}
 }

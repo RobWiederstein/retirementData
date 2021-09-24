@@ -7,9 +7,8 @@
 fetch_usda_household_inc()
 }
 \description{
-Fetch USDA Household Income by County
+The `fetch_usda_household_inc` function retrieves the median household income.
 }
-\details{
-Data may be downloaded from USDA
-\href{https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/page}{webpage}.
+\references{
+\insertRef{USDAhhinc2021}{retirementLoc}
 }

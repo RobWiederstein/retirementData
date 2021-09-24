@@ -8,11 +8,14 @@ fetch_chr_primary_care_doctors()
 }
 \description{
 The `fetch_chr_primary_care_doctors` function retrieves the number of primary
-care physicians per 100,000 residents
+care physicians per 100,000 residents.
 }
 \details{
-#' The primary care physician rate is important to insure that the
+The primary care physician rate is important to insure that the
 public can access preventive and primary care. The information is collected
 by \href{https://www.countyhealthrankings.org}{County Health Rankings} from
 over 50 sources.
+}
+\references{
+\insertRef{CHR2021}{retirementLoc}
 }

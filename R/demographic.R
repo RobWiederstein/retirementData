@@ -11,39 +11,43 @@
 #' @importFrom tidyr pivot_longer pivot_wider separate unite
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
+#' @importFrom Rdpack reprompt
+#'
+#' @references
+#' \insertRef{USCB2021}{retirementLoc}
 fetch_uscb_population <- function() {
-      # read in data
-      file.path <- system.file(
-            "extdata",
-            "co-est2020.csv",
-            package = "retirementLoc"
-      )
+  # read in data
+  file.path <- system.file(
+    "extdata",
+    "co-est2020.csv",
+    package = "retirementLoc"
+  )
 
-      df <- readr::read_csv(
-            file.path,
-            show_col_types = FALSE
-      )
-      # rename variables
-      df <- janitor::clean_names(df)
+  df <- readr::read_csv(
+    file.path,
+    show_col_types = FALSE
+  )
+  # rename variables
+  df <- janitor::clean_names(df)
 
-      # clean
-      uscb_county_pop <-
-            df %>%
-            dplyr::filter(.data$county != "000") %>%
-            unite("fips", .data$state:.data$county, sep = "") %>%
-            mutate(ctyname = gsub(" County", "", .data$ctyname)) %>%
-            select(.data$fips, .data$stname, .data$ctyname, .data$census2010pop, .data$popestimate2020) %>%
-            mutate(census2010pop = .data$census2010pop %>% as.integer()) %>%
-            mutate(pct_change = (.data$popestimate2020 - .data$census2010pop) / .data$census2010pop) %>%
-            mutate(pct_change = round(.data$pct_change * 100, 1)) %>%
-            select(-.data$census2010pop) %>%
-            rename(
-                  pop_2020 = .data$popestimate2020,
-                  pct_pop_change = .data$pct_change
-            ) %>%
-            select(.data$fips, .data$pop_2020, .data$pct_pop_change)
-      # export
-      uscb_county_pop
+  # clean
+  uscb_county_pop <-
+    df %>%
+    dplyr::filter(.data$county != "000") %>%
+    unite("fips", .data$state:.data$county, sep = "") %>%
+    mutate(ctyname = gsub(" County", "", .data$ctyname)) %>%
+    select(.data$fips, .data$stname, .data$ctyname, .data$census2010pop, .data$popestimate2020) %>%
+    mutate(census2010pop = .data$census2010pop %>% as.integer()) %>%
+    mutate(pct_change = (.data$popestimate2020 - .data$census2010pop) / .data$census2010pop) %>%
+    mutate(pct_change = round(.data$pct_change * 100, 1)) %>%
+    select(-.data$census2010pop) %>%
+    rename(
+      pop_2020 = .data$popestimate2020,
+      pct_pop_change = .data$pct_change
+    ) %>%
+    select(.data$fips, .data$pop_2020, .data$pct_pop_change)
+  # export
+  uscb_county_pop
 }
 
 #' Fetch Partisan Lean
@@ -59,37 +63,41 @@ fetch_uscb_population <- function() {
 #' @importFrom tidyr pivot_longer pivot_wider separate unite
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
+#' @importFrom Rdpack reprompt
+#'
+#' @references
+#' \insertRef{MIT2017}{retirementLoc}
 fetch_partisan_lean <- function() {
-      file.path <- system.file(
-            "extdata",
-            "countypres_2000-2020.csv",
-            package = "retirementLoc"
-      )
-      # read in data
-      df <- read.csv(
-            file = file.path,
-            colClasses = "character"
-      )
-      # rename variables
-      df <- janitor::clean_names(df)
-      # clean
-      us_part_lean <-
-            df %>%
-            dplyr::filter(.data$year == "2020") %>%
-            dplyr::filter(.data$party == "DEMOCRAT") %>%
-            mutate(across(.data$candidatevotes:.data$totalvotes, as.integer)) %>%
-            group_by(.data$county_fips, .data$totalvotes) %>%
-            summarize(cast = sum(.data$candidatevotes)) %>%
-            mutate(
-                  partisan_lean = .data$cast / .data$totalvotes,
-                  partisan_lean = (.data$partisan_lean * 100) %>% round(1)
-            ) %>%
-            select(.data$county_fips, .data$partisan_lean) %>%
-            rename(fips = .data$county_fips) %>%
-            drop_na() %>%
-            ungroup()
-      # export
-      us_part_lean
+  file.path <- system.file(
+    "extdata",
+    "countypres_2000-2020.csv",
+    package = "retirementLoc"
+  )
+  # read in data
+  df <- read.csv(
+    file = file.path,
+    colClasses = "character"
+  )
+  # rename variables
+  df <- janitor::clean_names(df)
+  # clean
+  us_part_lean <-
+    df %>%
+    dplyr::filter(.data$year == "2020") %>%
+    dplyr::filter(.data$party == "DEMOCRAT") %>%
+    mutate(across(.data$candidatevotes:.data$totalvotes, as.integer)) %>%
+    group_by(.data$county_fips, .data$totalvotes) %>%
+    summarize(cast = sum(.data$candidatevotes)) %>%
+    mutate(
+      partisan_lean = .data$cast / .data$totalvotes,
+      partisan_lean = (.data$partisan_lean * 100) %>% round(1)
+    ) %>%
+    select(.data$county_fips, .data$partisan_lean) %>%
+    rename(fips = .data$county_fips) %>%
+    drop_na() %>%
+    ungroup()
+  # export
+  us_part_lean
 }
 
 #' Fetch CBSA county classifications
@@ -100,7 +108,11 @@ fetch_partisan_lean <- function() {
 #' @details
 #' The Office of Management and Budget ("OMB") assigns some counties to metropolitan
 #' or micropolitan areas.  The two classifications are further subdivided into central
-#' and outlying areas.  The value "rural-faraway" is a construct and was used to replace
+#' and outlying areas.
+#'
+#' The US Census Bureau provides "dilineation" files listing core
+#' based statistic areas (CBSA), combined statistical areas (CSA), and their component areas.
+#' The value "rural-faraway" is a construct and was used to replace
 #' "NA" values. For more information, see the US Census Bureau
 #' \href{#https://www.census.gov/programs-surveys/metro-micro.html}{website}.
 #'
@@ -109,38 +121,42 @@ fetch_partisan_lean <- function() {
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
 #' @importFrom readr cols
+#' @importFrom Rdpack reprompt
+#'
+#' @references
+#' \insertRef{NBER2021}{retirementLoc}
 fetch_cbsa_metro_label <- function() {
-      # load
-      file <- system.file("extdata", "cbsa2fipsxw.csv", package = "retirementLoc")
-      df <- readr::read_csv(file = file, col_types = cols(.default = "c"))
-      # clean
-      cbsa_codes <-
-            df %>%
-            janitor::remove_empty() %>%
-            select(
-                  .data$fipsstatecode, .data$fipscountycode,
-                  .data$centraloutlyingcounty, .data$metropolitanmicropolitanstatis
-            ) %>%
-            rename(
-                  state = .data$fipsstatecode,
-                  county = .data$fipscountycode,
-                  class = .data$centraloutlyingcounty,
-                  status = .data$metropolitanmicropolitanstatis
-            ) %>%
-            tidyr::unite("fips", .data$state:.data$county, sep = "") %>%
-            tidyr::unite("cbsa_desig", c(.data$status, .data$class), sep = "-") %>%
-            dplyr::mutate(cbsa_desig = .data$cbsa_desig %>% tolower()) %>%
-            dplyr::mutate(cbsa_desig = gsub("politan statistical area", "", .data$cbsa_desig))
-      # merge
-      df <-
-            left_join(fetch_county_fips_codes(),
-                  cbsa_codes,
-                  by = "fips"
-            ) %>%
-            replace_na(list(cbsa_desig = "rural-faraway")) %>%
-            select(.data$fips, .data$cbsa_desig)
-      # export
-      df
+  # load
+  file <- system.file("extdata", "cbsa2fipsxw.csv", package = "retirementLoc")
+  df <- readr::read_csv(file = file, col_types = cols(.default = "c"))
+  # clean
+  cbsa_codes <-
+    df %>%
+    janitor::remove_empty() %>%
+    select(
+      .data$fipsstatecode, .data$fipscountycode,
+      .data$centraloutlyingcounty, .data$metropolitanmicropolitanstatis
+    ) %>%
+    rename(
+      state = .data$fipsstatecode,
+      county = .data$fipscountycode,
+      class = .data$centraloutlyingcounty,
+      status = .data$metropolitanmicropolitanstatis
+    ) %>%
+    tidyr::unite("fips", .data$state:.data$county, sep = "") %>%
+    tidyr::unite("cbsa_desig", c(.data$status, .data$class), sep = "-") %>%
+    dplyr::mutate(cbsa_desig = .data$cbsa_desig %>% tolower()) %>%
+    dplyr::mutate(cbsa_desig = gsub("politan statistical area", "", .data$cbsa_desig))
+  # merge
+  df <-
+    left_join(fetch_county_fips_codes(),
+      cbsa_codes,
+      by = "fips"
+    ) %>%
+    replace_na(list(cbsa_desig = "rural-faraway")) %>%
+    select(.data$fips, .data$cbsa_desig)
+  # export
+  df
 }
 #' Fetch rural-urban county continuum county classifications
 #'
@@ -149,8 +165,8 @@ fetch_cbsa_metro_label <- function() {
 #'
 #' @details
 #'
-#' Additionally, the OMB also assigns counties to a rural-urban continuum.  The values are
-#' 1 through 9 with based on population and adjacency to an urban area. It is also known as
+#' The OMB also assigns counties to a rural-urban continuum.  The values are
+#' 1 through 9 and is based on population and adjacency to an urban area. It is also known as
 #' the "Beale code" originally developed by David L. Brown and later popularized by Calvin
 #' Beale at the United States Department of Agriculture in 1975. See
 #' \href{https://bit.ly/3Aa2KAW}{USDA Rural-Urban Continuum Codes}.
@@ -159,18 +175,22 @@ fetch_cbsa_metro_label <- function() {
 #' @importFrom tidyr pivot_longer pivot_wider separate unite
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
+#' @importFrom Rdpack reprompt
+#'
+#' @references
+#' \insertRef{USDAcodes2021}{retirementLoc}
 fetch_rural_urban_continuum <- function() {
-      # import
-      path <- system.file("extdata", "ruralurbancodes2013.xls", package = "retirementLoc")
-      df <- readxl::read_xls(path = path)
-      # clean
-      rural_urban_codes <-
-            df %>%
-            janitor::clean_names() %>%
-            select(.data$fips, .data$rucc_2013) %>%
-            mutate(rucc_2013 = .data$rucc_2013 %>% as.character())
-      # export
-      rural_urban_codes
+  # import
+  path <- system.file("extdata", "ruralurbancodes2013.xls", package = "retirementLoc")
+  df <- readxl::read_xls(path = path)
+  # clean
+  rural_urban_codes <-
+    df %>%
+    janitor::clean_names() %>%
+    select(.data$fips, .data$rucc_2013) %>%
+    mutate(rucc_2013 = .data$rucc_2013 %>% as.character())
+  # export
+  rural_urban_codes
 }
 #' Fetch percent residents having broadband access
 #'
@@ -179,32 +199,43 @@ fetch_rural_urban_continuum <- function() {
 #'
 #' @details
 #'  Broadband coverage is from the US Census Bureau and represents the percentage
-#'  of households having access to broadband in 2017.
+#'  of households having access to broadband in 2017. The USCB found that "nationally,
+#'  78 percent of households subscribe to the internet, but households in both rural
+#'  and lower-income counties trail the national average by 13 points."
+#'   \insertCite{USCBbroadband2021}{retirementLoc} Counties with high broadband
+#'   subscription rates are concentrated around urban areas and along both coasts.
+#'   \insertCite{USCBbroadband2021}{retirementLoc} Whereas counties with lower subscription
+#'   rates are more prominent in the South and the Mississippi River basin.
+#'   \insertNoCite{USCBacs2018}{retirementLoc}
+#'
 #'
 #' @importFrom dplyr filter rename select left_join mutate
 #' @importFrom tidyr pivot_longer pivot_wider separate unite
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
+#' @importFrom Rdpack reprompt
 #'
+#' @references
+#'     \insertAllCited{}
 fetch_broadband_access <- function() {
-      file <- system.file(
-            "extdata",
-            "2021-08-28_uscb_housing.csv",
-            package = "retirementLoc"
-      )
-      # read in data
-      df <- readr::read_csv(
-            file = file,
-            skip = 0
-      )
-      # clean
-      broadband <-
-            df %>%
-            janitor::clean_names() %>%
-            select(.data$fips, .data$broadband_2017) %>%
-            mutate(fips = stringr::str_pad(.data$fips, width = 5, side = "left", pad = "0"))
-      # export
-      broadband
+  file <- system.file(
+    "extdata",
+    "2021-08-28_uscb_housing.csv",
+    package = "retirementLoc"
+  )
+  # read in data
+  df <- readr::read_csv(
+    file = file,
+    skip = 0
+  )
+  # clean
+  broadband <-
+    df %>%
+    janitor::clean_names() %>%
+    select(.data$fips, .data$broadband_2017) %>%
+    mutate(fips = stringr::str_pad(.data$fips, width = 5, side = "left", pad = "0"))
+  # export
+  broadband
 }
 #' Fetch percent of population having a bacherlor's degree or higher
 #'
@@ -215,27 +246,31 @@ fetch_broadband_access <- function() {
 #' @importFrom tidyr pivot_longer pivot_wider separate unite
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
+#' @importFrom Rdpack reprompt
+#'
+#' @references
+#' \insertRef{USDAeduc2021}{retirementLoc}
 fetch_bachelor_degrees <- function() {
-      # import
-      path <- system.file("extdata", "usda_education_level_by_county.xls", package = "retirementLoc")
-      education_level <- readxl::read_xls(
-            path = path,
-            range = "A5:AU3288",
-            sheet = 1
-      )
-      # clean
-      education_level <-
-            education_level %>%
-            janitor::clean_names() %>%
-            select(.data$fips_code, .data$percent_of_adults_with_a_bachelors_degree_or_higher_2015_19) %>%
-            rename(
-                  fips = .data$fips_code,
-                  pct_bachelor = .data$percent_of_adults_with_a_bachelors_degree_or_higher_2015_19
-            ) %>%
-            separate(.data$fips, into = c("state", "county"), sep = 2) %>%
-            dplyr::filter(.data$county != "000") %>%
-            unite("fips", .data$state:.data$county, sep = "") %>%
-            mutate(pct_bachelor = .data$pct_bachelor %>% round(1))
-      # export
-      education_level
+  # import
+  path <- system.file("extdata", "usda_education_level_by_county.xls", package = "retirementLoc")
+  education_level <- readxl::read_xls(
+    path = path,
+    range = "A5:AU3288",
+    sheet = 1
+  )
+  # clean
+  education_level <-
+    education_level %>%
+    janitor::clean_names() %>%
+    select(.data$fips_code, .data$percent_of_adults_with_a_bachelors_degree_or_higher_2015_19) %>%
+    rename(
+      fips = .data$fips_code,
+      pct_bachelor = .data$percent_of_adults_with_a_bachelors_degree_or_higher_2015_19
+    ) %>%
+    separate(.data$fips, into = c("state", "county"), sep = 2) %>%
+    dplyr::filter(.data$county != "000") %>%
+    unite("fips", .data$state:.data$county, sep = "") %>%
+    mutate(pct_bachelor = .data$pct_bachelor %>% round(1))
+  # export
+  education_level
 }

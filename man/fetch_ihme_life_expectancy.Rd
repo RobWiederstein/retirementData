@@ -8,11 +8,14 @@ fetch_ihme_life_expectancy()
 }
 \description{
 The `fetch_ihme_life_expectancy` function retrieves the life expectancy by US
-county
+county.
 }
 \details{
 The life expectancy data was downloaded from The Institute for
 Health Metrics and Evaluation (IHME). The webpage was entitled,
 "\href{http://ghdx.healthdata.org/record/ihme-data/united-states-life-expectancy-and-age-specific-mortality-risk-county-1980-2014}{United
 States Life Expectancy and Age-specific Mortality Risk by County 1980-2014}
+}
+\references{
+\insertRef{IHME2017}{retirementLoc}
 }

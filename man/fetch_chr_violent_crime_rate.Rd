@@ -8,7 +8,7 @@ fetch_chr_violent_crime_rate()
 }
 \description{
 The `fetch_chr_violent_crime_rate` function retrieves violent crime rate from
-county health rankings
+county health rankings.
 }
 \details{
 The violent crime rate was downloaded from
@@ -16,4 +16,7 @@ The violent crime rate was downloaded from
   data is derived from The Uniform Crime Reporting (UCR) Program. 17,000 law
   enforcement agencies across the United States submit the data to the FBI
   which is charged with collecting and publishing it.
+}
+\references{
+\insertRef{CHR2021}{retirementLoc}
 }

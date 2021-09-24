@@ -13,7 +13,14 @@ counties.
 \details{
 The Office of Management and Budget ("OMB") assigns some counties to metropolitan
 or micropolitan areas.  The two classifications are further subdivided into central
-and outlying areas.  The value "rural-faraway" is a construct and was used to replace
+and outlying areas.
+
+The US Census Bureau provides "dilineation" files listing core
+based statistic areas (CBSA), combined statistical areas (CSA), and their component areas.
+The value "rural-faraway" is a construct and was used to replace
 "NA" values. For more information, see the US Census Bureau
 \href{#https://www.census.gov/programs-surveys/metro-micro.html}{website}.
+}
+\references{
+\insertRef{NBER2021}{retirementLoc}
 }

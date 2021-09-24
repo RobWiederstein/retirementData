@@ -16,6 +16,8 @@ A data frame with 5746 rows and 8 variables:
   \item{stars}{the number of stars 1 - 5 that Medicare assigned to the hospital}
   \item{verify}{a not-so-subtle prompt to users to verify the information}
 }
+
+ \insertNoCite{CMS2021}{retirementLoc}
 }
 \usage{
 data("hospitalLoc")
@@ -24,12 +26,11 @@ data("hospitalLoc")
 A dataset containing the location and rating of US hospitals, VA
 medical centers, and military hospitals.
 }
-\details{
-The data was downloaded from
-\href{https://data.cms.gov/provider-data/dataset/xubh-q36u}{The Centers for Medicare & Medicaid Services}.
-}
 \examples{
 #load
 data("hospitalLoc")
+}
+\references{
+\insertAllCited{}
 }
 \keyword{datasets}

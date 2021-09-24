@@ -7,11 +7,15 @@
 fetch_zillow_median_price()
 }
 \description{
-Fetch Zillow Median Housing Price
+The `fetch_zillow_median_price` function retrieves the typical value for homes
+in dollars by county.
 }
 \details{
 Background can be found on Zillow's data \href{https://www.zillow.com/research/data/}{tab}.
 According to the Zillow website, it is "a smoothed, seasonally adjusted measure of the typical
 home value and market changes across a given region and housing type. It reflects the
-typical value for homes in the 35th to 65th percentile range.
+typical value for homes in the 35th to 65th percentile range. \insertCite{Zillow2021}{retirementLoc}
+}
+\references{
+\insertAllCited{}
 }

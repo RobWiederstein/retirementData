@@ -11,9 +11,12 @@ The `fetch_rural_urban_continuum` function classifies counties from 1 -- urban t
 9 rural.
 }
 \details{
-Additionally, the OMB also assigns counties to a rural-urban continuum.  The values are
-1 through 9 with based on population and adjacency to an urban area. It is also known as
+The OMB also assigns counties to a rural-urban continuum.  The values are
+1 through 9 and is based on population and adjacency to an urban area. It is also known as
 the "Beale code" originally developed by David L. Brown and later popularized by Calvin
 Beale at the United States Department of Agriculture in 1975. See
 \href{https://bit.ly/3Aa2KAW}{USDA Rural-Urban Continuum Codes}.
+}
+\references{
+\insertRef{USDAcodes2021}{retirementLoc}
 }

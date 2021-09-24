@@ -15,14 +15,10 @@
 #'   \item{name}{school name}
 #'   \item{students_2020}{total student enrollments in 2020}
 #' }
-#'
-#' @details
-#'
-#' Data was downloaded from the Integerated Postsecondary Education Data
-#' System ("IPEDS") \href{https://nces.ed.gov/ipeds/datacenter/InstitutionList.aspx?goToReportId=1}{website}.
-#'
+#' \insertNoCite{IPEDS2021}{retirementLoc}
+#' @references
+#'     \insertAllCited{}
 #' @examples
-#' #load
+#' # load
 #' data("collegeLoc")
 "collegeLoc"
-

@@ -7,7 +7,7 @@ citEntry(
   journal = "Unpublished Manuscript",
   year = "2021",
   url = "https://github.com/RobWiederstein/retirementLoc",
-  note = "hello",
+  note = "Code repository",
   textVersion =
     paste(
       "Rob Wiederstein 2021.",

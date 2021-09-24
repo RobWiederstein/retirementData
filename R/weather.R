@@ -1,6 +1,6 @@
 #' Fetch average annual temparature data
 #'
-#' The `fetch_noaa_avg_temp` function retrieves the life expectancy by US county
+#' The `fetch_noaa_avg_temp` function retrieves the average temperature in fahrenheit by county.
 #'
 #' @details
 #' Average annual temperature was downloaded from \href{https://www.ncdc.noaa.gov/cag/county/mapping}{NOAA National Center for Environmental Information}.
@@ -11,6 +11,10 @@
 #' @importFrom rlang .data
 #' @importFrom readr cols
 #' @importFrom tidyselect all_of
+#' @importFrom Rdpack reprompt
+#'
+#' @references
+#' \insertRef{NOAA2021}{retirementLoc}
 fetch_noaa_avg_temp <- function() {
       file.path <- system.file(
             "extdata",

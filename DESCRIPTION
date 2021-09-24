@@ -43,7 +43,7 @@ Suggests:
 RdMacros: Rdpack
 Language: en-US
 VignetteBuilder: knitr
-URL: https://github.com/RobWiederstein/retirement
-BugReports: https://github.com/RobWiederstein/retirement/issues
+URL: https://github.com/RobWiederstein/retirementLoc
+BugReports: https://github.com/RobWiederstein/retirementLoc/issues
 Depends: 
     R (>= 2.10)

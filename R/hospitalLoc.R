@@ -5,7 +5,7 @@
 #'
 #' @usage data("hospitalLoc")
 #'
-#' @format A data frame with 5746 rows and 8 variables:
+#' @format A data frame with 5314 rows and 8 variables:
 #' \describe{
 #'   \item{lat}{latitude of hospital location}
 #'   \item{lon}{longitude of hospital location}

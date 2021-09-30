@@ -5,7 +5,7 @@
 \alias{hospitalLoc}
 \title{US Hospital Locations}
 \format{
-A data frame with 5746 rows and 8 variables:
+A data frame with 5314 rows and 8 variables:
 \describe{
   \item{lat}{latitude of hospital location}
   \item{lon}{longitude of hospital location}

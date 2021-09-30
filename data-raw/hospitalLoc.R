@@ -26,35 +26,22 @@ df.1 <-
         janitor::clean_names() %>%
         dplyr::select(facility_id:zip_code, hospital_type:emergency_services, hospital_overall_rating)
 # prepare for geotagging ----
-# origAddress <-
-#         df.1 %>%
-#         select(facility_name:zip_code) %>%
-#         unite(addresses, address:state, sep = ", ")
-# # Initialize the data frame ----
-# geocoded <- data.frame(stringsAsFactors = FALSE)
-# Loop through the addresses to get the latitude and longitude of each address and add it to the
-# origAddress data frame in new columns lat and lon
-# for(i in 1:nrow(origAddress)){
-#         # Print("Working...")
-#         result <- geocode(origAddress$addresses[i], output = "latlona", source = "google")
-#         origAddress$lon[i] <- as.numeric(result[1])
-#         origAddress$lat[i] <- as.numeric(result[2])
-#         origAddress$geoAddress[i] <- as.character(result[3])
-# }
-#
-# origAddress.1 <- origAddress %>% distinct()
-# # Write a CSV file containing origAddress to the working directory
-# write.csv(origAddress, "geocoded.csv", row.names=FALSE)
-
-file <- system.file("extdata",
-                    "geocoded_hospital_addresses.csv",
-                    package = "retirementLoc")
-col_select <- c("facility_name", "lon", "lat")
-origAddress <- readr::read_csv(file = file,
-                               col_select = col_select)
 df.2 <-
-        dplyr::left_join(df.1, origAddress, by = "facility_name")
-df.3 <-
+        df.1 %>%
+        unite(geocode, address:state, sep = ", ", remove = F) %>%
+        mutate(lon = "",
+               lat = "")
+# Loop through the addresses to get the latitude and longitude of each address and add it to the
+# df.2 data frame in new columns lat and lon
+for(i in 1:nrow(df.2)){
+        print(i)
+        result <- geocode(df.2$geocode[i], output = "latlona", source = "google")
+        print(result)
+        df.2$lon[i] <- as.numeric(result[1])
+        df.2$lat[i] <- as.numeric(result[2])
+}
+#spruce
+hospitalLoc <-
         df.2 %>%
         select(lat, lon, everything()) %>%
         drop_na() %>%
@@ -66,8 +53,11 @@ df.3 <-
                emer_room = emergency_services,
                stars = hospital_overall_rating) %>%
         mutate(verify = "<a href='www.medicare.gov/care-compare'>Hospital Compare</a>") %>%
-        select(lat, lon, name, type:verify)
-hospitalLoc <- df.3
+        select(lat, lon, name, type:verify) %>%
+        mutate(lat = lat %>% as.numeric,
+               lon = lon %>% as.numeric)
+hospitalLoc
+
 # save file ----
 usethis::use_data(hospitalLoc, overwrite = TRUE)
 

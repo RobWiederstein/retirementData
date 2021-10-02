@@ -1,5 +1,5 @@
-Package: retirementLoc
-Title: US Retirement Location Dashboard
+Package: retirementData
+Title: US Retirement Location Data
 Version: 1.0.0
 Authors@R: 
     person(given = "Rob",

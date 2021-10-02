@@ -17,7 +17,7 @@ home value and market changes across a given region and housing type. It reflect
 typical value for homes in the 35th to 65th percentile range. Data set was filtered to
 the latest period available and one year preceding it.  The percentage change was computed from
 the most recent month and the month one year previous to the current month.
-\insertCite{Zillow2021}{retirementLoc}
+\insertCite{Zillow2021}{retirementData}
 }
 \references{
 \insertAllCited{}

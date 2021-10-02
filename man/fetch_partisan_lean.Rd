@@ -15,5 +15,5 @@ The partisan lean was computed from the 2020 US presidential election results
 furnished by the \href{https://electionlab.mit.edu/data}{Election Lab at MIT}.
 }
 \references{
-\insertRef{MIT2017}{retirementLoc}
+\insertRef{MIT2017}{retirementData}
 }

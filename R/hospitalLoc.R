@@ -17,7 +17,7 @@
 #'   \item{verify}{a not-so-subtle prompt to users to verify the information}
 #' }
 #'
-#'  \insertNoCite{CMS2021}{retirementLoc}
+#'  \insertNoCite{CMS2021}{retirementData}
 #'
 #' @references
 #'     \insertAllCited{}

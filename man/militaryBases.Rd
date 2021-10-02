@@ -61,6 +61,6 @@ Inventory. This list does not necessarily represent a comprehensive collection
 data("militaryBases")
 }
 \references{
-\insertRef{USDOTbases2019}{retirementLoc}
+\insertRef{USDOTbases2019}{retirementData}
 }
 \keyword{datasets}

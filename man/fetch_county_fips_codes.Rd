@@ -10,5 +10,5 @@ fetch_county_fips_codes()
 The `fetch_county_fips_codes` function retrieves FIPS codes for 3142 US counties.
 }
 \references{
-\insertRef{Healy2018}{retirementLoc}
+\insertRef{Healy2018}{retirementData}
 }

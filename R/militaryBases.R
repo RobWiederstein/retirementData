@@ -52,7 +52,7 @@
 #'
 #' @importFrom Rdpack reprompt
 #' @references
-#'   \insertRef{USDOTbases2019}{retirementLoc}
+#'   \insertRef{USDOTbases2019}{retirementData}
 #' @examples
 #' #load
 #' data("militaryBases")

@@ -1,2 +1,2 @@
 #declare global variables
-utils::globalVariables("retirementLoc")
+utils::globalVariables("retirementData")

@@ -18,5 +18,5 @@ Beale at the United States Department of Agriculture in 1975. See
 \href{https://bit.ly/3Aa2KAW}{USDA Rural-Urban Continuum Codes}.
 }
 \references{
-\insertRef{USDAcodes2021}{retirementLoc}
+\insertRef{USDAcodes2021}{retirementData}
 }

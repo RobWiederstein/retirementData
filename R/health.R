@@ -16,12 +16,12 @@
 #' @importFrom tidyselect all_of
 #' @importFrom Rdpack reprompt
 #' @references
-#' \insertRef{IHME2017}{retirementLoc}
+#' \insertRef{IHME2017}{retirementData}
 fetch_ihme_life_expectancy <- function() {
   file.path <- system.file(
     "extdata",
     "IHME_USA_COUNTY_LE_MORTALITY_RISK_1980_2014_NATIONAL_Y2017M05D08.XLSX",
-    package = "retirementLoc"
+    package = "retirementData"
   )
   # read in data
   df <- readxl::read_xlsx(
@@ -59,13 +59,13 @@ fetch_ihme_life_expectancy <- function() {
 #'   which is charged with collecting and publishing it.
 #' @importFrom Rdpack reprompt
 #' @references
-#' \insertRef{CHR2021}{retirementLoc}
+#' \insertRef{CHR2021}{retirementData}
 fetch_chr_violent_crime_rate <- function() {
   # import
   file <- system.file(
     "extdata",
     "2020 County Health Rankings Data - v2.xlsx",
-    package = "retirementLoc"
+    package = "retirementData"
   )
   df <- readxl::read_xlsx(
     path = file,
@@ -104,13 +104,13 @@ fetch_chr_violent_crime_rate <- function() {
 #' @importFrom Rdpack reprompt
 #'
 #' @references
-#' \insertRef{CHR2021}{retirementLoc}
+#' \insertRef{CHR2021}{retirementData}
 fetch_chr_avg_daily_pm_2_5 <- function() {
   # import
   file <- system.file(
     "extdata",
     "2020 County Health Rankings Data - v2.xlsx",
-    package = "retirementLoc"
+    package = "retirementData"
   )
   df <- readxl::read_xlsx(
     path = file,
@@ -146,13 +146,13 @@ fetch_chr_avg_daily_pm_2_5 <- function() {
 #' @importFrom tidyselect all_of
 #' @importFrom Rdpack reprompt
 #' @references
-#' \insertRef{CHR2021}{retirementLoc}
+#' \insertRef{CHR2021}{retirementData}
 fetch_chr_primary_care_doctors <- function() {
   # import
   file <- system.file(
     "extdata",
     "2020 County Health Rankings Data - v2.xlsx",
-    package = "retirementLoc"
+    package = "retirementData"
   )
   df <- readxl::read_xlsx(
     path = file,

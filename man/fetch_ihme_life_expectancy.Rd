@@ -17,5 +17,5 @@ Health Metrics and Evaluation (IHME). The webpage was entitled,
 States Life Expectancy and Age-specific Mortality Risk by County 1980-2014}
 }
 \references{
-\insertRef{IHME2017}{retirementLoc}
+\insertRef{IHME2017}{retirementData}
 }

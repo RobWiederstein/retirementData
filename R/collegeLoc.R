@@ -15,7 +15,7 @@
 #'   \item{name}{school name}
 #'   \item{students_2020}{total student enrollments in 2020}
 #' }
-#' \insertNoCite{IPEDS2021}{retirementLoc}
+#' \insertNoCite{IPEDS2021}{retirementData}
 #' @references
 #'     \insertAllCited{}
 #' @examples

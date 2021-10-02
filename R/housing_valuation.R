@@ -7,7 +7,7 @@
 #' Background can be found on Zillow's data \href{https://www.zillow.com/research/data/}{tab}.
 #' According to the Zillow website, it is "a smoothed, seasonally adjusted measure of the typical
 #' home value and market changes across a given region and housing type. It reflects the
-#' typical value for homes in the 35th to 65th percentile range. \insertCite{Zillow2021}{retirementLoc}
+#' typical value for homes in the 35th to 65th percentile range. \insertCite{Zillow2021}{retirementData}
 #'
 #' @importFrom dplyr  filter rename select
 #' @importFrom tidyr pivot_longer pivot_wider separate unite
@@ -21,7 +21,7 @@
 
 fetch_zillow_median_price <- function() {
       # load
-      file <- system.file("extdata", "zillow_hpi.csv", package = "retirementLoc")
+      file <- system.file("extdata", "zillow_hpi.csv", package = "retirementData")
       df <- readr::read_csv(
             file = file,
             show_col_types = FALSE
@@ -52,7 +52,7 @@ fetch_zillow_median_price <- function() {
 #' typical value for homes in the 35th to 65th percentile range. Data set was filtered to
 #' the latest period available and one year preceding it.  The percentage change was computed from
 #' the most recent month and the month one year previous to the current month.
-#' \insertCite{Zillow2021}{retirementLoc}
+#' \insertCite{Zillow2021}{retirementData}
 #'
 #' @importFrom dplyr  filter rename select
 #' @importFrom tidyr pivot_longer pivot_wider separate unite
@@ -63,7 +63,7 @@ fetch_zillow_median_price <- function() {
 #' \insertAllCited{}
 fetch_zillow_yoy_price_chg_pct <- function() {
       # load
-      file <- system.file("extdata", "zillow_hpi.csv", package = "retirementLoc")
+      file <- system.file("extdata", "zillow_hpi.csv", package = "retirementData")
       df <- readr::read_csv(
             file = file,
             show_col_types = F
@@ -99,9 +99,9 @@ fetch_zillow_yoy_price_chg_pct <- function() {
 #' @importFrom Rdpack reprompt
 #'
 #' @references
-#'     \insertRef{USDAhhinc2021}{retirementLoc}
+#'     \insertRef{USDAhhinc2021}{retirementData}
 fetch_usda_household_inc <- function() {
-      path <- system.file("extdata", "unemployment.xlsx", package = "retirementLoc")
+      path <- system.file("extdata", "unemployment.xlsx", package = "retirementData")
       df <- readxl::read_xlsx(
             path = path,
             skip = 4

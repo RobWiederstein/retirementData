@@ -22,5 +22,5 @@ The value "rural-faraway" is a construct and was used to replace
 \href{#https://www.census.gov/programs-surveys/metro-micro.html}{website}.
 }
 \references{
-\insertRef{NBER2021}{retirementLoc}
+\insertRef{NBER2021}{retirementData}
 }

@@ -17,5 +17,5 @@ by \href{https://www.countyhealthrankings.org}{County Health Rankings} from
 over 50 sources.
 }
 \references{
-\insertRef{CHR2021}{retirementLoc}
+\insertRef{CHR2021}{retirementData}
 }

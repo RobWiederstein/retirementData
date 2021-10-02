@@ -10,5 +10,5 @@ fetch_usda_household_inc()
 The `fetch_usda_household_inc` function retrieves the median household income.
 }
 \references{
-\insertRef{USDAhhinc2021}{retirementLoc}
+\insertRef{USDAhhinc2021}{retirementData}
 }

@@ -11,5 +11,5 @@ The `fetch_bachelor_degrees` function retrieves the percentage of the population
 having four or more years of college.
 }
 \references{
-\insertRef{USDAeduc2021}{retirementLoc}
+\insertRef{USDAeduc2021}{retirementData}
 }

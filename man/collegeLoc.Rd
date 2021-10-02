@@ -15,7 +15,7 @@ A data frame with 1254 rows and 7 variables:
   \item{name}{school name}
   \item{students_2020}{total student enrollments in 2020}
 }
-\insertNoCite{IPEDS2021}{retirementLoc}
+\insertNoCite{IPEDS2021}{retirementData}
 }
 \usage{
 data("collegeLoc")

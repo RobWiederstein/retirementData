@@ -14,12 +14,12 @@
 #' @importFrom Rdpack reprompt
 #'
 #' @references
-#' \insertRef{NOAA2021}{retirementLoc}
+#' \insertRef{NOAA2021}{retirementData}
 fetch_noaa_avg_temp <- function() {
       file.path <- system.file(
             "extdata",
             "110-tavg-202107-1.csv",
-            package = "retirementLoc"
+            package = "retirementData"
       )
       # read in data
       df <- readr::read_csv(

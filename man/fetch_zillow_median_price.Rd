@@ -14,7 +14,7 @@ in dollars by county.
 Background can be found on Zillow's data \href{https://www.zillow.com/research/data/}{tab}.
 According to the Zillow website, it is "a smoothed, seasonally adjusted measure of the typical
 home value and market changes across a given region and housing type. It reflects the
-typical value for homes in the 35th to 65th percentile range. \insertCite{Zillow2021}{retirementLoc}
+typical value for homes in the 35th to 65th percentile range. \insertCite{Zillow2021}{retirementData}
 }
 \references{
 \insertAllCited{}

@@ -28,12 +28,12 @@ download_dataset <- function(url) {
 #' @importFrom tidyselect all_of
 #' @importFrom Rdpack reprompt
 #' @references
-#' \insertRef{Healy2018}{retirementLoc}
+#' \insertRef{Healy2018}{retirementData}
 fetch_state_fips_codes <- function() {
       file.path <- system.file(
             "extdata",
             "state_fips_master.csv",
-            package = "retirementLoc"
+            package = "retirementData"
       )
       df <- readr::read_csv(
             file = file.path,
@@ -55,7 +55,7 @@ fetch_state_fips_codes <- function() {
 #' The `fetch_county_fips_codes` function retrieves FIPS codes for 3142 US counties.
 #'
 #' @references
-#' \insertRef{Healy2018}{retirementLoc}
+#' \insertRef{Healy2018}{retirementData}
 #'
 #' @importFrom dplyr filter rename select left_join mutate
 #' @importFrom tidyr pivot_longer pivot_wider separate unite replace_na
@@ -68,7 +68,7 @@ fetch_county_fips_codes <- function() {
       file.path <- system.file(
             "extdata",
             "county_fips_master.csv",
-            package = "retirementLoc"
+            package = "retirementData"
       )
       df <- readr::read_csv(
             file = file.path,
@@ -103,12 +103,12 @@ fetch_county_fips_codes <- function() {
 #' @importFrom tidyselect all_of
 #' @importFrom Rdpack reprompt
 #' @references
-#' \insertRef{Skinner2018}{retirementLoc}
+#' \insertRef{Skinner2018}{retirementData}
 fetch_county_coords <- function() {
       file <- system.file(
             "extdata",
             "county_centers.csv",
-            package = "retirementLoc"
+            package = "retirementData"
       )
       # read in data
       df <- readr::read_csv(

@@ -36,7 +36,7 @@
 #
 #' @examples
 #' #load
-#' data("retirementLoc")
-#' sum(retirementLoc$pop_2020)
+#' data("retirementData")
+#' sum(retirementData::retirementLoc$pop_2020)
 "retirementLoc"
 

@@ -16,5 +16,5 @@ from the \href{https://github.com/btskinner/spatial}{btskinner/spatial} repo
 maintained by Professor Benjamin Skinner. Centroids are population weighted.
 }
 \references{
-\insertRef{Skinner2018}{retirementLoc}
+\insertRef{Skinner2018}{retirementData}
 }

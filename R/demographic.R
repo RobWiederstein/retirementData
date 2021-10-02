@@ -14,13 +14,13 @@
 #' @importFrom Rdpack reprompt
 #'
 #' @references
-#' \insertRef{USCB2021}{retirementLoc}
+#' \insertRef{USCB2021}{retirementData}
 fetch_uscb_population <- function() {
   # read in data
   file.path <- system.file(
     "extdata",
     "co-est2020.csv",
-    package = "retirementLoc"
+    package = "retirementData"
   )
 
   df <- readr::read_csv(
@@ -66,12 +66,12 @@ fetch_uscb_population <- function() {
 #' @importFrom Rdpack reprompt
 #'
 #' @references
-#' \insertRef{MIT2017}{retirementLoc}
+#' \insertRef{MIT2017}{retirementData}
 fetch_partisan_lean <- function() {
   file.path <- system.file(
     "extdata",
     "countypres_2000-2020.csv",
-    package = "retirementLoc"
+    package = "retirementData"
   )
   # read in data
   df <- read.csv(
@@ -124,10 +124,10 @@ fetch_partisan_lean <- function() {
 #' @importFrom Rdpack reprompt
 #'
 #' @references
-#' \insertRef{NBER2021}{retirementLoc}
+#' \insertRef{NBER2021}{retirementData}
 fetch_cbsa_metro_label <- function() {
   # load
-  file <- system.file("extdata", "cbsa2fipsxw.csv", package = "retirementLoc")
+  file <- system.file("extdata", "cbsa2fipsxw.csv", package = "retirementData")
   df <- readr::read_csv(file = file, col_types = cols(.default = "c"))
   # clean
   cbsa_codes <-
@@ -178,10 +178,10 @@ fetch_cbsa_metro_label <- function() {
 #' @importFrom Rdpack reprompt
 #'
 #' @references
-#' \insertRef{USDAcodes2021}{retirementLoc}
+#' \insertRef{USDAcodes2021}{retirementData}
 fetch_rural_urban_continuum <- function() {
   # import
-  path <- system.file("extdata", "ruralurbancodes2013.xls", package = "retirementLoc")
+  path <- system.file("extdata", "ruralurbancodes2013.xls", package = "retirementData")
   df <- readxl::read_xls(path = path)
   # clean
   rural_urban_codes <-
@@ -202,11 +202,11 @@ fetch_rural_urban_continuum <- function() {
 #'  of households having access to broadband in 2017. The USCB found that "nationally,
 #'  78 percent of households subscribe to the internet, but households in both rural
 #'  and lower-income counties trail the national average by 13 points."
-#'   \insertCite{USCBbroadband2021}{retirementLoc} Counties with high broadband
+#'   \insertCite{USCBbroadband2021}{retirementData} Counties with high broadband
 #'   subscription rates are concentrated around urban areas and along both coasts.
-#'   \insertCite{USCBbroadband2021}{retirementLoc} Whereas counties with lower subscription
+#'   \insertCite{USCBbroadband2021}{retirementData} Whereas counties with lower subscription
 #'   rates are more prominent in the South and the Mississippi River basin.
-#'   \insertNoCite{USCBacs2018}{retirementLoc}
+#'   \insertNoCite{USCBacs2018}{retirementData}
 #'
 #'
 #' @importFrom dplyr filter rename select left_join mutate
@@ -221,7 +221,7 @@ fetch_broadband_access <- function() {
   file <- system.file(
     "extdata",
     "2021-08-28_uscb_housing.csv",
-    package = "retirementLoc"
+    package = "retirementData"
   )
   # read in data
   df <- readr::read_csv(
@@ -249,10 +249,10 @@ fetch_broadband_access <- function() {
 #' @importFrom Rdpack reprompt
 #'
 #' @references
-#' \insertRef{USDAeduc2021}{retirementLoc}
+#' \insertRef{USDAeduc2021}{retirementData}
 fetch_bachelor_degrees <- function() {
   # import
-  path <- system.file("extdata", "usda_education_level_by_county.xls", package = "retirementLoc")
+  path <- system.file("extdata", "usda_education_level_by_county.xls", package = "retirementData")
   education_level <- readxl::read_xls(
     path = path,
     range = "A5:AU3288",

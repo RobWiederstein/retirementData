@@ -8,7 +8,7 @@ vignette: >
 ---
 
 ```{r setup, include=F}
-library(retirementLoc)
+library(retirementData)
 library(magrittr)
 library(kableExtra)
 library(scales)

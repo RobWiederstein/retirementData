@@ -51,7 +51,7 @@ individuals are not required to file an individual income tax return.
 
 The IRS also publishes a helpful and comprehensive
 \href{https://www.irs.gov/pub/irs-soi/1819inpublicmigdoc.pdf}{"Migration Data Users Guide and Record Layouts"}.
- \insertNoCite{IRS2021}{retirementLoc}
+ \insertNoCite{IRS2021}{retirementData}
 }
 \examples{
 #load

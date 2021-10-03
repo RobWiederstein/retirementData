@@ -6,13 +6,13 @@ citEntry(
   author = "Rob Wiederstein",
   journal = "Unpublished Manuscript",
   year = "2021",
-  url = "https://github.com/RobWiederstein/retirementLoc",
+  url = "https://github.com/RobWiederstein/retirementData",
   note = "Code repository",
   textVersion =
     paste(
       "Rob Wiederstein 2021.",
       "US Retirement Locations by County.",
       "Unpublished Manuscript and Dataset.",
-      "URL https://github.com/RobWiederstein/retirementLoc"
+      "URL https://github.com/RobWiederstein/retirementData"
     )
 )

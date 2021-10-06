@@ -29,12 +29,12 @@ In the early stages of visualizing the data--moving the sliders--it became obvio
 is_outlier <- function(x) {
         return(x < quantile(x, 0.25) - 1.5 * IQR(x) | x > quantile(x, 0.75) + 1.5 * IQR(x))
 }
-df <- retirementLoc %>% 
-      select(fips, pop_2020, pct_pop_change, partisan_lean:prim_care_dr_rate) %>% 
-      mutate(across(pop_2020:prim_care_dr_rate, scale)) %>% 
-      pivot_longer(!fips, names_to = c("key"), values_to = "value") %>% 
-      drop_na() %>% 
-      group_by(key) %>% 
+df <- retirementLoc |> 
+      select(fips, pop_2020, pct_pop_change, partisan_lean:prim_care_dr_rate) |> 
+      mutate(across(pop_2020:prim_care_dr_rate, scale)) |> 
+      pivot_longer(!fips, names_to = c("key"), values_to = "value") |> 
+      drop_na() |> 
+      group_by(key) |> 
       mutate(outlier = ifelse(is_outlier(value), value, as.numeric(NA)))
 p <- ggplot(df, aes(x = value, y = factor(key))) +
       scale_y_discrete(name = "") +

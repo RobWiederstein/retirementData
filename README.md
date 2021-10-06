@@ -12,19 +12,20 @@ coverage](https://codecov.io/gh/RobWiederstein/retirement/branch/main/graph/badg
 <!-- badges: end -->
 
 <h4 align="center">
-<a href="https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115"><img src='man/figures/retirement-dashboard.png' align="center" height="400"/><br/></a>
-<a href="https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115">Retirement
+<a href="https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115"><img src='man/figures/retirementDash.png' align="center" height="400"/><br/></a>
+<a href="https://rob-wiederstein.shinyapps.io/retirementdash/?_ga=2.99037854.1258475930.1633524763-1285109657.1633184174">Retirement
 Locator</a>
 </h4>
 
 # Introduction
 
-The goal of the `retirementLoc` package was to consolidate some diverse
+The goal of the `retirementData` package was to consolidate some diverse
 and relevant factors on where to locate for retirement. The data is
-located in the `retirementLoc` package but displayed on a separate
+located in the `retirementData` package but displayed on a separate
 dashboard
-[here](https://rob-wiederstein.shinyapps.io/retirement-dashboard/?_ga=2.138388592.1542637753.1630614255-2110524801.1630416115).
-The variables in the `retirementLoc` dataset are:
+[here](https://rob-wiederstein.shinyapps.io/retirementdash/?_ga=2.99037854.1258475930.1633524763-1285109657.1633184174).
+Within the package, the main dataset is `retirementLoc`. Its variables
+are:
 
 <table class="table table-striped" style="margin-left: auto; margin-right: auto;">
 <tbody>
@@ -111,13 +112,13 @@ years_to_payoff
 ## Installation
 
 You can install the development and experimental version of
-`retirementLoc` from its
-[repository](https://github.com/RobWiederstein/retirementLoc) with:
+`retirementData` from its
+[repository](https://github.com/RobWiederstein/retirementData) with:
 
 ``` r
 # Or the development version from GitHub:
 # install.packages("devtools")
-install_github("RobWiederstein/retirementLoc")
+install_github("RobWiederstein/retirementData")
 ```
 
 ## Load Data
@@ -125,7 +126,8 @@ install_github("RobWiederstein/retirementLoc")
 Once the development package is installed, it can be loaded via:
 
 ``` r
-data("retirementLoc")
+data("retirementData")
+#> Warning in data("retirementData"): data set 'retirementData' not found
 ```
 
 ## Common Questions
@@ -136,6 +138,7 @@ quality and life expectancy. For example, the code below might be used
 to answer where housing costs are reasonable:
 
 ``` r
+library(retirementData)
 retirementLoc |>
         dplyr::arrange(years_to_payoff) |>
         dplyr::select(state, county, pop_2020, years_to_payoff) |>
@@ -160,7 +163,7 @@ In that case, don't forget to commit and push the resulting figure files, so the
 
 ## Code of Conduct
 
-Please note that the retirementLoc project is released with a
+Please note that the retirementData project is released with a
 [Contributor Code of
 Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.

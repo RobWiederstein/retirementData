@@ -5,10 +5,12 @@
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/RobWiederstein/retirement/workflows/R-CMD-check/badge.svg)](https://github.com/RobWiederstein/retirement/actions)
-[![Travis build
-status](https://travis-ci.com/RobWiederstein/retirement.svg?branch=main)](https://travis-ci.com/RobWiederstein/retirement)
+[![License:
+MIT](https://img.shields.io/badge/license-MIT-bright%20green)](https://img.shields.io/badge/license-MIT-bright%20green)
 [![Codecov test
 coverage](https://codecov.io/gh/RobWiederstein/retirement/branch/main/graph/badge.svg)](https://codecov.io/gh/RobWiederstein/retirement?branch=main)
+[![Last
+Commit](https://img.shields.io/github/last-commit/RobWiederstein/retirementData)](https://img.shields.io/github/last-commit/RobWiederstein/retirementData)
 <!-- badges: end -->
 
 <h4 align="center">

@@ -12,7 +12,7 @@ coverage](https://codecov.io/gh/RobWiederstein/retirement/branch/main/graph/badg
 <!-- badges: end -->
 
 <h4 align="center">
-<a href='https://rob-wiederstein.shinyapps.io/retirementdash/'><img src='man/figures/retirement-dashboard.jpg' align="center" height="400"/><br/></a>
+<a href='https://rob-wiederstein.shinyapps.io/retirementdash/'><img src='reference/figures/retirement-dashboard.jpg' align="center" height="400"/><br/></a>
 <a href='https://rob-wiederstein.shinyapps.io/retirementdash/'>Retirement
 Locator</a>
 </h4>

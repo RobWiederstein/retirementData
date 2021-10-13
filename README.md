@@ -14,7 +14,7 @@ Commit](https://img.shields.io/github/last-commit/RobWiederstein/retirementData)
 <!-- badges: end -->
 
 <h4 align="center">
-<a href='https://rob-wiederstein.shinyapps.io/retirementdash/'><img src='reference/figures/retirement-dashboard.jpg' align="center" height="400"/><br/></a>
+<a href='https://rob-wiederstein.shinyapps.io/retirementdash/'><img src='man/figures/retirement-dashboard.jpg' align="center" height="400"/><br/></a>
 <a href='https://rob-wiederstein.shinyapps.io/retirementdash/'>Retirement
 Locator</a>
 </h4>
